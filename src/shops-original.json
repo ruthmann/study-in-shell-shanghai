@@ -1,0 +1,542 @@
+[
+  {
+    "id": "cw",
+    "name": "Classic Works",
+    "zh": "新闸路1312号",
+    "cat": "benchmade",
+    "lat": 31.2367,
+    "lon": 121.4497,
+    "addr": "1312 Xinzha Rd, Jing'an",
+    "note": "A pioneer of classic-menswear retail in Shanghai, now focused on shoes — heavyweight welted boots from Canada, Japan, and the American Northwest alongside French and Chinese hand-welted work. The northern cap of the walking route.",
+    "tags": [
+      "Viberg",
+      "Heschung",
+      "Ruttshoes",
+      "Katsuya Tokunaga",
+      "Wesco",
+      "Rolling Dub Trio"
+    ],
+    "evidence": "July 2026 guide; selection and any inherited hours have not been fully reverified. Brand listings are not a current-stock guarantee.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": []
+  },
+  {
+    "id": "rb",
+    "name": "Radiance Blue",
+    "zh": "南京西路789号 兴业太古汇",
+    "cat": "benchmade",
+    "lat": 31.2288,
+    "lon": 121.459,
+    "addr": "HKRI Taikoo Hui, 789 Nanjing West Rd, Jing'an · mall hours 10:00–22:00",
+    "note": "Select shop in Taikoo Hui, above Nanjing West Rd station (Lines 2/12/13) — a fashion-forward mix running from American classics and campus loafers to outdoor and contemporary Japanese-leaning labels.",
+    "tags": [
+      "Alden",
+      "G.H. Bass",
+      "Vinny's",
+      "MotivMFG",
+      "Scarpa",
+      "Arch Support Project"
+    ],
+    "evidence": "Mall/address corroborated; shop-unit conflict remains: Tricker’s lists B2-LG216, while Nigel Cabourn and Shinyakozuka list L278. Ask the shop/mall for the current unit. July brand list and mall hours retained, not a stock or shop-hours guarantee.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": [
+      {
+        "label": "Tricker’s: B2-LG216",
+        "url": "https://www.trickers.cn/dealers"
+      },
+      {
+        "label": "Nigel Cabourn: L278",
+        "url": "https://www.cabourn.com/en-nl/pages/asia"
+      }
+    ]
+  },
+  {
+    "id": "jl",
+    "name": "John Lobb — Plaza 66",
+    "zh": "南京西路1266号 恒隆广场",
+    "cat": "benchmade",
+    "lat": 31.2279,
+    "lon": 121.454,
+    "addr": "Plaza 66, 1266 Nanjing West Rd, Jing'an · mall hours 10:00–22:00",
+    "note": "The English shoemaker's Shanghai boutique — ready-to-wear plus access to Lobb's recrafting service, where shoes return to the factory for rebuild. The one luxury-house pin on this map, admitted because it is a pure shoemaker.",
+    "tags": [
+      "John Lobb",
+      "Recraft service"
+    ],
+    "evidence": "July 2026 guide; selection and any inherited hours have not been fully reverified. Brand listings are not a current-stock guarantee.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": []
+  },
+  {
+    "id": "rl",
+    "name": "Ralph Lauren — Jing'an Kerry Centre",
+    "zh": "南京西路1515号 静安嘉里中心",
+    "cat": "benchmade",
+    "lat": 31.224,
+    "lon": 121.4453,
+    "addr": "Jing'an Kerry Centre, 1515 Nanjing West Rd · mall hours 10:00–22:00",
+    "note": "The flagship 'House' format — the one Shanghai floor carrying the top-line collections, whose footwear is benchmade in England. Ralph's Coffee in-store. NOOS sits in the same complex.",
+    "tags": [
+      "Purple Label",
+      "Double RL",
+      "RL Collection"
+    ],
+    "evidence": "July 2026 guide; selection and any inherited hours have not been fully reverified. Brand listings are not a current-stock guarantee.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": []
+  },
+  {
+    "id": "rl2",
+    "name": "Ralph Lauren — Peninsula Arcade",
+    "zh": "中山东一路32号 半岛酒店精品廊",
+    "cat": "benchmade",
+    "lat": 31.2437,
+    "lon": 121.4903,
+    "addr": "Peninsula Hotel Arcade, 32 Zhongshan East 1st Rd, the Bund",
+    "note": "The second Purple Label point in town and RL's first mainland store (2010), in the Peninsula's luxury arcade on the Bund. A smaller floor than Kerry Centre; pairs with a Bund walk.",
+    "tags": [
+      "Purple Label"
+    ],
+    "evidence": "July 2026 guide; selection and any inherited hours have not been fully reverified. Brand listings are not a current-stock guarantee.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": []
+  },
+  {
+    "id": "rr",
+    "name": "The Real Real Co., Ltd",
+    "zh": "陕西南路33号",
+    "cat": "heritage",
+    "lat": 31.2225,
+    "lon": 121.4534,
+    "addr": "33 South Shaanxi Rd, Jing'an",
+    "note": "American-heritage and workwear specialist, opened April 2026 — with made-to-order books for Japanese and American boot ateliers that usually mean Tokyo or Los Angeles waitlists. Coffee in-store.",
+    "tags": [
+      "Real McCoy's",
+      "Clinch",
+      "Role Club",
+      "Sanders",
+      "Brother Bridge",
+      "Boots Material"
+    ],
+    "evidence": "July 2026 guide; selection and any inherited hours have not been fully reverified. Brand listings are not a current-stock guarantee.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": []
+  },
+  {
+    "id": "bj",
+    "name": "BaronJ",
+    "zh": "长乐路339弄6号1楼",
+    "cat": "benchmade",
+    "lat": 31.2208,
+    "lon": 121.456,
+    "addr": "No. 6, Lane 339 Changle Rd, 1F, Xuhui · weekends; by appointment · exact hours unconfirmed",
+    "note": "Lane-house shoe shop with a focus on British and European shoemaking. Plan this leg around an appointment. The October user instruction supersedes the July guide’s typical 12:00–18:00 / closed-Wednesday schedule.",
+    "tags": [
+      "Tricker's",
+      "Cheaney",
+      "Carmina",
+      "Gaziano & Girling"
+    ],
+    "evidence": "Address: Tricker’s retailer directory. Weekend / appointment access: Alex, 7 October 2026; exact weekend times remain open. Brand mix inherited from July.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": [
+      {
+        "label": "Tricker’s retailer directory",
+        "url": "https://www.trickers.cn/dealers"
+      }
+    ]
+  },
+  {
+    "id": "fy",
+    "name": "Culture Matters / Feiyue",
+    "zh": "富民路180-1号",
+    "cat": "local",
+    "lat": 31.2183,
+    "lon": 121.4515,
+    "addr": "180-1 Fumin Rd, Jing'an",
+    "note": "Local canvas-shoe and sneaker stop, especially for Feiyue. This is the existing Culture Matters entry, not an additional shop. The Fumin Road address is retained from July pending confirmation of the current branch.",
+    "tags": [
+      "Feiyue"
+    ],
+    "evidence": "Alex requested Culture Matters / Feiyue. July source gives 180-1 Fumin Road; current branch address not independently confirmed. Do not treat the inherited pin as an entrance.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": [
+      {
+        "label": "Culture Matters: Fumin listing",
+        "url": "https://www.smartshanghai.com/venue/14452/culture_matters_fumin_lu"
+      }
+    ]
+  },
+  {
+    "id": "ic",
+    "name": "Industrial Co.",
+    "zh": "巨鹿路741-1号",
+    "cat": "benchmade",
+    "lat": 31.2205,
+    "lon": 121.4483,
+    "addr": "741-1 Julu Rd, Jing'an · 12:00–21:00 daily",
+    "note": "Gentleman's select shop on Julu Lu — the French benchmade point on the route, with American classics, Japanese craft, and Italian avant-garde leather alongside, plus visiting-maker pop-ups through the year.",
+    "tags": [
+      "J.M. Weston",
+      "Alden",
+      "Hender Scheme",
+      "Guidi"
+    ],
+    "evidence": "July 2026 guide; selection and any inherited hours have not been fully reverified. Brand listings are not a current-stock guarantee.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": []
+  },
+  {
+    "id": "pn",
+    "name": "Pane — Yongyuan flagship",
+    "zh": "永源路22号",
+    "cat": "local",
+    "lat": 31.2204,
+    "lon": 121.4398,
+    "addr": "22 Yongyuan Rd, Jing’an · daily 10:00–22:00",
+    "note": "Shanghai footwear label’s Yongyuan Road flagship. A destination for comparing its sneaker silhouettes, material combinations and fit in person.",
+    "tags": [
+      "Pane"
+    ],
+    "evidence": "Flagship address and daily hours: Pane’s official store directory, checked 7 October 2026.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": [
+      {
+        "label": "Pane: official flagship stores",
+        "url": "https://panesneakers.com/pages/pane-flagship-stores"
+      }
+    ]
+  },
+  {
+    "id": "ro",
+    "name": "Roiluxe",
+    "zh": "徐汇区淮海中路1326号 淮海大楼520室",
+    "cat": "benchmade",
+    "lat": 31.2158,
+    "lon": 121.4468,
+    "addr": "Room 520, Huaihai Building, 1326 Huaihai Middle Rd, Xuhui",
+    "note": "The apex buyer's shop in China, hidden in a 1930s apartment building — sole national agent for several English and Italian makers, with English and Florentine benchmade alongside the best Chinese hand-welted labels and newer independents. In-store shoe shine.",
+    "tags": [
+      "George Cleverley",
+      "Edward Green",
+      "Stefano Bemer",
+      "Enzo Bonafè",
+      "Antonio Meccariello",
+      "Oct Tenth",
+      "Badia",
+      "Notations",
+      "Axen"
+    ],
+    "evidence": "Room corrected from July’s 502 to 520 using Enzo Bonafè’s stockist directory. Brand selection otherwise inherited from July.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": [
+      {
+        "label": "Enzo Bonafè: Roiluxe Shanghai",
+        "url": "https://www.enzobonafe.com/shops/"
+      }
+    ]
+  },
+  {
+    "id": "lm",
+    "name": "The Anthology / Tassels Shanghai",
+    "zh": "徐汇区乌鲁木齐南路193号",
+    "cat": "benchmade",
+    "lat": 31.2028,
+    "lon": 121.447,
+    "addr": "193 Wulumuqi South Rd, Xuhui · Tue–Sun 12:30–20:30 · +86 133 4193 1407",
+    "note": "La Maison: The Anthology’s Shanghai house, with tailoring above and a second-floor shoe salon featuring its own collaborations and a selection curated with Tassels Hong Kong. One shared destination, counted once.",
+    "tags": [
+      "Crockett & Jones",
+      "Bowhill & Elliott",
+      "Stefano Bemer",
+      "John Lobb",
+      "Edward Green",
+      "Alden"
+    ],
+    "evidence": "Shared storefront confirmed by Alex; address, hours and shoe-salon partnership documented by The Anthology. Availability varies.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": [
+      {
+        "label": "The Anthology: contact and hours",
+        "url": "https://theanthology.net/contact"
+      },
+      {
+        "label": "La Maison and the Tassels partnership",
+        "url": "https://theanthology.net/chronicles/la-maison-shanghai"
+      }
+    ]
+  },
+  {
+    "id": "rv",
+    "name": "Rivets",
+    "zh": "东台里",
+    "cat": "heritage",
+    "lat": 31.2168,
+    "lon": 121.4775,
+    "addr": "Dongtai Li, near Xizang South Rd, Huangpu",
+    "note": "Artisanal footwear and heritage clothing. The July guide places this stop at Dongtai Li; Goldwin publishes a Pudong Shipyard 1862 address. Confirm which branch is operating before planning the visit.",
+    "tags": [
+      "Buttero",
+      "Lemargo",
+      "Danner",
+      "Satorisan",
+      "Shoto",
+      "Le Ruemarcel",
+      "Maurizi",
+      "Double Helix"
+    ],
+    "evidence": "Dongtai Li address and pin are inherited from July and unverified. Goldwin’s current published directory instead lists Rivets at Shipyard 1862, L108C, 1777 Binjiang Avenue. Branch versus relocation is unresolved; no second stop or invented relocation is counted.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": [
+      {
+        "label": "Goldwin: Rivets Shanghai address",
+        "url": "https://www.goldwin-global.com/asia/stories/goldwin-japan-stories/"
+      }
+    ]
+  },
+  {
+    "id": "md",
+    "name": "MEDALLION 美勋",
+    "zh": "浦东新区滨江大道1777号 船厂1862 G1层 L112–L113",
+    "cat": "benchmade",
+    "lat": 31.2465,
+    "lon": 121.5095,
+    "addr": "Shipyard 1862, G1 L112–L113, 1777 Binjiang Ave, Pudong · shop hours unconfirmed",
+    "note": "A specialist ready-to-wear, made-to-order and bespoke shoe destination in Shipyard 1862 on the Pudong riverfront. Pair a visit with a riverside walk; enquire ahead about visiting-maker events.",
+    "tags": [
+      "Saint Crispin's",
+      "Gaziano & Girling",
+      "Paolo Scafora",
+      "TLB Mallorca",
+      "ACME"
+    ],
+    "evidence": "Address and unit range: Medallion’s own store page. Maker list inherited from July; current stock and trunk-show dates unconfirmed.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": [
+      {
+        "label": "Medallion: Shanghai store",
+        "url": "https://www.medallionshoes.com/about-store/"
+      }
+    ]
+  },
+  {
+    "id": "gm",
+    "name": "GentleMaker Shoecare · Songs of Love and Hate",
+    "zh": "中江路629号宸嘉嘉佰道沿街商铺 (长风店)",
+    "cat": "care",
+    "lat": 31.2285,
+    "lon": 121.397,
+    "addr": "629 Zhongjiang Rd, Putuo (Changfeng) · Tue–Sun 11:00–19:00, closed Mondays · Line 13 Daduhe Rd exit 3, 520 m",
+    "note": "Dedicated shoe care and repair, with select footwear. The July guide also records Songs of Love and Hate bespoke shoemaking at this address. Location check: this recorded stop is Changfeng in Putuo, not Changning; confirm the intended branch before travelling.",
+    "tags": [
+      "San Pomodoro",
+      "Songs of Love and Hate"
+    ],
+    "evidence": "July guide identifies Changfeng, Putuo, at 629 Zhongjiang Road. Alex referred to Changning on 7 October; whether this means another location remains unresolved. The Changfeng shop is independently described in 2024 event coverage; inherited hours need reconfirmation.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": [
+      {
+        "label": "GentleMaker Shoecare: Changfeng shop context",
+        "url": "https://www.sohu.com/a/821532430_690845"
+      }
+    ]
+  },
+  {
+    "id": "tk",
+    "name": "Tricker's Shanghai Store",
+    "zh": "定西路1318号",
+    "cat": "benchmade",
+    "lat": 31.214,
+    "lon": 121.425,
+    "addr": "1318 Dingxi Rd, Changning · Mon–Fri 10:00–20:00, closed weekends · tel 400 0067 082",
+    "note": "The maker's own Shanghai store at Eternity Studio — retail plus Tricker's first authorised service centre in China, equipped for factory-spec repair, maintenance, and restoration. Note the weekday-only hours.",
+    "tags": [
+      "Tricker's",
+      "Authorised repair"
+    ],
+    "evidence": "July 2026 guide; selection and any inherited hours have not been fully reverified. Brand listings are not a current-stock guarantee.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": []
+  },
+  {
+    "id": "no",
+    "name": "NOOS — Jing'an Kerry Centre",
+    "zh": "静安区南京西路1515号 静安嘉里中心 S2-05B",
+    "cat": "benchmade",
+    "lat": 31.2246,
+    "lon": 121.4462,
+    "addr": "Jing'an Kerry Centre, 1515 Nanjing West Rd · mall hours 10:00–22:00",
+    "note": "NOOS — 'Never Out of Style' — is a menswear select shop founded by a couple with a decade in Europe behind them. Carries Edward Green and Crockett & Jones, and offers made-to-order for both: a full order-book stop, not just a browse. Same complex as the Ralph Lauren flagship.",
+    "tags": [
+      "Edward Green",
+      "Crockett & Jones"
+    ],
+    "evidence": "Unit/address corroborated by Johnstons of Elgin. Footwear, MTO and mall hours inherited from July; check branch hours.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": [
+      {
+        "label": "Johnstons of Elgin: Asia stockists",
+        "url": "https://johnstonsofelgin.com/en-hu/pages/north-asia"
+      }
+    ]
+  },
+  {
+    "id": "no2",
+    "name": "NOOS — One ITC",
+    "zh": "徐汇区华山路1901号 One ITC L235-2",
+    "cat": "benchmade",
+    "lat": 31.1996218,
+    "lon": 121.4334436,
+    "addr": "One ITC, L235-2, 1901 Huashan Rd, Xujiahui · shop hours unconfirmed",
+    "note": "NOOS — 'Never Out of Style' — second location, in the One ITC mall at Xujiahui. Same register as the Kerry Centre shop: Edward Green and Crockett & Jones with made-to-order for both.",
+    "tags": [
+      "Edward Green",
+      "Crockett & Jones"
+    ],
+    "evidence": "Branch confirmed by Alex. Unit/address: Johnstons of Elgin stockists. Footwear/MTO description inherited from July.",
+    "coordNote": "OpenStreetMap / Nominatim One ITC mall anchor, not a shop entrance.",
+    "sources": [
+      {
+        "label": "Johnstons of Elgin: Asia stockists",
+        "url": "https://johnstonsofelgin.com/en-hu/pages/north-asia"
+      }
+    ]
+  },
+  {
+    "id": "fs",
+    "name": "Frank's Store",
+    "zh": "哈尔滨路229号 北外滩音乐谷",
+    "cat": "heritage",
+    "lat": 31.2565,
+    "lon": 121.4855,
+    "addr": "229 Harbin Rd, Hongkou · 12:00–20:00 · Line 4 Hailun Rd exit 2",
+    "note": "Coffee-and-clothes hybrid in Hongkou's old Music Valley quarter — vintage and heritage register. Its own detour rather than part of any loop; pairs with a North Bund wander.",
+    "tags": [
+      "Vintage",
+      "Coffee"
+    ],
+    "evidence": "July 2026 guide; selection and any inherited hours have not been fully reverified. Brand listings are not a current-stock guarantee.",
+    "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
+    "sources": []
+  },
+  {
+    "id": "eth",
+    "name": "eth0s",
+    "zh": "上海市徐汇区嘉善路253号",
+    "cat": "benchmade",
+    "lat": 31.207693,
+    "lon": 121.460226,
+    "addr": "253 Jiashan Rd, Xuhui · listed daily 11:00–22:00 · +86 21 5466 5063",
+    "note": "A key destination for high-quality avant-garde footwear, particularly Italian makers, and a rare chance to compare their fit in person. Plan time for trying different lasts and constructions. The selection below records documented or reported offerings, not guaranteed current stock.",
+    "tags": [
+      "GUIDI",
+      "m.a+ / Maurizio Amadei",
+      "A1923",
+      "Geoffrey B. Small"
+    ],
+    "selection": [
+      [
+        "Core selection in Alex’s handoff",
+        "GUIDI; m.a+ / Maurizio Amadei; A1923."
+      ],
+      [
+        "User-confirmed",
+        "Limited-edition Geoffrey B. Small shoes."
+      ],
+      [
+        "Screenshot-backed in the supplied handoff",
+        "visvim; DEVOA; PHILEO; Thom Browne; The Soloist-related footwear. Screenshots were not attached to this edit; truncated collaboration names remain unresolved."
+      ],
+      [
+        "Named collaborations",
+        "GUIDI × MASTERMIND WORLD GR20V_SK (handoff); New Balance 2010 by LM.RT for eth0s, U20102Z1 (model code supplied in handoff). LM.RT documents the collaboration and a mainland debut through eth0s on 26 September 2026."
+      ]
+    ],
+    "evidence": "Address, listed hours and phone: LM.RT stockist page. Detailed footwear selection: Alex’s 7 October handoff with the evidence distinctions shown above. Manufacturer stockist links are supplied for reference, not proof of every item being in stock.",
+    "coordNote": "Approximate Apple Maps listing coordinate; retained only for this schematic, not turn-by-turn navigation.",
+    "sources": [
+      {
+        "label": "LM.RT: shop details",
+        "url": "https://shop.lm-rt.com/pages/stockists"
+      },
+      {
+        "label": "GUIDI: boutiques",
+        "url": "https://guidi.it/pages/boutiques"
+      },
+      {
+        "label": "visvim: stockists",
+        "url": "https://www.visvim.tv/stockist_visvim/china_taiwan/"
+      },
+      {
+        "label": "New Balance 2010 by LM.RT for eth0s",
+        "url": "https://lm-rt.com/new-balance-2010-by-lm-rt-for-ethos/"
+      },
+      {
+        "label": "eth0s: map listing",
+        "url": "https://maps.apple.com/place?auid=1118368716374346"
+      }
+    ]
+  },
+  {
+    "id": "doet",
+    "name": "DOE — Tongren Road",
+    "zh": "静安区铜仁路78号",
+    "addr": "78 Tongren Rd, Jing’an · +86 21 6180 8378 · hours unconfirmed",
+    "cat": "local",
+    "lat": 31.22356,
+    "lon": 121.4513,
+    "note": "Shanghai streetwear and footwear stop for special runs and collaborations, most often sports shoes. A useful complement to the circuit’s traditional and artisanal shoemakers. Check the current release, size and branch allocation before a special trip.",
+    "tags": [
+      "Special runs",
+      "Sports shoes",
+      "Collaborations"
+    ],
+    "evidence": "Special-run / predominantly sports-shoe focus: Alex, 7 October. Branch address: Setinn and Goldwin stockist directories; phone: Goldwin. No specific current release is promised.",
+    "coordNote": "Setinn-linked Google Maps address anchor; approximate on this schematic.",
+    "sources": [
+      {
+        "label": "Setinn: both Shanghai branches",
+        "url": "https://setinn.jp/stockist/"
+      },
+      {
+        "label": "Goldwin: addresses and phones",
+        "url": "https://www.goldwin-global.com/asia/stories/goldwin-japan-stories/"
+      },
+      {
+        "label": "Published map reference",
+        "url": "https://maps.app.goo.gl/xaZyVjbkdXfPmx3A6"
+      }
+    ]
+  },
+  {
+    "id": "doeh",
+    "name": "DOE — Hubin Road / Xintiandi",
+    "zh": "黄浦区湖滨路168号 L1-W09",
+    "addr": "L1-W09, 168 Hubin Rd, Huangpu · +86 21 5382 1689 · hours unconfirmed",
+    "cat": "local",
+    "lat": 31.22009,
+    "lon": 121.47753,
+    "note": "Shanghai streetwear and footwear stop for special runs and collaborations, most often sports shoes. A useful complement to the circuit’s traditional and artisanal shoemakers. Check the current release, size and branch allocation before a special trip.",
+    "tags": [
+      "Special runs",
+      "Sports shoes",
+      "Collaborations"
+    ],
+    "evidence": "Special-run / predominantly sports-shoe focus: Alex, 7 October. Branch address: Setinn and Goldwin stockist directories; phone: Goldwin. No specific current release is promised.",
+    "coordNote": "Setinn-linked Google Maps street anchor for Hubin Road; approximate, not the store entrance.",
+    "sources": [
+      {
+        "label": "Setinn: both Shanghai branches",
+        "url": "https://setinn.jp/stockist/"
+      },
+      {
+        "label": "Goldwin: addresses and phones",
+        "url": "https://www.goldwin-global.com/asia/stories/goldwin-japan-stories/"
+      },
+      {
+        "label": "Published map reference",
+        "url": "https://maps.app.goo.gl/XPp52PcvVoLrETQG8"
+      }
+    ]
+  }
+]

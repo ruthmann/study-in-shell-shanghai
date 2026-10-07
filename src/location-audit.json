@@ -1,0 +1,604 @@
+{
+  "reviewed": "2026-10-07",
+  "renderDatum": "WGS84",
+  "locations": [
+    {
+      "id": "cw",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13520771,
+        "y": 3641380
+      },
+      "precision": "address",
+      "pinLabel": "Building pin · No. 1312",
+      "notes": "Baidu’s exact numbered-address point, converted from BD-09 Mercator to WGS84. No. 1312 is corroborated by the 2026 shop announcement; this is an address point, not a surveyed shop entrance.",
+      "overrides": {
+        "street": "1312 Xinzha Road, Jing’an",
+        "zh": "上海市静安区新闸路1312号"
+      },
+      "sources": [
+        {
+          "label": "Dryboots / Classic Works · 2026 address announcement",
+          "url": "https://podcasts.apple.com/es/podcast/bkp-376-en-evan-lin-dryboots/id1313152669?i=1000757461584&l=en-GB"
+        },
+        {
+          "label": "Lianjia · No. 1312 building map",
+          "url": "https://m.lianjia.com/news/sh/xiaoqu/5011000001164.html"
+        },
+        {
+          "label": "Baidu Maps · 新闸路1312号",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=s&wd=%E4%B8%8A%E6%B5%B7%20Classic%20Works%20%E6%96%B0%E9%97%B8%E8%B7%AF1312%E5%8F%B7&c=289&searchFlag=bigBox&version=5&exptype=dep/i=0&showall=1&pos=0&da_ref=listclk&da_qrtp=41&da_adtp=&da_log=&da_adquery=上海 classic works 新闸路1312号&da_adtitle=新闸路1312号&da_adindus="
+        }
+      ]
+    },
+    {
+      "id": "rb",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13522159.53,
+        "y": 3640848.78
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped shop · L278 listing; confirm unit",
+      "notes": "Baidu’s named shop POI, converted from BD-09 Mercator to WGS84. The map and two brand stockists list L278; Tricker’s instead lists B2-LG216. Confirm the unit before visiting.",
+      "overrides": {
+        "street": "HKRI Taikoo Hui, 789 Nanjing West Road, Jing’an",
+        "zh": "上海市静安区南京西路789号 兴业太古汇（店铺单元请先确认）"
+      },
+      "sources": [
+        {
+          "label": "OpenStreetMap · mapped building / address",
+          "url": "https://www.openstreetmap.org/way/1157366233"
+        },
+        {
+          "label": "Baidu Maps · RADIANCE BLUE(兴业太古汇店)",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=ninf&wd=%E4%B8%8A%E6%B5%B7%20Radiance%20Blue%20%E5%85%B4%E4%B8%9A%E5%A4%AA%E5%8F%A4%E6%B1%87&c=289&searchFlag=bigBox&version=5&exptype=dep&uid=a6fdafc0a0c18aa11b94c6a6&industry=shopping&qid=3998897070563772904/showall=1&pos=0&da_ref=listclk&da_qrtp=11&da_adtp=&da_log=&da_adquery=上海 radiance blue 兴业太古汇&da_adtitle=RADIANCE BLUE(兴业太古汇店)&da_adindus=购物;商铺"
+        }
+      ]
+    },
+    {
+      "id": "jl",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13520991.27,
+        "y": 3640839.47
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped shop · Level 3, Unit 321",
+      "notes": "Baidu’s named shop POI, converted from BD-09 Mercator to WGS84. The brand directory specifies Unit 321 on Level 3.",
+      "overrides": {
+        "street": "Unit 321, Level 3, Plaza 66, 1266 Nanjing West Road, Jing’an",
+        "zh": "上海市静安区南京西路1266号 恒隆广场3层321号"
+      },
+      "sources": [
+        {
+          "label": "John Lobb · official company store directory",
+          "url": "https://id.linkedin.com/company/john-lobb"
+        },
+        {
+          "label": "OpenStreetMap · mapped building / address",
+          "url": "https://www.openstreetmap.org/way/10692949"
+        },
+        {
+          "label": "Baidu Maps · JOHN LOBB(恒隆广场店)",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=ninf&wd=%E4%B8%8A%E6%B5%B7%20John%20Lobb%20%E6%81%92%E9%9A%86%E5%B9%BF%E5%9C%BA&c=289&searchFlag=bigBox&version=5&exptype=dep&uid=7388dffd471278f2d2ff23ee&industry=shopping&qid=2698189374921112330/showall=1&pos=0&da_ref=listclk&da_qrtp=11&da_adtp=&da_log=&da_adquery=上海 john lobb 恒隆广场&da_adtitle=JOHN LOBB(恒隆广场店)&da_adindus=购物;商铺"
+        }
+      ]
+    },
+    {
+      "id": "rl",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13520456.99,
+        "y": 3640293.81
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped shop · North Building, N1-24",
+      "notes": "Baidu’s Ralph Lauren shop POI, converted from BD-09 Mercator to WGS84. North Building N1-24 is corroborated by the brand. NOOS is in the separate South Building.",
+      "overrides": {
+        "street": "N1-24, North Building, Jing’an Kerry Centre, 1515 Nanjing West Road",
+        "zh": "上海市静安区南京西路1515号 静安嘉里中心北区1层N1-24",
+        "hours": "Listed daily 10:00–22:00",
+        "phone": "+86 21 6231 9858"
+      },
+      "sources": [
+        {
+          "label": "Ralph Lauren · official store, unit and hours",
+          "url": "https://www.ralphlauren.com.au/locations/CN/Shanghai/07112"
+        },
+        {
+          "label": "Baidu Maps · RALPH LAUREN(静安嘉里中心北区店)",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=ninf&wd=%E4%B8%8A%E6%B5%B7%20Ralph%20Lauren%20%E9%9D%99%E5%AE%89%E5%98%89%E9%87%8C%E4%B8%AD%E5%BF%83&c=289&searchFlag=bigBox&version=5&exptype=dep&uid=303e03073006fac833169b62&industry=shopping&qid=4143971007373281201/showall=1&pos=0&da_ref=listclk&da_qrtp=11&da_adtp=&da_log=&da_adquery=上海 ralph lauren 静安嘉里中心&da_adtitle=RALPH LAUREN(静安嘉里中心北区店)&da_adindus=购物;商铺"
+        }
+      ]
+    },
+    {
+      "id": "rl2",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "WGS84",
+        "lat": 31.2432741,
+        "lon": 121.484736
+      },
+      "precision": "building",
+      "pinLabel": "Hotel pin · Arcade Level L1",
+      "notes": "OpenStreetMap Peninsula hotel footprint centre; use the ground-level shopping arcade directory for the boutique.",
+      "overrides": {
+        "street": "L1P–L1R, Peninsula Arcade, 32 Zhongshan East First Road, Huangpu",
+        "zh": "上海市黄浦区中山东一路32号 半岛酒店精品廊L1层L1P–L1R",
+        "hours": "Listed daily 11:00–21:45",
+        "phone": "+86 21 6329 3623"
+      },
+      "sources": [
+        {
+          "label": "Ralph Lauren · Peninsula store, units and hours",
+          "url": "https://www.ralphlauren.com.sg/locations/CN/Shanghai/07679"
+        },
+        {
+          "label": "OpenStreetMap · mapped building / address",
+          "url": "https://www.openstreetmap.org/way/177929887"
+        }
+      ]
+    },
+    {
+      "id": "rr",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13521434,
+        "y": 3639979
+      },
+      "precision": "address",
+      "pinLabel": "Address pin · shop occupancy unverified",
+      "notes": "Baidu’s exact numbered-address result for 33 Shaanxi South Road, not a verified business POI.",
+      "overrides": {
+        "street": "33 Shaanxi South Road, Huangpu · shop occupancy unverified",
+        "zh": "上海市黄浦区陕西南路33号（店铺现址待确认）",
+        "area": "Huangpu · Shaanxi South Road",
+        "warning": "The street address is mapped, but I could not independently confirm The Real Real Co. currently occupies it. Contact the shop before visiting.",
+        "description": "The July guide records a heritage-clothing and specialist-boot shop at this address. Its current occupancy and footwear selection still need direct confirmation.",
+        "evidence": "Shop identity, selection and street address were inherited from the July guide. The numbered address is independently geocoded; this does not confirm the business operates there."
+      },
+      "sources": [
+        {
+          "label": "Baidu Maps · 陕西南路33号",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=s&wd=%E4%B8%8A%E6%B5%B7%20The%20Real%20Real%20Co%20%E9%99%95%E8%A5%BF%E5%8D%97%E8%B7%AF33%E5%8F%B7&c=289&searchFlag=bigBox&version=5&exptype=dep/i=0&showall=1&pos=0&da_ref=listclk&da_qrtp=41&da_adtp=&da_log=&da_adquery=上海 the real real co 陕西南路33号&da_adtitle=陕西南路33号&da_adindus="
+        }
+      ]
+    },
+    {
+      "id": "bj",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13521285.68,
+        "y": 3639743.6
+      },
+      "precision": "building",
+      "pinLabel": "Building pin · No. 6 inside Lane 339",
+      "notes": "Building anchor: Baidu places another business (Kuma Store) at No. 6 in this lane. It is used only to locate the numbered building. BaronJ’s address comes from Tricker’s; access and weekend appointments require confirmation.",
+      "overrides": {
+        "street": "1F, No. 6, Lane 339, Changle Road, Xuhui",
+        "zh": "上海市徐汇区长乐路339弄6号1楼"
+      },
+      "sources": [
+        {
+          "label": "Tricker’s · BaronJ address",
+          "url": "https://www.trickers.cn/dealers"
+        },
+        {
+          "label": "Baidu Maps · Kuma Store",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=ninf&wd=%E4%B8%8A%E6%B5%B7%20%E9%95%BF%E4%B9%90%E8%B7%AF339%E5%BC%846%E5%8F%B7&c=289&searchFlag=bigBox&version=5&exptype=dep&uid=4de9b7cb3c2386a5ae045735&industry=shopping&qid=1899227369055228463/showall=1&pos=0&da_ref=listclk&da_qrtp=11&da_adtp=&da_log=&da_adquery=上海 长乐路339弄6号&da_adtitle=Kuma Store&da_adindus=购物;商铺"
+        }
+      ]
+    },
+    {
+      "id": "fy",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "GCJ02",
+        "lat": 31.213025,
+        "lon": 121.445713
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped shop · Wulumuqi Middle Road",
+      "notes": "Apple Maps China shop POI in GCJ-02, converted to WGS84. Address corroborated by published shop coverage.",
+      "overrides": {
+        "street": "206 Wulumuqi Middle Road, Xuhui",
+        "zh": "上海市徐汇区乌鲁木齐中路206号",
+        "area": "Xuhui · Wulumuqi Middle Road",
+        "hours": "Map listing: daily 10:00–22:00; reconfirm",
+        "phone": "+86 186 2192 4198",
+        "warning": null,
+        "description": "A Shanghai canvas-shoe stop with Feiyue at its heart. This guide locates the documented Wulumuqi Middle Road branch, a natural addition to the Xuhui circuit.",
+        "evidence": "The Wulumuqi Middle Road branch at No. 206 is documented by CNA Luxury and Apple Maps. It replaces the uncorroborated Fumin Road entry in the earlier guide; this is not a claim that every other branch is closed."
+      },
+      "sources": [
+        {
+          "label": "CNA Luxury · Culture Matters street address",
+          "url": "https://cnaluxury.channelnewsasia.com/obsessions/shanghai-indie-boutiques-concept-stores-292921"
+        },
+        {
+          "label": "Apple Maps · Culture Matters, Wulumuqi Middle Road",
+          "url": "https://maps.apple.com/place?auid=1118368695125161"
+        }
+      ]
+    },
+    {
+      "id": "ic",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "WGS84",
+        "lat": 31.2225033,
+        "lon": 121.4474682
+      },
+      "precision": "building",
+      "pinLabel": "Building pin · look for No. 741-1",
+      "notes": "The maker lists Industrial Co. at 741-1 Julu Road. The pin uses an OSM address point at No. 741 (The Beach House) to locate the shared street address; the shop doorway is not independently surveyed.",
+      "overrides": {
+        "street": "741-1 Julu Road, Jing’an",
+        "zh": "上海市静安区巨鹿路741-1号"
+      },
+      "sources": [
+        {
+          "label": "The Real McCoy’s · official stockist address",
+          "url": "https://therealmccoys.jp/stocksts.html"
+        },
+        {
+          "label": "OpenStreetMap · mapped building / address",
+          "url": "https://www.openstreetmap.org/node/8735211770"
+        }
+      ]
+    },
+    {
+      "id": "pn",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13519639,
+        "y": 3639974
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped flagship · No. 22 Yongyuan Road",
+      "notes": "Baidu’s specifically named Yongyuan Road flagship POI, converted from BD-09 Mercator to WGS84. Distinct from PANE’s TX Huaihai shop.",
+      "overrides": {
+        "street": "22 Yongyuan Road, Jing’an",
+        "zh": "上海市静安区永源路22号"
+      },
+      "sources": [
+        {
+          "label": "PANE · official Yongyuan Road flagship",
+          "url": "https://paneshoes.com/pages/pane-plaza-shanghai-yongyuan-rd"
+        },
+        {
+          "label": "Baidu Maps · PANE旗舰店(永源路店)",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=ninf&uid=0f711b8e6899bf4b1894c6b0&industry=shopping&qid=4571386185132406851/showall=1&pos=0&da_ref=listclk&da_qrtp=11&da_adtp=&da_log=&da_adquery=上海pane旗舰店永源路&da_adtitle=PANE旗舰店(永源路店)&da_adindus=购物;商铺"
+        }
+      ]
+    },
+    {
+      "id": "ro",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "WGS84",
+        "lat": 31.2151927,
+        "lon": 121.4451363
+      },
+      "precision": "building",
+      "pinLabel": "Building pin · upstairs, Room 520",
+      "notes": "OpenStreetMap / Nominatim centroid of Huaihai Building (address range 1300–1326). The room is upstairs; the pin is the building, not an indoor position.",
+      "overrides": {
+        "street": "Room 520, Huaihai Building, 1326 Huaihai Middle Road, Xuhui",
+        "zh": "上海市徐汇区淮海中路1326号 淮海大楼520室"
+      },
+      "sources": [
+        {
+          "label": "Enzo Bonafè · Roiluxe stockist address",
+          "url": "https://www.enzobonafe.com/shops/"
+        },
+        {
+          "label": "OpenStreetMap · mapped building / address",
+          "url": "https://www.openstreetmap.org/way/493695715"
+        }
+      ]
+    },
+    {
+      "id": "lm",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13520630,
+        "y": 3637336
+      },
+      "precision": "address",
+      "pinLabel": "Address pin · La Maison, No. 193",
+      "notes": "Baidu’s exact numbered-address point, converted from BD-09 Mercator to WGS84. The address and the matching position are corroborated by The Anthology’s official contact page and embedded map.",
+      "overrides": {
+        "street": "La Maison, 193 Wulumuqi South Road, Xuhui",
+        "zh": "上海市徐汇区乌鲁木齐南路193号 La Maison"
+      },
+      "sources": [
+        {
+          "label": "The Anthology · official contact map",
+          "url": "https://theanthology.net/contact"
+        },
+        {
+          "label": "Baidu Maps · 乌鲁木齐南路193号",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=s&wd=%E4%B8%8A%E6%B5%B7%20The%20Anthology%20%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8D%97%E8%B7%AF193%E5%8F%B7&c=289&searchFlag=bigBox&version=5&exptype=dep/i=0&showall=1&pos=0&da_ref=listclk&da_qrtp=41&da_adtp=&da_log=&da_adquery=上海 the anthology 乌鲁木齐南路193号&da_adtitle=乌鲁木齐南路193号&da_adindus="
+        }
+      ]
+    },
+    {
+      "id": "rv",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13523967.59,
+        "y": 3639926.12
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped shop · D Building, L256",
+      "notes": "Baidu’s named Rivets Dongtai Li shop POI, aligned with its separately mapped D Building. Converted from BD-09 Mercator to WGS84.",
+      "overrides": {
+        "street": "L256, 2F, Building D, Xintiandi Dongtai Li, 111 Ji’an Road, Huangpu",
+        "zh": "上海市黄浦区吉安路111号 新天地东台里D座2层L256",
+        "area": "Huangpu · Xintiandi Dongtai Li",
+        "phone": "+86 181 1643 7597",
+        "hours": "Confirm shop hours",
+        "warning": null,
+        "description": "Artisanal footwear and heritage clothing at Xintiandi Dongtai Li. Find the shop on Level 2 of Building D; this is the Dongtai Li branch represented in the circuit.",
+        "evidence": "Double Helix’s stockist directory and Baidu Maps corroborate the Dongtai Li branch. This record locates that branch; a separately published Shipyard 1862 address is not treated as its replacement."
+      },
+      "sources": [
+        {
+          "label": "Double Helix · official Rivets address and phone",
+          "url": "https://doublehelixworks.com/stock-list/"
+        },
+        {
+          "label": "Baidu Maps · RIVETS(新天地东台里店)",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=ninf&wd=%E4%B8%8A%E6%B5%B7%20Rivets%20%E4%B8%9C%E5%8F%B0%E9%87%8C&c=289&searchFlag=bigBox&version=5&exptype=dep&uid=a67bc4edc2cf92863fe231d2&industry=shopping&qid=628708465090628020/showall=1&pos=0&da_ref=listclk&da_qrtp=11&da_adtp=&da_log=&da_adquery=上海 rivets 东台里&da_adtitle=RIVETS(新天地东台里店)&da_adindus=购物;商铺"
+        }
+      ]
+    },
+    {
+      "id": "md",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "WGS84",
+        "lat": 31.2464375,
+        "lon": 121.5098011
+      },
+      "precision": "building",
+      "pinLabel": "Building pin · G1, L112–L113",
+      "notes": "OpenStreetMap footprint centre of the Shipyard 1862 building. This point already closely matched the map; no China-coordinate conversion was applied.",
+      "overrides": {
+        "street": "G1, L112–L113, Shipyard 1862, 1777 Binjiang Avenue, Pudong",
+        "zh": "上海市浦东新区滨江大道1777号 船厂1862 G1层L112–L113"
+      },
+      "sources": [
+        {
+          "label": "ACME · Shanghai MEDALLION stockist",
+          "url": "https://acmeshoemaker.com/contact/"
+        },
+        {
+          "label": "OpenStreetMap · mapped building / address",
+          "url": "https://www.openstreetmap.org/way/166110060"
+        }
+      ]
+    },
+    {
+      "id": "gm",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13514182.13,
+        "y": 3640813.09
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped Shoecare branch · Changfeng, Putuo",
+      "notes": "Baidu’s dedicated GENTLE MAKER SHOECARE POI, converted to WGS84; the point lies about 16 metres from the independently sourced same-address Amap campus business. The precise entrance/unit still requires confirmation.",
+      "overrides": {
+        "street": "Street-level shop, Jiabaohui B.T.H, 629 Zhongjiang Road, Putuo",
+        "zh": "上海市普陀区中江路629号 嘉佰汇B.T.H 沿街商铺 GENTLE MAKER SHOECARE",
+        "area": "Putuo · Changfeng",
+        "warning": "This is the documented Changfeng Shoecare branch in Putuo. A separate Changning branch has not been verified; confirm the entrance and repair arrangements ahead.",
+        "description": "A dedicated shoe-care and restoration stop in Changfeng. Discuss the work and send photographs before bringing a pair across town; ask directly about the recorded Songs of Love and Hate shoemaking connection.",
+        "evidence": "On-site 2024 event coverage identifies the dedicated Shoecare venue at 629 Zhongjiang Road. Baidu maps GENTLE MAKER SHOECARE at this campus, near the same-address Amap listing. The earlier Changning recollection remains uncorroborated."
+      },
+      "sources": [
+        {
+          "label": "TAG · on-site Shoecare venue coverage",
+          "url": "https://www.sohu.com/a/821532430_690845"
+        },
+        {
+          "label": "Baidu Maps · GENTLE MAKER SHOECARE",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=ninf&wd=%E4%B8%8A%E6%B5%B7%20Gentlemaker%20Shoecare%20%E9%95%BF%E9%A3%8E%E5%BA%97&c=289&searchFlag=bigBox&version=5&exptype=dep&uid=2c949dac090f5a5fb54f5467&industry=life&qid=16327877708527309578/showall=1&pos=0&da_ref=listclk&da_qrtp=11&da_adtp=&da_log=&da_adquery=上海 gentlemaker shoecare 长风店&da_adtitle=GENTLE MAKER SHOECARE&da_adindus=生活服务"
+        },
+        {
+          "label": "Amap · same-address 629 Zhongjiang Road campus",
+          "url": "https://ditu.amap.com/place/B0KD3RURVI"
+        }
+      ]
+    },
+    {
+      "id": "tk",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13517602,
+        "y": 3639306
+      },
+      "precision": "address",
+      "pinLabel": "Address pin · No. 1318 Dingxi Road",
+      "notes": "Baidu’s exact numbered-address result at 1318 Dingxi Road, converted from BD-09 Mercator to WGS84. The street address is confirmed by the maker; ask the store about internal access.",
+      "overrides": {
+        "street": "1318 Dingxi Road, Changning",
+        "zh": "上海市长宁区定西路1318号"
+      },
+      "sources": [
+        {
+          "label": "Tricker’s · official Shanghai stockist address",
+          "url": "https://www.trickers.cn/dealers"
+        },
+        {
+          "label": "Tricker’s · authorised service address",
+          "url": "https://www.trickers.cn/after-care"
+        },
+        {
+          "label": "Baidu Maps · 定西路1318号",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=s&wd=%E4%B8%8A%E6%B5%B7%20%E5%AE%9A%E8%A5%BF%E8%B7%AF1318%E5%8F%B7&c=289&searchFlag=bigBox&version=5&exptype=dep/i=0&showall=1&pos=0&da_ref=listclk&da_qrtp=41&da_adtp=&da_log=&da_adquery=上海 定西路1318号&da_adtitle=定西路1318号&da_adindus="
+        }
+      ]
+    },
+    {
+      "id": "no",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13520548.43,
+        "y": 3640201.61
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped shop · South Building, S2-05B",
+      "notes": "Baidu’s named shop POI, converted from BD-09 Mercator to WGS84. South Building, separate from Ralph Lauren in the North Building.",
+      "overrides": {
+        "street": "S2-05B, South Building, Jing’an Kerry Centre, 1515 Nanjing West Road",
+        "zh": "上海市静安区南京西路1515号 静安嘉里中心南区2层S2-05B"
+      },
+      "sources": [
+        {
+          "label": "OpenStreetMap · mapped building / address",
+          "url": "https://www.openstreetmap.org/way/255637433"
+        },
+        {
+          "label": "Baidu Maps · NOOS(上海静安嘉里中心南区商场店)",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=ninf&wd=%E4%B8%8A%E6%B5%B7%20NOOS%20%E9%9D%99%E5%AE%89%E5%98%89%E9%87%8C%E4%B8%AD%E5%BF%83&c=289&searchFlag=bigBox&version=5&exptype=dep&uid=e2464cc596f495728b2fb503&industry=shopping&qid=4715243219975016286/showall=1&pos=0&da_ref=listclk&da_qrtp=11&da_adtp=&da_log=&da_adquery=上海 noos 静安嘉里中心&da_adtitle=NOOS(上海静安嘉里中心南区商场店)&da_adindus=购物;商铺"
+        }
+      ]
+    },
+    {
+      "id": "no2",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "WGS84",
+        "lat": 31.1996218,
+        "lon": 121.4334436
+      },
+      "precision": "building",
+      "pinLabel": "Mall pin · One ITC, L235-2",
+      "notes": "OpenStreetMap One ITC building point retained in WGS84. The coordinate already matches the mall; no conversion applied. Indoor unit verified through Johnstons of Elgin.",
+      "overrides": {
+        "street": "L235-2, One ITC, 1901 Huashan Road, Xuhui",
+        "zh": "上海市徐汇区华山路1901号 One ITC L235-2"
+      },
+      "sources": [
+        {
+          "label": "OpenStreetMap · mapped building / address",
+          "url": "https://www.openstreetmap.org/way/962453231"
+        }
+      ]
+    },
+    {
+      "id": "fs",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "GCJ02",
+        "lat": 31.2563147,
+        "lon": 121.4903363
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped shop · No. 229 Harbin Road",
+      "notes": "The Trip.com POI explicitly supplies gdlat/gdlon (GCJ-02) for 229 Harbin Road; converted to WGS84. The address is corroborated by Shanghai’s culture and tourism authority.",
+      "overrides": {
+        "street": "229 Harbin Road, Hongkou",
+        "zh": "上海市虹口区哈尔滨路229号",
+        "hours": "Published daily 10:00–18:00; reconfirm",
+        "phone": "+86 21 6420 2020"
+      },
+      "sources": [
+        {
+          "label": "Shanghai Culture & Tourism · Frank’s address and hours",
+          "url": "https://whlyj.sh.gov.cn/gqfc/20250307/0a6e9afb340b4f0b966306a9dc5201f8.html"
+        },
+        {
+          "label": "Trip.com · Frank’s exact-address map listing",
+          "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-131116349/"
+        }
+      ]
+    },
+    {
+      "id": "eth",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "GCJ02",
+        "lat": 31.207693,
+        "lon": 121.460226
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped shop · No. 253 Jiashan Road",
+      "notes": "Apple Maps China shop POI in GCJ-02, converted to WGS84. The earlier guide plotted this source coordinate directly on a WGS84 map, causing a several-hundred-metre offset. Cross-checked against Baidu’s independently mapped numbered street address.",
+      "overrides": {
+        "street": "253 Jiashan Road, Xuhui",
+        "zh": "上海市徐汇区嘉善路253号"
+      },
+      "sources": [
+        {
+          "label": "Apple Maps · eth0s China shop POI",
+          "url": "https://maps.apple.com/place?auid=1118368716374346"
+        },
+        {
+          "label": "Baidu Maps · 嘉善路253号",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=s&wd=%E4%B8%8A%E6%B5%B7%20eth0s%20%E5%98%89%E5%96%84%E8%B7%AF253%E5%8F%B7&c=289&searchFlag=bigBox&version=5&exptype=dep/i=0&showall=1&pos=0&da_ref=listclk&da_qrtp=41&da_adtp=&da_log=&da_adquery=上海 eth0s 嘉善路253号&da_adtitle=嘉善路253号&da_adindus="
+        }
+      ]
+    },
+    {
+      "id": "doet",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "GCJ02",
+        "lat": 31.22356,
+        "lon": 121.4513
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped shop · No. 78 Tongren Road",
+      "notes": "Setinn’s linked Google Maps China shop coordinate, converted from GCJ-02 to WGS84. The address is independently corroborated by Goldwin. Cross-checked against Baidu’s independently mapped numbered street address.",
+      "overrides": {
+        "street": "78 Tongren Road, Jing’an",
+        "zh": "上海市静安区铜仁路78号"
+      },
+      "sources": [
+        {
+          "label": "Baidu Maps · 铜仁路78号",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=s&wd=%E4%B8%8A%E6%B5%B7%20DOE%20%E9%93%9C%E4%BB%81%E8%B7%AF78%E5%8F%B7&c=289&searchFlag=bigBox&version=5&exptype=dep/i=0&showall=1&pos=0&da_ref=listclk&da_qrtp=41&da_adtp=&da_log=&da_adquery=上海 doe 铜仁路78号&da_adtitle=铜仁路78号&da_adindus="
+        }
+      ]
+    },
+    {
+      "id": "doeh",
+      "checked": "2026-10-07",
+      "position": {
+        "datum": "WGS84",
+        "lat": 31.2222489,
+        "lon": 121.4735589
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped shop · L1-W09, Hubin Road",
+      "notes": "Direct OpenStreetMap DOE shop/café node at 168 Hubin Road, with matching phone number. Replaces the earlier generic road anchor; already WGS84.",
+      "overrides": {
+        "street": "L1-W09, 168 Hubin Road, Huangpu",
+        "zh": "上海市黄浦区湖滨路168号 L1-W09"
+      },
+      "sources": [
+        {
+          "label": "OpenStreetMap · mapped building / address",
+          "url": "https://www.openstreetmap.org/node/13588916401"
+        }
+      ]
+    }
+  ]
+}
