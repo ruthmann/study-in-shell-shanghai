@@ -12,3 +12,8 @@ fs.writeFileSync('dist/shanghai/index.html',atlas);
 fs.cpSync('licenses','dist/licenses',{recursive:true});
 fs.writeFileSync('dist/404.html','<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Page not found — Study in Shell</title><link rel="stylesheet" href="/style.css"><main style="padding:10%"><h1>Page not found.</h1><p><a href="/">Return to Study in Shell</a> or <a href="/shanghai/">explore the Shanghai Shoe Atlas</a>.</p></main></html>');
 console.log('Built Study in Shell homepage and /shanghai/ Atlas in dist/');
+
+// Publish only generated public files through GitHub Pages /docs.
+fs.copyFileSync("CNAME", "dist/CNAME");
+fs.writeFileSync("dist/.nojekyll", "");
+fs.cpSync("dist", "docs", {recursive:true});
