@@ -34,18 +34,20 @@
     },
     {
       "id": "rb",
-      "checked": "2026-10-07",
+      "checked": "2026-10-09",
       "position": {
         "datum": "BD09MC",
         "x": 13522159.53,
         "y": 3640848.78
       },
-      "precision": "shop",
-      "pinLabel": "Mapped shop · L278 listing; confirm unit",
-      "notes": "Baidu’s named shop POI, converted from BD-09 Mercator to WGS84. The map and two brand stockists list L278; Tricker’s instead lists B2-LG216. Confirm the unit before visiting.",
+      "precision": "building",
+      "pinLabel": "Mall pin · Level 3",
+      "notes": "Third-floor location confirmed by the editor on 9 October 2026. Existing map coordinate retained as the mall anchor; older unit listings are superseded.",
       "overrides": {
-        "street": "HKRI Taikoo Hui, 789 Nanjing West Road, Jing’an",
-        "zh": "上海市静安区南京西路789号 兴业太古汇（店铺单元请先确认）"
+        "street": "Level 3, HKRI Taikoo Hui, 789 Nanjing West Road, Jing’an",
+        "zh": "上海市静安区南京西路789号 兴业太古汇3层",
+        "warning": null,
+        "evidence": "Address correction confirmed by the editor, 9 October 2026. Earlier directory entries may show superseded information."
       },
       "sources": [
         {
@@ -60,18 +62,20 @@
     },
     {
       "id": "jl",
-      "checked": "2026-10-07",
+      "checked": "2026-10-09",
       "position": {
         "datum": "BD09MC",
         "x": 13520991.27,
         "y": 3640839.47
       },
-      "precision": "shop",
-      "pinLabel": "Mapped shop · Level 3, Unit 321",
-      "notes": "Baidu’s named shop POI, converted from BD-09 Mercator to WGS84. The brand directory specifies Unit 321 on Level 3.",
+      "precision": "building",
+      "pinLabel": "Mall pin · B1",
+      "notes": "B1 location confirmed by the editor on 9 October 2026. Existing map coordinate retained as the mall anchor; the former Level 3 unit is superseded.",
       "overrides": {
-        "street": "Unit 321, Level 3, Plaza 66, 1266 Nanjing West Road, Jing’an",
-        "zh": "上海市静安区南京西路1266号 恒隆广场3层321号"
+        "street": "B1, Plaza 66, 1266 Nanjing West Road, Jing’an",
+        "zh": "上海市静安区南京西路1266号 恒隆广场B1层",
+        "warning": null,
+        "evidence": "Address correction confirmed by the editor, 9 October 2026. Earlier directory entries may show superseded information."
       },
       "sources": [
         {
@@ -146,22 +150,21 @@
     },
     {
       "id": "rr",
-      "checked": "2026-10-07",
+      "checked": "2026-10-09",
       "position": {
         "datum": "BD09MC",
         "x": 13521434,
         "y": 3639979
       },
       "precision": "address",
-      "pinLabel": "Address pin · shop occupancy unverified",
-      "notes": "Baidu’s exact numbered-address result for 33 Shaanxi South Road, not a verified business POI.",
+      "pinLabel": "Address pin · No. 33",
+      "notes": "Numbered-address coordinate from Baidu retained. Shop occupancy confirmed by the editor on 9 October 2026.",
       "overrides": {
-        "street": "33 Shaanxi South Road, Huangpu · shop occupancy unverified",
-        "zh": "上海市黄浦区陕西南路33号（店铺现址待确认）",
+        "street": "33 Shaanxi South Road, Huangpu",
+        "zh": "上海市黄浦区陕西南路33号",
         "area": "Huangpu · Shaanxi South Road",
-        "warning": "The street address is mapped, but I could not independently confirm The Real Real Co. currently occupies it. Contact the shop before visiting.",
-        "description": "The July guide records a heritage-clothing and specialist-boot shop at this address. Its current occupancy and footwear selection still need direct confirmation.",
-        "evidence": "Shop identity, selection and street address were inherited from the July guide. The numbered address is independently geocoded; this does not confirm the business operates there."
+        "warning": null,
+        "evidence": "Address correction confirmed by the editor, 9 October 2026. Earlier directory entries may show superseded information."
       },
       "sources": [
         {
@@ -452,7 +455,9 @@
           "label": "Baidu Maps · 定西路1318号",
           "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=s&wd=%E4%B8%8A%E6%B5%B7%20%E5%AE%9A%E8%A5%BF%E8%B7%AF1318%E5%8F%B7&c=289&searchFlag=bigBox&version=5&exptype=dep/i=0&showall=1&pos=0&da_ref=listclk&da_qrtp=41&da_adtp=&da_log=&da_adquery=上海 定西路1318号&da_adtitle=定西路1318号&da_adindus="
         }
-      ]
+      ],
+      "status": "closed",
+      "closureNote": "Removed from active guide: editor reports closure in September 2026."
     },
     {
       "id": "no",

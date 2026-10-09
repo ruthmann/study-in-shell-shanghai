@@ -1,23 +1,22 @@
 Stop,Destination,English address,Chinese address,Latitude WGS84,Longitude WGS84,Pin precision,Review date,Moved from earlier pin (m)
 1,Classic Works,"1312 Xinzha Road, Jing’an",上海市静安区新闸路1312号,31.2339231,121.4467901,Building pin · No. 1312,2026-10-07,415
-2,Radiance Blue,"HKRI Taikoo Hui, 789 Nanjing West Road, Jing’an",上海市静安区南京西路789号 兴业太古汇（店铺单元请先确认）,31.2300369,121.4592476,Mapped shop · L278 listing; confirm unit,2026-10-07,140
-3,John Lobb — Plaza 66,"Unit 321, Level 3, Plaza 66, 1266 Nanjing West Road, Jing’an",上海市静安区南京西路1266号 恒隆广场3层321号,31.2297792,121.4487679,"Mapped shop · Level 3, Unit 321",2026-10-07,540
+2,Radiance Blue,"Level 3, HKRI Taikoo Hui, 789 Nanjing West Road, Jing’an",上海市静安区南京西路789号 兴业太古汇3层,31.2300369,121.4592476,Mall pin · Level 3,2026-10-09,140
+3,John Lobb — Plaza 66,"B1, Plaza 66, 1266 Nanjing West Road, Jing’an",上海市静安区南京西路1266号 恒隆广场B1层,31.2297792,121.4487679,Mall pin · B1,2026-10-09,540
 4,Ralph Lauren — Jing'an Kerry Centre,"N1-24, North Building, Jing’an Kerry Centre, 1515 Nanjing West Road",上海市静安区南京西路1515号 静安嘉里中心北区1层N1-24,31.2255107,121.4439714,"Mapped shop · North Building, N1-24",2026-10-07,210
-5,Ralph Lauren — Peninsula Arcade,"L1P–L1R, Peninsula Arcade, 32 Zhongshan East First Road, Huangpu",上海市黄浦区中山东一路32号 半岛酒店精品廊L1层L1P–L1R,31.2432741,121.484736,Hotel pin · Arcade Level L1,2026-10-07,531
-6,"The Real Real Co., Ltd","33 Shaanxi South Road, Huangpu · shop occupancy unverified",上海市黄浦区陕西南路33号（店铺现址待确认）,31.2232028,121.4527431,Address pin · shop occupancy unverified,2026-10-07,100
+5,Ralph Lauren — Peninsula Arcade,"L1P–L1R, Peninsula Arcade, 32 Zhongshan East First Road, Huangpu",上海市黄浦区中山东一路32号 半岛酒店精品廊L1层L1P–L1R,31.2432741,121.4847360,Hotel pin · Arcade Level L1,2026-10-07,531
+6,"The Real Real Co., Ltd","33 Shaanxi South Road, Huangpu",上海市黄浦区陕西南路33号,31.2232028,121.4527431,Address pin · No. 33,2026-10-09,100
 7,BaronJ,"1F, No. 6, Lane 339, Changle Road, Xuhui",上海市徐汇区长乐路339弄6号1楼,31.2213644,121.4514134,Building pin · No. 6 inside Lane 339,2026-10-07,441
 8,Culture Matters / Feiyue,"206 Wulumuqi Middle Road, Xuhui",上海市徐汇区乌鲁木齐中路206号,31.2149008,121.4411031,Mapped shop · Wulumuqi Middle Road,2026-10-07,1059
 9,Industrial Co.,"741-1 Julu Road, Jing’an",上海市静安区巨鹿路741-1号,31.2225033,121.4474682,Building pin · look for No. 741-1,2026-10-07,236
 10,Pane — Yongyuan flagship,"22 Yongyuan Road, Jing’an",上海市静安区永源路22号,31.2229961,121.4366189,Mapped flagship · No. 22 Yongyuan Road,2026-10-07,418
 11,Roiluxe,"Room 520, Huaihai Building, 1326 Huaihai Middle Road, Xuhui",上海市徐汇区淮海中路1326号 淮海大楼520室,31.2151927,121.4451363,"Building pin · upstairs, Room 520",2026-10-07,172
 12,The Anthology / Tassels Shanghai,"La Maison, 193 Wulumuqi South Road, Xuhui",上海市徐汇区乌鲁木齐南路193号 La Maison,31.2027068,121.4455447,"Address pin · La Maison, No. 193",2026-10-07,139
-13,Rivets,"L256, 2F, Building D, Xintiandi Dongtai Li, 111 Ji’an Road, Huangpu",上海市黄浦区吉安路111号 新天地东台里D座2层L256,31.2232589,121.475465,"Mapped shop · D Building, L256",2026-10-07,744
+13,Rivets,"L256, 2F, Building D, Xintiandi Dongtai Li, 111 Ji’an Road, Huangpu",上海市黄浦区吉安路111号 新天地东台里D座2层L256,31.2232589,121.4754650,"Mapped shop · D Building, L256",2026-10-07,744
 14,MEDALLION 美勋,"G1, L112–L113, Shipyard 1862, 1777 Binjiang Avenue, Pudong",上海市浦东新区滨江大道1777号 船厂1862 G1层L112–L113,31.2464375,121.5098011,"Building pin · G1, L112–L113",2026-10-07,29
 15,GentleMaker Shoecare · Songs of Love and Hate,"Street-level shop, Jiabaohui B.T.H, 629 Zhongjiang Road, Putuo",上海市普陀区中江路629号 嘉佰汇B.T.H 沿街商铺 GENTLE MAKER SHOECARE,31.2301051,121.3874021,"Mapped Shoecare branch · Changfeng, Putuo",2026-10-07,930
-16,Tricker's Shanghai Store,"1318 Dingxi Road, Changning",上海市长宁区定西路1318号,31.2179582,121.4182639,Address pin · No. 1318 Dingxi Road,2026-10-07,777
-17,NOOS — Jing'an Kerry Centre,"S2-05B, South Building, Jing’an Kerry Centre, 1515 Nanjing West Road",上海市静安区南京西路1515号 静安嘉里中心南区2层S2-05B,31.2248079,121.4447931,"Mapped shop · South Building, S2-05B",2026-10-07,136
-18,NOOS — One ITC,"L235-2, One ITC, 1901 Huashan Road, Xuhui",上海市徐汇区华山路1901号 One ITC L235-2,31.1996218,121.4334436,"Mall pin · One ITC, L235-2",2026-10-07,0
-19,Frank's Store,"229 Harbin Road, Hongkou",上海市虹口区哈尔滨路229号,31.2582789,121.4858521,Mapped shop · No. 229 Harbin Road,2026-10-07,201
-20,eth0s,"253 Jiashan Road, Xuhui",上海市徐汇区嘉善路253号,31.2096,121.4556509,Mapped shop · No. 253 Jiashan Road,2026-10-07,484
-21,DOE — Tongren Road,"78 Tongren Road, Jing’an",上海市静安区铜仁路78号,31.2254409,121.4467013,Mapped shop · No. 78 Tongren Road,2026-10-07,485
-22,DOE — Hubin Road / Xintiandi,"L1-W09, 168 Hubin Road, Huangpu",上海市黄浦区湖滨路168号 L1-W09,31.2222489,121.4735589,"Mapped shop · L1-W09, Hubin Road",2026-10-07,447
+16,NOOS — Jing'an Kerry Centre,"S2-05B, South Building, Jing’an Kerry Centre, 1515 Nanjing West Road",上海市静安区南京西路1515号 静安嘉里中心南区2层S2-05B,31.2248079,121.4447931,"Mapped shop · South Building, S2-05B",2026-10-07,136
+17,NOOS — One ITC,"L235-2, One ITC, 1901 Huashan Road, Xuhui",上海市徐汇区华山路1901号 One ITC L235-2,31.1996218,121.4334436,"Mall pin · One ITC, L235-2",2026-10-07,0
+18,Frank's Store,"229 Harbin Road, Hongkou",上海市虹口区哈尔滨路229号,31.2582789,121.4858521,Mapped shop · No. 229 Harbin Road,2026-10-07,201
+19,eth0s,"253 Jiashan Road, Xuhui",上海市徐汇区嘉善路253号,31.2096000,121.4556509,Mapped shop · No. 253 Jiashan Road,2026-10-07,484
+20,DOE — Tongren Road,"78 Tongren Road, Jing’an",上海市静安区铜仁路78号,31.2254409,121.4467013,Mapped shop · No. 78 Tongren Road,2026-10-07,485
+21,DOE — Hubin Road / Xintiandi,"L1-W09, 168 Hubin Road, Huangpu",上海市黄浦区湖滨路168号 L1-W09,31.2222489,121.4735589,"Mapped shop · L1-W09, Hubin Road",2026-10-07,447
