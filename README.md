@@ -1,5 +1,19 @@
 # Shanghai Shoe Circuit — Study in Shell
 
+## Study in Shell website redesign — 9 October 2026
+
+`npm run build:site` builds the editorial homepage from `site/` and the complete existing Atlas at `/shanghai/` into `dist/`. Deploy **only `dist/`** to a commercial-compatible static host. The original Atlas-only root `index.html` and original build command remain compatible with the existing publication workflow. This branch does not change the live domain or activate products.
+
+The homepage links to `https://studyinshell.substack.com/` and uses existing Shopify product photography. Archive cards are previews, not offers for sale. The slicker remains in development; no unconfirmed prices, stock promises, or checkout links are displayed. Shopify products were all draft or archived when inspected on 9 October 2026.
+
+Intended production structure: `studyinshell.com` for the editorial homepage and Atlas, `studyinshell.com/shanghai/` for the guide, and `shop.studyinshell.com` for Shopify once payments, shipping, policies, and listings are verified. GoDaddy is the reported domain provider. A Git-connected static host can deploy `npm run build:site` with output directory `dist`, preserving the GitHub update workflow. GitHub Pages is not the proposed commerce host because its usage rules prohibit sites primarily facilitating commercial transactions.
+
+Launch dependencies: authenticated GoDaddy access; selected and connected hosting account; verified Substack destination; Xianyu profile URL; shipping origin and supported destinations; final product photos, condition descriptions, prices, and availability; payment and shipping tests; buyer-facing shipping/returns/contact/privacy information. The slicker also needs confirmed materials and finished-product photos.
+
+Cross-channel inventory: user intends international Shopify and China Xianyu sales. Use the same SKU for each pair and quantity one with Shopify inventory tracking and overselling disabled. No Xianyu integration has been established. Until a reliable reservation/sync process is in place, do not expose simultaneous immediate checkout for the same pair on both channels. A manual stock ledger does not provide automatic synchronization.
+
+Atlas research still carries the documented occupancy/unit uncertainties below. Preserve those labels; do not replace them with claims of current opening hours or verified visits.
+
 An independent visitor guide to Shanghai’s shoe shops, specialist makers and footwear history. Includes 22 retail/service destinations, three editorial routes and four factory/workshop records. No factory tours are offered or bookable.
 
 ## Use and publish

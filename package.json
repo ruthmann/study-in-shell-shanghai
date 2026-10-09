@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "build:site": "node build-site.cjs",
     "build": "node src/prepare-data.cjs && node build.cjs",
     "test": "node tests/locations.cjs"
   }
