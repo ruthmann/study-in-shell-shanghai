@@ -19,3 +19,10 @@ assert(shops.find(s=>s.id==='jl').zh.includes('B1'));
 assert(shops.find(s=>s.id==='rb').zh.includes('3层'));
 assert(shops.find(s=>s.id==='eth').selection.length===4);
 console.log('PASS: 21 sourced coordinates; independent datum controls; matching taxi/model addresses; Kerry wings; Culture Matters and Rivets branches; route integrity; retained selection evidence.');
+// Published copy must not expose private research handoffs or editorial instructions.
+const published=JSON.stringify(require('../src/data.json'));
+assert(!/handoff|screenshot-backed|user-confirmed|inherited|supplied in|editorial (?:notes|example|corrections)|confirmed by the editor|candidate for a future|not attached to this edit/i.test(published));
+const app=fs.readFileSync('src/app.js','utf8');
+assert(!/Twenty-two|occupancy and Radiance|possibilities being explored|future factory and atelier visits/.test(app));
+assert(require('../src/data.json').factories.find(f=>f.id==='h-oct').description.includes('Oct Tenth and Axen share a factory'));
+console.log('PASS: public copy excludes internal handoffs, obsolete warnings and speculative tour plans.');
