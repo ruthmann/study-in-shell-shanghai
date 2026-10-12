@@ -14,7 +14,7 @@ assert(shops.find(s=>s.id==='rl').zh.includes('北区'));
 assert(shops.find(s=>s.id==='no').zh.includes('南区'));
 assert.equal(shops.find(s=>s.id==='rr').warning,null);
 assert(!shops.some(s=>s.id==='tk'));
-assert.equal(shops.length,23);
+assert.equal(shops.length,24);
 assert(shops.find(s=>s.id==='cmxt').zh.includes('马当路245号 新天地时尚B1层'));
 assert(shops.find(s=>s.id==='juice').zh.includes('巨鹿路832号'));
 assert(!shops.some(s=>/innersect/i.test(s.name)));
@@ -24,7 +24,7 @@ assert.equal(shops.find(s=>s.id==='juice').number,23);
 assert(shops.find(s=>s.id==='jl').zh.includes('B1'));
 assert(shops.find(s=>s.id==='rb').zh.includes('3层'));
 assert(shops.find(s=>s.id==='eth').selection.length===4);
-console.log('PASS: 23 sourced coordinates; independent datum controls; matching taxi/model addresses; Kerry wings; Culture Matters and Rivets branches; route integrity; retained selection evidence.');
+console.log('PASS: 24 sourced coordinates; independent datum controls; matching taxi/model addresses; Kerry wings; Culture Matters and Rivets branches; route integrity; retained selection evidence.');
 // Published copy must not expose private research handoffs or editorial instructions.
 const published=JSON.stringify(require('../src/data.json'));
 assert(!/handoff|screenshot-backed|user-confirmed|inherited|supplied in|editorial (?:notes|example|corrections)|confirmed by the editor|candidate for a future|not attached to this edit/i.test(published));
