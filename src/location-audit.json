@@ -678,6 +678,72 @@
           "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=ninf&uid=be1ea5eff9048ea615948eed"
         }
       ]
+    },
+    {
+      "id": "autumn",
+      "checked": "2026-10-12",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13521118.19,
+        "y": 3638213.27
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped shop · No. 74 Taiyuan Road",
+      "notes": "Baidu Maps shop POI in BD-09 Mercator, converted once to WGS84. The shop detail and navigation links supply this point. Margaret Howell’s official stockist directory independently confirms 74 Taiyuan Road; older Wuyuan Road listings are obsolete.",
+      "overrides": {
+        "street": "74 Taiyuan Road, Xuhui",
+        "zh": "上海市徐汇区太原路74号",
+        "area": "Xuhui · Taiyuan Road",
+        "hours": "Confirm hours before visiting",
+        "phone": "+86 21 6422 6011",
+        "warning": null,
+        "description": "An independent select shop on Taiyuan Road, with an artisanal footwear thread running through its clothing and accessories. Its published brand list includes Cherevichkiotvichki, Muñoz Vrandecic and Paul Harnden Shoemakers. Explore distinctive shapes, worked leathers and the relationship between shoes and clothing; ask which footwear and sizes are currently available. Pair it with La Maison and eth0s on the southern part of the central circuit.",
+        "evidence": "Reviewed 12 October 2026. The shop’s own undated Tumblr brand-list image names Cherevichkiotvichki, Munoz Vrandecic and Paul Harnden Shoemakers. This establishes the published brand association, not current footwear inventory. Margaret Howell and Les Couronnes de Victoire both list 74 Taiyuan Road; the latter and Baidu agree on the phone number. No current primary-source opening hours were established.",
+        "selection": [
+          [
+            "Cherevichkiotvichki",
+            "Victoria Andrejeva’s footwear brings an experimental approach to shape, materials and traditional craft."
+          ],
+          [
+            "Muñoz Vrandecic",
+            "Munoz Vrandecic’s sculptural shoes are handmade in the designers’ Barcelona atelier, with hand-treated leathers and individually worked details."
+          ],
+          [
+            "Paul Harnden Shoemakers",
+            "Handmade leather shoes and boots, with distinctive proportions and softly worked leathers."
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "label": "Autumn Sonata · published brand list",
+          "url": "https://autumnsonatash.tumblr.com/brandlist"
+        },
+        {
+          "label": "Margaret Howell · official stockists and current address",
+          "url": "https://www.margarethowell.co.uk/pages/worldwide"
+        },
+        {
+          "label": "Les Couronnes de Victoire · stockist address and phone",
+          "url": "https://www.lescouronnesdevictoire.com/en/les-couronnes-de-victoire/a-propos"
+        },
+        {
+          "label": "Baidu Maps · Autumn Sonata, Taiyuan Road",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=ninf&uid=b9ffbeb2278f058f28b97c85"
+        },
+        {
+          "label": "Cherevichkiotvichki · footwear and craft",
+          "url": "https://cherevichki.com/wp-content/uploads/2021/11/CHEREVICHKIOTVICHKI-for-Yohji-Yamamoto-Femme-SS22.pdf"
+        },
+        {
+          "label": "Muñoz Vrandecic · the designers and their shoemaking",
+          "url": "https://munozvrandecicstore.bigcartel.com/about-us"
+        },
+        {
+          "label": "MAKES · Paul Harnden footwear",
+          "url": "https://www.makes.jp/c/Paul-Harnden_m"
+        }
+      ]
     }
   ],
   "targetedReview": {

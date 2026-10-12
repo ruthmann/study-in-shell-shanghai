@@ -1,6 +1,7 @@
 const fs=require('fs');
 const shops=JSON.parse(fs.readFileSync('src/shops-original.json','utf8')).filter(s=>s.id!=='tk');
 const meta={
+autumn:['Autumn Sonata','Xuhui · Taiyuan Road','Artisanal shoes & independent design','An independent select shop with artisanal footwear on Taiyuan Road.','Confirm hours before visiting'],
 cw:['Classic Works','Jing’an','Welted boots & independent makers','Heavyweight boots, Japanese craft and independent shoemakers. A strong first stop for collectors who want to handle the leather and compare construction.','Confirm hours before visiting'],
 rb:['Radiance Blue','Jing’an','Alden, loafers & contemporary labels','A select-shop stop inside Taikoo Hui, mixing American classics with contemporary and outdoor footwear. Confirm the current unit with the mall directory.','Mall listed 10:00–22:00; shop hours unconfirmed'],
 jl:['John Lobb','Jing’an · Plaza 66','English shoemaking','A focused stop for John Lobb ready-to-wear and enquiries about recrafting. Useful for comparing lasts, leather and fit in person.','Mall listed 10:00–22:00; shop hours unconfirmed'],
