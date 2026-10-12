@@ -218,7 +218,9 @@
         "phone": "+86 186 2192 4198",
         "warning": null,
         "description": "A Shanghai canvas-shoe stop with Feiyue at its heart. This guide locates the documented Wulumuqi Middle Road branch, a natural addition to the Xuhui circuit.",
-        "evidence": "The Wulumuqi Middle Road branch at No. 206 is documented by CNA Luxury and Apple Maps. It replaces the uncorroborated Fumin Road entry in the earlier guide; this is not a claim that every other branch is closed."
+        "evidence": "The Wulumuqi Middle Road branch at No. 206 is documented by CNA Luxury and Apple Maps. It replaces the uncorroborated Fumin Road entry in the earlier guide; this is not a claim that every other branch is closed.",
+        "name": "Culture Matters — Wulumuqi Middle Road",
+        "short": "Culture Matters · Wulumuqi"
       },
       "sources": [
         {
@@ -604,6 +606,108 @@
           "url": "https://www.openstreetmap.org/node/13588916401"
         }
       ]
+    },
+    {
+      "id": "cmxt",
+      "checked": "2026-10-12",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13523446.77,
+        "y": 3639510.53
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped shop · Xintiandi Style, B1",
+      "notes": "Baidu Maps shop POI in BD-09 Mercator, converted once to WGS84. The detail and navigation links supply this point. B1 is corroborated by CMShanghai’s own branch announcement and the current Baidu listing.",
+      "overrides": {
+        "street": "B1, Xintiandi Style, 245 Madang Road, Huangpu",
+        "zh": "上海市黄浦区马当路245号 新天地时尚B1层",
+        "area": "Huangpu · Xintiandi",
+        "hours": "Map listing: daily 10:00–22:00; reconfirm",
+        "phone": null,
+        "warning": null,
+        "description": "The Xintiandi branch of Culture Matters offers another way into Shanghai’s canvas-shoe culture, with Feiyue at the centre. Find it on B1 of Xintiandi Style at 245 Madang Road, then continue north towards DOE on Hubin Road and Rivets at Dongtai Li. Choose this branch or Wulumuqi Middle Road if you want a single Culture Matters visit; ask which styles and sizes are available here.",
+        "evidence": "Baidu Maps currently lists Culture Matters (翠湖天地店) at 245 Madang Road, Xintiandi Style B1, with visitor reviews dated 24 March 2025 and 30 June 2026. CMShanghai announced B115 in 2017; current exact unit is not independently confirmed, so only B1 is published. SmartShanghai’s first-floor entry conflicts with both and is not used for the floor."
+      },
+      "sources": [
+        {
+          "label": "Baidu Maps · Culture Matters, Xintiandi Style B1",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=ninf&uid=a1d51b59f4e037204bcc4af9"
+        },
+        {
+          "label": "CMShanghai · Xintiandi Style branch announcement",
+          "url": "https://www.sohu.com/a/164875415_648235"
+        },
+        {
+          "label": "City8 · Xintiandi Style address and hours",
+          "url": "https://sh.city8.com/shopping/8dabt1794soxb17144"
+        }
+      ]
+    },
+    {
+      "id": "juice",
+      "checked": "2026-10-12",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13520538.87,
+        "y": 3639713.43
+      },
+      "precision": "shop",
+      "pinLabel": "Mapped shop · No. 832 Julu Road",
+      "notes": "Baidu Maps shop POI in BD-09 Mercator, converted once to WGS84. The address and hours are confirmed by the official JUICE location directory.",
+      "overrides": {
+        "street": "832 Julu Road, near Changshu Road, Jing’an",
+        "zh": "上海市静安区巨鹿路832号，近常熟路",
+        "area": "Jing’an · Julu Road",
+        "hours": "Official listing: daily 12:00–21:00",
+        "phone": "+86 21 3308 0888",
+        "warning": null,
+        "description": "Edison Chen’s JUICE brings CLOT and sneaker collaborations to a Julu Road house. The Shanghai store opened in 2009 and remains listed in JUICE’s official store directory. Visit for the streetwear side of the circuit, compare the footwear on the floor and ask about current releases. It pairs naturally with nearby Industrial Co.; special editions and sizes change with each release.",
+        "evidence": "Official JUICE store directory lists the Shanghai store at 832 Julu Road with daily 12:00–21:00 hours on 12 October 2026. SmartShanghai identifies it as Edison Chen’s store opened in 2009. A third-party Sneakervista page labels it closed, contradicted by the official directory; the official source takes precedence."
+      },
+      "sources": [
+        {
+          "label": "JUICE · official store directory",
+          "url": "https://juicestore.com/pages/locations"
+        },
+        {
+          "label": "SmartShanghai · JUICE and Edison Chen",
+          "url": "https://www.smartshanghai.com/venue/10193/juice"
+        },
+        {
+          "label": "Baidu Maps · JUICE, Julu Road",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/qt=ninf&uid=be1ea5eff9048ea615948eed"
+        }
+      ]
     }
-  ]
+  ],
+  "targetedReview": {
+    "checked": "2026-10-12",
+    "scope": "Culture Matters branches and JUICE only; not a general sneaker-store expansion.",
+    "deferred": [
+      {
+        "name": "Culture Matters — Fumin Road",
+        "address": "180 Fumin Road",
+        "reason": "SmartShanghai and historical CMShanghai posts retain this address. The current Amap entry called Fumin Road instead points to 206 Wulumuqi Middle Road, and current Baidu searches did not corroborate a separate Fumin branch. Not added as an active destination.",
+        "sources": [
+          "https://www.smartshanghai.com/venue/14452/culture_matters_fumin_lu",
+          "https://www.amap.com/place/B0FFH15RBU"
+        ]
+      },
+      {
+        "name": "Culture Matters — The Hub",
+        "address": "688 Shenchang Road",
+        "reason": "SmartShanghai and a 2017 CMShanghai announcement document the branch, but current operating status was not corroborated. Not added as an active destination.",
+        "sources": [
+          "https://www.smartshanghai.com/venue/14456/culture_matters_the_hub",
+          "https://www.sohu.com/a/140160047_648235"
+        ]
+      }
+    ],
+    "excluded": [
+      {
+        "name": "INNERSECT",
+        "reason": "Closed, as reported by the editor on 12 October 2026; not added to destinations or routes."
+      }
+    ]
+  }
 }

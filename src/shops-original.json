@@ -538,5 +538,31 @@
         "url": "https://maps.app.goo.gl/XPp52PcvVoLrETQG8"
       }
     ]
+  },
+  {
+    "id": "cmxt",
+    "name": "Culture Matters — Xintiandi Style",
+    "zh": "上海市黄浦区马当路245号 新天地时尚B1层",
+    "cat": "local",
+    "addr": "B1, Xintiandi Style, 245 Madang Road, Huangpu",
+    "tags": [
+      "Feiyue",
+      "Culture Matters",
+      "Canvas shoes"
+    ],
+    "sources": []
+  },
+  {
+    "id": "juice",
+    "name": "JUICE — Julu Road",
+    "zh": "上海市静安区巨鹿路832号，近常熟路",
+    "cat": "local",
+    "addr": "832 Julu Road, near Changshu Road, Jing’an",
+    "tags": [
+      "CLOT",
+      "Edison Chen",
+      "Sneaker collaborations"
+    ],
+    "sources": []
   }
 ]
