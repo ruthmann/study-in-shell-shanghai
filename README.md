@@ -12,7 +12,7 @@ At the launch audit, six Shopify products were drafts and one duplicate was arch
 
 Preserve the corrected addresses and stated access requirements below; do not turn published hours or historical evidence into claims of verified visits.
 
-An independent visitor guide to Shanghai’s shoe shops, specialist makers and footwear history. Includes 21 retail/service destinations, five neighbourhood circuits, a dedicated GentleMaker visit and four factory/workshop records. No factory tours are offered or bookable.
+An independent visitor guide to Shanghai’s shoe shops, specialist makers and footwear history. Includes 21 retail/service destinations, three primary circuits and four factory/workshop records. No factory tours are offered or bookable.
 
 ## Use and publish
 
@@ -20,7 +20,7 @@ Open `index.html` directly for the complete offline guide. For the complete edit
 
 ## Edit and rebuild
 
-Requires Node.js. Run `npm run build` and `npm test`. Editable UI files are in `src/`. `src/location-audit.json` holds dated address overrides, source coordinates, coordinate systems and pin-precision notes. `src/editorial-descriptions.json` holds the replacement visitor descriptions. `src/routes.json` holds the five circuits, their optional extensions and the separate GentleMaker visit. `src/prepare-data.cjs` applies them to the original guide and produces `src/data.json`, shared by markers, cards, routes, taxi cards and exports. `address-index.csv` is the reviewed address index for this edition.
+Requires Node.js. Run `npm run build` and `npm test`. Editable UI files are in `src/`. `src/location-audit.json` holds dated address overrides, source coordinates, coordinate systems and pin-precision notes. `src/editorial-descriptions.json` holds the replacement visitor descriptions. `src/routes.json` holds the Central Shanghai, Bund and Westward circuits, with NOOS One ITC as an alternative to the Kerry Centre branch. `src/prepare-data.cjs` applies them to the original guide and produces `src/data.json`, shared by markers, cards, routes, taxi cards and exports. `address-index.csv` is the reviewed address index for this edition.
 
 `src/startup.js` keeps the loading message visible until fonts, panels and the initial map are ready, with a reload link on failure. The embedded map uses two-dimensional positioning to avoid WebKit paint glitches. Route cards retain their DOM and scroll position; scrolling the list updates the active map route, and “Show on map” opens it on mobile.
 
