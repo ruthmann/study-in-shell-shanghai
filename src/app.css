@@ -11,3 +11,21 @@
 @media(max-width:760px){.fit span[data-icon]{display:block}.hero{padding:18px 20px 17px}.hero h1{font-size:37px}.hero-copy{font-size:11px;max-width:330px;margin-top:10px}.desktop-copy{display:none}.mobile-copy{display:block}.app{height:calc(100svh - 219px);min-height:510px}.map-cartouche{display:none}.leaflet-bottom.leaflet-left{bottom:34px}.map-tools{top:14px}.mobile-toggle{bottom:24px}}
 
 .pin-shell .pin{position:absolute;top:7px;left:7px}
+
+/* Keep scrollable panels and the large SVG map in separate paint regions. */
+[hidden]{display:none!important}
+.sidebar{min-height:0;isolation:isolate}
+.results{min-height:0;contain:paint;overflow-anchor:none}
+.map-wrap{isolation:isolate;contain:paint}
+.tabs{min-width:0}.tab{white-space:nowrap}.tab>[data-icon],.save-top>[data-icon]{display:inline-flex;width:18px;height:18px;align-items:center;justify-content:center;flex-shrink:0}
+.route-map-label{display:block;color:var(--red);font-size:9px;letter-spacing:.4px;margin:10px 0 3px;visibility:hidden}
+.route-row.active .route-map-label{visibility:visible}
+.route-row.active{box-shadow:inset 3px 0 var(--red)}
+.atlas-loading{position:absolute;inset:0;z-index:1000;background:var(--paper);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:28px;gap:12px}
+.atlas-loading h2{font:32px/1.1 Georgia,serif}.atlas-loading p{font:12px/1.7 Arial,sans-serif;color:var(--muted);max-width:270px}
+.loading-mark{display:grid;place-items:center;width:68px;height:68px;border:1px solid var(--line);border-top-color:var(--red);border-radius:50%;color:var(--red);font-size:21px}
+.app[data-loading] .workspace>:not(.atlas-loading){visibility:hidden}
+.app[data-loading] .map-status{visibility:hidden}
+@media(max-width:1050px){.map-status{display:none}.appbar{padding-right:0}.tabs{width:100%;justify-content:space-around}.tab{padding-left:10px;padding-right:10px}}
+@media(max-width:760px){.route-intro{padding:17px 22px}.route-intro h2{font-size:28px;margin:6px 0 8px}.tabs{padding:0 3px}.tab{flex:1;justify-content:center;padding:0 4px;font-size:9px;gap:4px}.tab svg,.tab>[data-icon]{width:12px;height:12px}}
+@media(max-width:360px){.tab>[data-icon]{display:none}}
