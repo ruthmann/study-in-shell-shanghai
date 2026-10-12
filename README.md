@@ -12,7 +12,7 @@ At the launch audit, six Shopify products were drafts and one duplicate was arch
 
 Preserve the corrected addresses and stated access requirements below; do not turn published hours or historical evidence into claims of verified visits.
 
-An independent visitor guide to Shanghai’s shoe shops, specialist makers and footwear history. Includes 23 retail/service destinations, three primary circuits and four factory/workshop records. No factory tours are offered or bookable.
+An independent visitor guide to Shanghai’s shoe shops, specialist makers and footwear history. Includes 24 retail/service destinations, three primary circuits and four factory/workshop records. No factory tours are offered or bookable.
 
 ## Use and publish
 
@@ -37,6 +37,10 @@ All 22 stops were researched and repinned or retained with source evidence. Majo
 Added Culture Matters at **B1, Xintiandi Style, 245 Madang Road** (stop 22) and JUICE at **832 Julu Road** (stop 23). The existing Culture Matters Wulumuqi branch remains stop 8; earlier numbering is unchanged. JUICE joins the central circuit before Industrial Co.; Xintiandi Style starts the Bund circuit, with a note to choose one Culture Matters branch if preferred.
 
 The official JUICE directory supplies its address, phone and hours. Current Baidu listings supply both map points, with source coordinates retained in the audit. The Xintiandi listing includes 2025 and 2026 visitor reviews and agrees with CMShanghai’s B1 announcement. Fumin Road and The Hub remain deferred because their current status could not be corroborated; historical listings alone do not establish current operation. INNERSECT is excluded following the editor’s closure correction. No other sneaker stores were added.
+
+## 12 October 2026 Autumn Sonata addition
+
+Added Autumn Sonata as stop **24**, at **74 Taiyuan Road**, between La Maison and eth0s in the central circuit. Its own [published brand list](https://autumnsonatash.tumblr.com/brandlist) supplies the footwear entries Cherevichkiotvichki, Muñoz Vrandecic and Paul Harnden Shoemakers; the undated list is not a live inventory. [Margaret Howell’s official stockist directory](https://www.margarethowell.co.uk/pages/worldwide) confirms the current Taiyuan Road address. Older Wuyuan Road listings are obsolete. Baidu supplies the mapped shop point; its source datum and coordinates remain in the audit. Hours remain unconfirmed.
 
 ## Credits
 
