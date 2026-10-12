@@ -6,7 +6,7 @@ Stop,Destination,English address,Chinese address,Latitude WGS84,Longitude WGS84,
 5,Ralph Lauren — Peninsula Arcade,"L1P–L1R, Peninsula Arcade, 32 Zhongshan East First Road, Huangpu",上海市黄浦区中山东一路32号 半岛酒店精品廊L1层L1P–L1R,31.2432741,121.4847360,Hotel pin · Arcade Level L1,2026-10-07,531
 6,"The Real Real Co., Ltd","33 Shaanxi South Road, Huangpu",上海市黄浦区陕西南路33号,31.2232028,121.4527431,Address pin · No. 33,2026-10-09,100
 7,BaronJ,"1F, No. 6, Lane 339, Changle Road, Xuhui",上海市徐汇区长乐路339弄6号1楼,31.2213644,121.4514134,Building pin · No. 6 inside Lane 339,2026-10-07,441
-8,Culture Matters / Feiyue,"206 Wulumuqi Middle Road, Xuhui",上海市徐汇区乌鲁木齐中路206号,31.2149008,121.4411031,Mapped shop · Wulumuqi Middle Road,2026-10-07,1059
+8,Culture Matters — Wulumuqi Middle Road,"206 Wulumuqi Middle Road, Xuhui",上海市徐汇区乌鲁木齐中路206号,31.2149008,121.4411031,Mapped shop · Wulumuqi Middle Road,2026-10-07,1059
 9,Industrial Co.,"741-1 Julu Road, Jing’an",上海市静安区巨鹿路741-1号,31.2225033,121.4474682,Building pin · look for No. 741-1,2026-10-07,236
 10,Pane — Yongyuan flagship,"22 Yongyuan Road, Jing’an",上海市静安区永源路22号,31.2229961,121.4366189,Mapped flagship · No. 22 Yongyuan Road,2026-10-07,418
 11,Roiluxe,"Room 520, Huaihai Building, 1326 Huaihai Middle Road, Xuhui",上海市徐汇区淮海中路1326号 淮海大楼520室,31.2151927,121.4451363,"Building pin · upstairs, Room 520",2026-10-07,172
@@ -20,3 +20,5 @@ Stop,Destination,English address,Chinese address,Latitude WGS84,Longitude WGS84,
 19,eth0s,"253 Jiashan Road, Xuhui",上海市徐汇区嘉善路253号,31.2096000,121.4556509,Mapped shop · No. 253 Jiashan Road,2026-10-07,484
 20,DOE — Tongren Road,"78 Tongren Road, Jing’an",上海市静安区铜仁路78号,31.2254409,121.4467013,Mapped shop · No. 78 Tongren Road,2026-10-07,485
 21,DOE — Hubin Road / Xintiandi,"L1-W09, 168 Hubin Road, Huangpu",上海市黄浦区湖滨路168号 L1-W09,31.2222489,121.4735589,"Mapped shop · L1-W09, Hubin Road",2026-10-07,447
+22,Culture Matters — Xintiandi Style,"B1, Xintiandi Style, 245 Madang Road, Huangpu",上海市黄浦区马当路245号 新天地时尚B1层,31.2199579,121.4707943,"Mapped shop · Xintiandi Style, B1",2026-10-12,
+23,JUICE — Julu Road,"832 Julu Road, near Changshu Road, Jing’an",上海市静安区巨鹿路832号，近常熟路,31.2210405,121.4447092,Mapped shop · No. 832 Julu Road,2026-10-12,

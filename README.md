@@ -12,7 +12,7 @@ At the launch audit, six Shopify products were drafts and one duplicate was arch
 
 Preserve the corrected addresses and stated access requirements below; do not turn published hours or historical evidence into claims of verified visits.
 
-An independent visitor guide to Shanghai’s shoe shops, specialist makers and footwear history. Includes 21 retail/service destinations, three primary circuits and four factory/workshop records. No factory tours are offered or bookable.
+An independent visitor guide to Shanghai’s shoe shops, specialist makers and footwear history. Includes 23 retail/service destinations, three primary circuits and four factory/workshop records. No factory tours are offered or bookable.
 
 ## Use and publish
 
@@ -31,6 +31,12 @@ All rendered coordinates are **WGS84**, matching OpenStreetMap. GCJ-02 and BD-09
 All 22 stops were researched and repinned or retained with source evidence. Major corrections include eth0s, DOE Tongren, Tricker’s and GentleMaker. Culture Matters is now the documented **206 Wulumuqi Middle Road** branch; Rivets is **D Building, L256, 111 Ji’an Road, Xintiandi Dongtai Li**. Ralph Lauren and NOOS are in different Kerry Centre buildings. One ITC’s existing WGS84 point was retained.
 
 9 October editorial corrections: The Real Real Co.’s address is confirmed; Radiance Blue is on Level 3 and John Lobb on B1 of Plaza 66. Tricker’s Shanghai closed in September and has been removed from the active stops and routes. GentleMaker is the documented **Changfeng, Putuo** Shoecare branch; a separate Changning branch has not been established. Hours, live stock and visitor access are not guaranteed. The history layer retains two approximate mapped anchors and two unmapped research records.
+
+## 12 October 2026 targeted additions
+
+Added Culture Matters at **B1, Xintiandi Style, 245 Madang Road** (stop 22) and JUICE at **832 Julu Road** (stop 23). The existing Culture Matters Wulumuqi branch remains stop 8; earlier numbering is unchanged. JUICE joins the central circuit before Industrial Co.; Xintiandi Style starts the Bund circuit, with a note to choose one Culture Matters branch if preferred.
+
+The official JUICE directory supplies its address, phone and hours. Current Baidu listings supply both map points, with source coordinates retained in the audit. The Xintiandi listing includes 2025 and 2026 visitor reviews and agrees with CMShanghai’s B1 announcement. Fumin Road and The Hub remain deferred because their current status could not be corroborated; historical listings alone do not establish current operation. INNERSECT is excluded following the editor’s closure correction. No other sneaker stores were added.
 
 ## Credits
 
