@@ -22,6 +22,8 @@ Open `index.html` directly for the complete offline guide. For the complete edit
 
 Requires Node.js. Run `npm run build` and `npm test`. Editable UI files are in `src/`. `src/location-audit.json` holds dated address overrides, source coordinates, coordinate systems and pin-precision notes. `src/editorial-descriptions.json` holds the replacement visitor descriptions. `src/routes.json` holds the five circuits, their optional extensions and the separate GentleMaker visit. `src/prepare-data.cjs` applies them to the original guide and produces `src/data.json`, shared by markers, cards, routes, taxi cards and exports. `address-index.csv` is the reviewed address index for this edition.
 
+`src/startup.js` keeps the loading message visible until fonts, panels and the initial map are ready, with a reload link on failure. The embedded map uses two-dimensional positioning to avoid WebKit paint glitches. Route cards retain their DOM and scroll position; scrolling the list updates the active map route, and “Show on map” opens it on mobile.
+
 All rendered coordinates are **WGS84**, matching OpenStreetMap. GCJ-02 and BD-09 sources are explicitly converted once using `src/coordinates.cjs`; original source values remain in the audit. Do not assume coordinates from China map providers are WGS84, or convert coordinates whose datum is unknown. A source POI is not a surveyed entrance. Building and address anchors are labelled in the guide.
 
 ## 7 October 2026 location review
