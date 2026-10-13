@@ -130,7 +130,7 @@
       },
       "precision": "building",
       "pinLabel": "Hotel pin · Arcade Level L1",
-      "notes": "OpenStreetMap Peninsula hotel footprint centre; use the ground-level shopping arcade directory for the boutique.",
+      "notes": "OpenStreetMap Peninsula hotel footprint center; use the ground-level shopping arcade directory for the boutique.",
       "overrides": {
         "street": "L1P–L1R, Peninsula Arcade, 32 Zhongshan East First Road, Huangpu",
         "zh": "上海市黄浦区中山东一路32号 半岛酒店精品廊L1层L1P–L1R",
@@ -379,7 +379,7 @@
       },
       "precision": "building",
       "pinLabel": "Building pin · G1, L112–L113",
-      "notes": "OpenStreetMap footprint centre of the Shipyard 1862 building. This point already closely matched the map; no China-coordinate conversion was applied.",
+      "notes": "OpenStreetMap footprint center of the Shipyard 1862 building. This point already closely matched the map; no China-coordinate conversion was applied.",
       "overrides": {
         "street": "G1, L112–L113, Shipyard 1862, 1777 Binjiang Avenue, Pudong",
         "zh": "上海市浦东新区滨江大道1777号 船厂1862 G1层L112–L113"
@@ -625,7 +625,7 @@
         "hours": "Map listing: daily 10:00–22:00; reconfirm",
         "phone": null,
         "warning": null,
-        "description": "The Xintiandi branch of Culture Matters offers another way into Shanghai’s canvas-shoe culture, with Feiyue at the centre. Find it on B1 of Xintiandi Style at 245 Madang Road, then continue north towards DOE on Hubin Road and Rivets at Dongtai Li. Choose this branch or Wulumuqi Middle Road if you want a single Culture Matters visit; ask which styles and sizes are available here.",
+        "description": "The Xintiandi branch of Culture Matters offers another way into Shanghai’s canvas-shoe culture, with Feiyue at the center. Find it on B1 of Xintiandi Style at 245 Madang Road, then continue north towards DOE on Hubin Road and Rivets at Dongtai Li. Choose this branch or Wulumuqi Middle Road if you want a single Culture Matters visit; ask which styles and sizes are available here.",
         "evidence": "Baidu Maps currently lists Culture Matters (翠湖天地店) at 245 Madang Road, Xintiandi Style B1, with visitor reviews dated 24 March 2025 and 30 June 2026. CMShanghai announced B115 in 2017; current exact unit is not independently confirmed, so only B1 is published. SmartShanghai’s first-floor entry conflicts with both and is not used for the floor."
       },
       "sources": [
@@ -759,7 +759,7 @@
       "overrides": {
         "street": "704 Changle Road, Shanghai · founder also listed No. 706 in 2023",
         "zh": "上海市长乐路704号（2023年创始人访谈亦列706号；到访前请确认）",
-        "warning": "Confirm the current shop entrance, opening hours, appointment conditions and any customization service before travelling. The founder listed both 704 and 706 Changle Road in 2023; the pin anchors the mapped No. 704 listing.",
+        "warning": "Confirm the current shop entrance, opening hours, appointment conditions and any customization service before traveling. The founder listed both 704 and 706 Changle Road in 2023; the pin anchors the mapped No. 704 listing.",
         "hours": "Current hours and appointment conditions unconfirmed; ask ahead"
       },
       "sources": [
@@ -795,7 +795,7 @@
       "overrides": {
         "street": "Reported pop-up: Yanqingfang, 122 Yanqing Road, Shanghai",
         "zh": "上海市徐汇区延庆路122号 延庆坊（NikeLab临时店，出发前请确认）",
-        "warning": "Temporary location: reconfirm that the pop-up is operating, its unit and end date before travelling. Do not use the former X158 address. Customization availability, hours and appointment conditions are unconfirmed.",
+        "warning": "Temporary location: reconfirm that the pop-up is operating, its unit and end date before traveling. Do not use the former X158 address. Customization availability, hours and appointment conditions are unconfirmed.",
         "hours": "Pop-up hours and appointment conditions unknown; confirm directly"
       },
       "sources": [

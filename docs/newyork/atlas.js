@@ -85,7 +85,7 @@
     if(showMap&&window.innerWidth<=720)$('map').scrollIntoView({block:'center'});
   }
   function followRouteScroll() {
-    if(state.view!=='routes')return;
+    if(state.view!=='routes'||state.selected!==null)return;
     const box=results.getBoundingClientRect(),readingLine=box.top+Math.min(100,box.height*.3);
     const cards=[...results.querySelectorAll('[data-route-card]')];
     const atEnd=results.scrollTop+results.clientHeight>=results.scrollHeight-2;
@@ -127,7 +127,8 @@
     const groups=new Map();
     for(const s of mapStops.filter(s=>s.point)) {
       const p=map.project(s.point,map.getZoom());
-      const k=map.getZoom()<15?`${Math.floor(p.x/38)}:${Math.floor(p.y/38)}`:`stop-${s.id}`;
+      // A selected destination must remain individually visible at every zoom.
+      const k=s.id===state.selected?`selected-${s.id}`:map.getZoom()<15?`${Math.floor(p.x/38)}:${Math.floor(p.y/38)}`:`stop-${s.id}`;
       if(!groups.has(k))groups.set(k,[]);groups.get(k).push(s);
     }
     for(const group of groups.values()) {
@@ -135,7 +136,11 @@
       const point=cluster?[group.reduce((v,s)=>v+s.point[0],0)/group.length,group.reduce((v,s)=>v+s.point[1],0)/group.length]:s.point;
       const label=cluster?`${group.length} destinations; zoom to explore`:`${s.id}. ${s.name}`;
       const icon=L.divIcon({className:'number-pin'+(!cluster&&s.id===state.selected?' active':''),iconSize:[29,29],iconAnchor:[14,14],html:`<span style="--pin-color:${cluster?'#302d29':colors[s.category]}">${cluster?'+'+group.length:String(s.id).padStart(2,'0')}</span>`});
-      const marker=L.marker(point,{icon,title:label,alt:label,keyboard:true}).addTo(pins);
+      const marker=L.marker(point,{icon,title:label,alt:label,keyboard:true,zIndexOffset:s.id===state.selected?1000:0}).addTo(pins);
+      if(!cluster&&s.id===state.selected){
+        marker.getElement().setAttribute('aria-current','location');
+        marker.bindTooltip(`Selected: ${esc(s.name)}`,{permanent:true,direction:'top',offset:[0,-18],className:'selected-pin-label'});
+      }
       if(cluster)marker.on('click',()=>{fitOnResize=false;map.fitBounds(group.map(s=>s.point),{padding:[45,45],maxZoom:16,animate:false});});
       else {
         marker.bindPopup(`<strong>${esc(s.name)}</strong><p>${esc(s.address)}</p><p>${esc(s.area)}</p><button type="button" data-open="${s.id}">Read destination →</button>`);
@@ -156,13 +161,16 @@
     }
     if(b.dataset.open)selectStop(Number(b.dataset.open));
     if(b.dataset.route)activateRoute(Number(b.dataset.route),{showMap:true});
-    if(b.dataset.map){const s=byId.get(Number(b.dataset.map));if(map&&s.point){fitOnResize=false;map.setView(s.point,17,{animate:false});if(window.innerWidth<721)$('map').scrollIntoView({block:'center'});}}
+    if(b.dataset.map){const s=byId.get(Number(b.dataset.map));state.selected=s.id;drawPins();if(map&&s.point){fitOnResize=false;map.setView(s.point,17,{animate:false});if(window.innerWidth<721)$('map').scrollIntoView({block:'center'});}}
   });
   results.addEventListener('toggle',e=>{
-    if(!e.target.matches('.stop')||!e.target.open)return;
+    if(!e.target.matches('.stop'))return;
+    if(!e.target.open){if(state.selected===Number(e.target.dataset.id)){state.selected=null;e.target.classList.remove('selected');drawPins();}return;}
     state.selected=Number(e.target.dataset.id);
     results.querySelectorAll('.stop').forEach(c=>c.classList.toggle('selected',c===e.target));
     drawPins();
+    const s=byId.get(state.selected);
+    if(map&&s?.point){fitOnResize=false;map.panInside(s.point,{padding:[55,55],animate:false});}
   },true);
   $('fit-map').onclick=()=>updateMap(true);
   $('download').onclick=()=>{

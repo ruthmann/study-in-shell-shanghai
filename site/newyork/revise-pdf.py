@@ -57,6 +57,12 @@ replace(doc[21], (43,311,569,374), "Atelier's branch allocation; Blundstone seas
 replace(doc[21], (43,518,569,565), "This is the researched, portable draft of a second city edition. It retains the Shanghai guide's four-register logic, warm-paper palette and collector's perspective. Four NYC circuits include Brooklyn's separate craft clusters.", 10)
 replace(doc[21], (43,614,569,668), 'The web edition has 41 destinations and 40 address/building pins, matched to NYC Planning records. No surveyed entrances or route distances are claimed. STIEFELwerk has no public street pin. The PDF supplies linked address searches; use the web atlas for its interactive map.', 10)
 
+# American spelling in the portable edition, retaining official names and source URLs.
+replace(doc[2], (43,100,569,148), 'The discoveries to prioritize.', 28, 'DejaVuSerif')
+for page_index, stop_id, top in [(7,7,216),(7,9,550),(9,14,383),(10,17,383),(16,35,383)]:
+    stop = next(s for s in data['stops'] if s['id'] == stop_id)
+    replace(doc[page_index], (43,top,569,top+44), 'Focus: ' + stop['focus'] + '. ' + stop['note'])
+
 # Revision labels and dates, preserving each original span's position.
 for page in doc:
     spans = [s for b in page.get_text('dict')['blocks'] if 'lines' in b
