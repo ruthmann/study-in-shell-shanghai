@@ -43,8 +43,8 @@
     if (state.view === 'routes') {
       $('list-title').textContent = 'Four ways into the city.';
       $('results-count').textContent = 'Choose a circuit, then a few stops';
-      $('routes-intro').textContent = 'Pick five or six stops for serious fitting. Dashed lines suggest visit order; they are not walking directions. Brooklyn is a set of separate clusters.';
-      results.innerHTML = routes.map(r => `<article class="route ${state.route===r.id?'active':''}" data-route-card="${r.id}"><p class="eyebrow">Circuit 0${r.id} / ${esc(r.area)}</p><h3>${esc(r.title)}</h3><p>${esc(r.note)}</p><ol>${r.ids.map(id => `<li><button type="button" data-open="${id}">${esc(byId.get(id).name)}</button><span>${String(id).padStart(2,'0')}</span></li>`).join('')}</ol><p>${esc(r.extensions)}</p><button type="button" data-route="${r.id}">Show circuit on map ↗</button></article>`).join('');
+      $('routes-intro').textContent = 'Scroll the circuits to follow them on the map. Pick five or six stops for serious fitting. Dashed lines suggest visit order, not walking directions. Brooklyn is a set of separate clusters.';
+      results.innerHTML = routes.map(r => `<article class="route ${state.route===r.id?'active':''}" data-route-card="${r.id}" ${state.route===r.id?'aria-current="true"':''}><p class="eyebrow">Circuit 0${r.id} / ${esc(r.area)}</p><h3>${esc(r.title)}</h3><p>${esc(r.note)}</p><span class="route-map-label">Showing on the map</span><ol>${r.ids.map(id => `<li><button type="button" data-open="${id}">${esc(byId.get(id).name)}</button><span>${String(id).padStart(2,'0')}</span></li>`).join('')}</ol><p>${esc(r.extensions)}</p><button type="button" data-route="${r.id}">Show circuit on map ↗</button></article>`).join('');
       const route = routes.find(r => r.id === state.route);
       mapStops = route ? route.all.map(id => byId.get(id)) : stops;
     } else {
@@ -68,6 +68,36 @@
     $('search').value=''; $('area').value='all'; $('category').value='all'; $('discoveries').checked=false;
     state.selected=null;state.route=null;
   }
+  // As in Shanghai, update only the active card and map, never the reading position.
+  function activateRoute(id, {showMap=false}={}) {
+    const route=routes.find(r=>r.id===id);
+    if(state.view!=='routes'||!route)return;
+    if(state.route!==id||showMap) {
+      state.route=id;state.selected=null;
+      results.querySelectorAll('[data-route-card]').forEach(card=>{
+        const active=Number(card.dataset.routeCard)===id;
+        card.classList.toggle('active',active);
+        if(active)card.setAttribute('aria-current','true');else card.removeAttribute('aria-current');
+      });
+      mapStops=route.all.map(id=>byId.get(id));
+      updateMap(true);
+    }
+    if(showMap&&window.innerWidth<=720)$('map').scrollIntoView({block:'center'});
+  }
+  function followRouteScroll() {
+    if(state.view!=='routes')return;
+    const box=results.getBoundingClientRect(),readingLine=box.top+Math.min(100,box.height*.3);
+    const cards=[...results.querySelectorAll('[data-route-card]')];
+    const atEnd=results.scrollTop+results.clientHeight>=results.scrollHeight-2;
+    const card=(atEnd?cards.at(-1):null)||cards.find(card=>{const r=card.getBoundingClientRect();return r.top<=readingLine&&r.bottom>readingLine;})
+      ||cards.find(card=>{const r=card.getBoundingClientRect();return r.bottom>box.top&&r.top<box.bottom;});
+    if(card)activateRoute(Number(card.dataset.routeCard));
+  }
+  let routeScrollFrame=0;
+  results.addEventListener('scroll',()=>{
+    if(routeScrollFrame||state.view!=='routes')return;
+    routeScrollFrame=requestAnimationFrame(()=>{routeScrollFrame=0;followRouteScroll();});
+  },{passive:true});
   function selectStop(id, focus=true) {
     if (!byId.has(id)) return;
     if (state.view==='routes' || !document.getElementById('stop-'+id)) {state.view='shops'; reset();}
@@ -113,7 +143,7 @@
       }
     }
   }
-  document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{state.view=b.dataset.view;state.selected=null;state.route=null;render();results.scrollTop=0;}));
+  document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{state.view=b.dataset.view;state.selected=null;state.route=state.view==='routes'?routes[0].id:null;render();results.scrollTo({top:0,behavior:'instant'});}));
   ['search','area','category','discoveries'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',()=>{state.selected=null;render();}));
   ['reset','empty-reset'].forEach(id=>$(id).onclick=()=>{state.view='shops';reset();render();});
   results.addEventListener('click',e=>{
@@ -125,7 +155,7 @@
       if(state.view==='saved')render();else updateSaves();
     }
     if(b.dataset.open)selectStop(Number(b.dataset.open));
-    if(b.dataset.route){state.route=Number(b.dataset.route);render();}
+    if(b.dataset.route)activateRoute(Number(b.dataset.route),{showMap:true});
     if(b.dataset.map){const s=byId.get(Number(b.dataset.map));if(map&&s.point){fitOnResize=false;map.setView(s.point,17,{animate:false});if(window.innerWidth<721)$('map').scrollIntoView({block:'center'});}}
   });
   results.addEventListener('toggle',e=>{
