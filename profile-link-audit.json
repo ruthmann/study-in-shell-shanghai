@@ -816,7 +816,16 @@
       "instagram": "https://www.instagram.com/mandombugs/",
       "source": "https://www.yuketen.com/stockists",
       "taobaoHandle": "LongTimeNoSeeWei",
-      "handleEvidence": "Collector identified this as the shop’s Taobao store; direct URL unresolved."
+      "handleEvidence": "Collector identified this as the shop’s Taobao store; direct URL unresolved.",
+      "footwearReview": {
+        "checked": "2026-10-13",
+        "Yuketen": "Official stockist and dated product pages; not current inventory.",
+        "Sanders": "Public Mandom Bugs Instagram profile displays Sanders SS23 highlight.",
+        "Baudoin & Lange": "Collector directly reports shop carries brand; official brand website establishes loafer context, not stockist relationship. Independent shop corroboration not found.",
+        "Green George": "Likely identification of collector’s Italian Green Boot/George reference. Search-indexed Instagram association; official Pitti profile confirms Italian maker. Framed as ask-about in public prose; exact shop inventory not established.",
+        "Other labels": "Official stockist directories confirm Anatomica, Big Yank, Wythe, Tenjin Works and Scarti-Lab; Inis Meáin showroom listing. Clothing associations do not establish those brands’ footwear inventory.",
+        "Access": "Public Instagram bio and highlights accessible; post captions required login. No direct Taobao storefront URL resolved; removed visitor-facing research status sentence at user request."
+      }
     },
     "lm": {
       "wechat": "TASSELS-China",

@@ -636,10 +636,12 @@
     "lat": null,
     "lon": null,
     "addr": "Rooms 216–217, Building 1, High Street Loft, 508 Jiashan Road, Xuhui",
-    "note": "A key Jiashan Road stop for Yuketen and heritage footwear. Yuketen lists Mandom Bugs among its China stockists; ask which shoes and sizes are available before visiting. The showroom sits inside High Street Loft, a short continuation south from eth0s. Allow time to compare fit and construction in person.",
+    "note": "A key Jiashan Road destination for footwear within a wider selection of independent menswear. Look for Yuketen, Baudoin & Lange and Sanders, and ask about Green George’s Italian shoes and boots. The range brings together heritage footwear and more refined loafers, with clothing from makers such as Anatomica, Big Yank, Wythe, Tenjin Works and Scarti-Lab. Inside High Street Loft, a short continuation south from eth0s, this is a stop to allow time for trying different shapes, leathers and constructions.",
     "tags": [
       "Yuketen",
-      "Heritage footwear"
+      "Baudoin & Lange",
+      "Sanders",
+      "Green George"
     ],
     "sources": [
       {
@@ -653,7 +655,57 @@
       {
         "label": "Inis Meáin · Shanghai showroom contact and appointment listing",
         "url": "https://inismeain.ie/pages/press-centre"
+      },
+      {
+        "label": "Mandom Bugs · shop profile and Sanders SS23 collection highlight",
+        "url": "https://www.instagram.com/mandombugs/"
+      },
+      {
+        "label": "Yuketen · Salvia boots, Fall/Winter 2024; Mandom Bugs stockist",
+        "url": "https://www.yuketen.com/salvia-boots-santa-cruz-fw24"
+      },
+      {
+        "label": "Yuketen · Italian Blucher, Spring/Summer 2025; Mandom Bugs stockist",
+        "url": "https://www.yuketen.com/italian-blucher-w-camp-sole-v-ss25"
+      },
+      {
+        "label": "Baudoin & Lange · loafer collections",
+        "url": "https://baudoinlange.com/"
+      },
+      {
+        "label": "Green George · Pitti brand profile; Italian footwear",
+        "url": "https://uomo.pittimmagine.com/110/exhibitors/G/green-george"
+      },
+      {
+        "label": "Anatomica · Shanghai stockist",
+        "url": "https://store.anatomica.jp/pages/available-location"
+      },
+      {
+        "label": "Big Yank · Shanghai stockist",
+        "url": "https://big-yank.com/en/pages/stockist"
+      },
+      {
+        "label": "Wythe · Shanghai stockist",
+        "url": "https://www.wythe.com/pages/retailers"
+      },
+      {
+        "label": "Tenjin Works · Shanghai dealer",
+        "url": "https://tenjinworks.com/pages/dealers-list"
       }
+    ],
+    "selection": [
+      [
+        "Footwear",
+        "Yuketen; Baudoin & Lange loafers; Sanders. Ask about Green George’s Italian shoes and boots, and confirm the available models and sizes before visiting."
+      ],
+      [
+        "Yuketen releases",
+        "Yuketen’s own collection pages have named Mandom Bugs as a stockist for Salvia boots (Fall/Winter 2024) and the Italian Blucher with Camp Sole (Spring/Summer 2025). These illustrate the shop’s footwear range, rather than today’s inventory."
+      ],
+      [
+        "Beyond shoes",
+        "Official brand directories list Mandom Bugs for Anatomica, Big Yank, Wythe, Tenjin Works and Scarti-Lab. Inis Meáin also lists its Shanghai showroom here."
+      ]
     ]
   }
 ]
