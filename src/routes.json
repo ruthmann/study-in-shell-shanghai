@@ -6,8 +6,25 @@
     "area": "Jing’an → Julu & Changle → Wulumuqi → Taiyuan → Jiashan",
     "time": "A full-day circuit · choose shorter sections",
     "description": "The master central circuit: classic shoemaking, specialist boots, sneakers and the avant-garde. Begin at Classic Works, work through Plaza 66 and Kerry Centre, then visit JUICE and Industrial Co. on Julu Road and continue through Changle to the Wulumuqi corridor. Visit Autumn Sonata on Taiyuan Road after La Maison, then finish at eth0s on Jiashan Road. One DOE and one NOOS anchor the route.",
-    "ids": ["cw", "jl", "rl", "no", "doet", "juice", "ic", "rr", "bj", "ro", "fy", "lm", "autumn", "eth"],
-    "optional": ["no2"],
+    "ids": [
+      "cw",
+      "jl",
+      "rl",
+      "no",
+      "doet",
+      "juice",
+      "ic",
+      "rr",
+      "bj",
+      "ro",
+      "fy",
+      "lm",
+      "autumn",
+      "eth"
+    ],
+    "optional": [
+      "no2"
+    ],
     "optionalTitle": "Alternative NOOS: 17 · One ITC",
     "optionalNote": "Visit NOOS at One ITC instead of stop 16 at Kerry Centre if Xujiahui suits your plans. Work it into the southern part of your day. Save route includes the Kerry Centre branch; save stop 17 separately and remove stop 16 from My circuit if you choose this alternative.",
     "note": "Choose the Jing’an, Julu–Changle or southern section for a shorter outing, leaving time for fitting and conversation. John Lobb is on B1 of Plaza 66; Ralph Lauren is in Kerry Centre’s North Building and NOOS in its South Building. Arrange BaronJ’s weekend or appointment access and Roiluxe’s Room 520 access ahead. The Anthology / Tassels at La Maison lists Tuesday–Sunday, 12:30–20:30 hours. Reconfirm hours before setting out."
@@ -19,7 +36,14 @@
     "area": "Xintiandi → The Bund → Hongkou → Shipyard 1862",
     "time": "Allow a generous afternoon · include transfers",
     "description": "Begin with Culture Matters on B1 of Xintiandi Style, then continue to DOE on Hubin Road and Rivets at Dongtai Li. Head north to Ralph Lauren at the Peninsula Arcade, visit Frank’s Store in Hongkou, then cross the Huangpu to finish at MEDALLION, Shipyard 1862.",
-    "ids": ["cmxt", "doeh", "rv", "rl2", "fs", "md"],
+    "ids": [
+      "cmxt",
+      "doeh",
+      "rv",
+      "rl2",
+      "fs",
+      "md"
+    ],
     "optional": [],
     "note": "Choose this Culture Matters branch or stop 8 on the central circuit if one Feiyue visit is enough. DOE is at L1-W09, 168 Hubin Road; Rivets is at L256, 2F, Building D, 111 Ji’an Road. Allow travel time between neighbourhoods and use a taxi or metro for the river crossing. Frank’s Store lists a daily 18:00 closing time; confirm this and MEDALLION’s visiting hours before setting out. The dashed line shows visit order, not a walking route across the river."
   },
@@ -30,8 +54,36 @@
     "area": "Taikoo Hui → Yongyuan Road → Changfeng, Putuo",
     "time": "An afternoon westward · arrange GentleMaker ahead",
     "description": "Begin centrally at Radiance Blue in Taikoo Hui, then head west to PANE for Shanghai sneaker design. Continue to GentleMaker in Changfeng for care, repair, restoration or a conversation about commissioning a pair.",
-    "ids": ["rb", "pn", "gm"],
+    "ids": [
+      "rb",
+      "pn",
+      "gm"
+    ],
     "optional": [],
     "note": "Radiance Blue is on Level 3 of Taikoo Hui; PANE is at 22 Yongyuan Road. Plan a taxi or transit leg from PANE to GentleMaker at 629 Zhongjiang Road. Confirm the GentleMaker visit ahead and send photographs if you want to discuss repairs or a commission. Leave time for the work you want to discuss."
+  },
+  {
+    "id": "sport",
+    "n": "04",
+    "name": "Sport & sneaker culture",
+    "area": "Tongren → Yongyuan → Julu & Changle → Yanqing → Wulumuqi → Jiashan",
+    "time": "Choose a few stops · confirm FLY and NikeLab before visiting",
+    "description": "A separate circuit for Shanghai streetwear, sports shoes and sneaker collaborations. Start with DOE’s Tongren branch and PANE’s local sneaker design, then JUICE for CLOT. Add FLY Streetwear and the reported NikeLab pop-up after confirming that they are operating. Continue to Culture Matters for Feiyue, then eth0s for its New Balance collaboration and large visvim selection.",
+    "ids": [
+      "doet",
+      "pn",
+      "juice",
+      "fly",
+      "nikelab",
+      "fy",
+      "eth"
+    ],
+    "optional": [
+      "doeh",
+      "cmxt"
+    ],
+    "optionalTitle": "Xintiandi alternatives: DOE & Culture Matters",
+    "optionalNote": "Use DOE on Hubin Road and Culture Matters at Xintiandi Style instead of the Tongren and Wulumuqi branches if that neighbourhood suits your day. Save route includes the central branches; save these alternatives separately and remove the branches you replace from My circuit.",
+    "note": "Seven core stops, with address or venue pins. FLY is anchored at the mapped 704 Changle Road address; confirm its current entrance and operation. NikeLab is pinned to Yanqingfang at 122 Yanqing Road, its reported temporary venue; confirm the pop-up’s unit, operation and end date. The former X158 address is not a destination on this circuit. Customization, hours, appointments, releases and sizes must be confirmed directly; no customization service is promised. Choose three or four stops and allow transfers between neighbourhoods."
   }
 ]

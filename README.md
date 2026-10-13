@@ -6,7 +6,7 @@ The draft NYC atlas is prepared for `/newyork/`, with 41 destinations, four circ
 
 Forty NYC pins use matched NYC Planning GeoSearch Property Address Directory records. `site/newyork/location-audit.json` retains the query, matched address, borough, WGS84 coordinate and source. These are address/building anchors, not surveyed entrances. STIEFELwerk has no public street pin. Brooklyn clusters are not connected by a misleading continuous route line. Leaflet is bundled; OpenStreetMap street tiles require a connection. The directory and source links are pre-rendered and usable without JavaScript.
 
-The Shanghai eth0s description and selection now explicitly highlight its large visvim selection. Shanghai now contains 26 destinations, including FLY Streetwear and the reported NikeLab temporary pop-up; both remain unpinned pending reliable coordinates. Existing shop coordinates are preserved. Purple Label shoe origins are qualified by model and period.
+The Shanghai eth0s description and selection now explicitly highlight its large visvim selection. Shanghai now contains 26 destinations, including FLY Streetwear and the reported NikeLab temporary pop-up; both now have qualified address/venue pins. Existing shop coordinates are preserved. Purple Label shoe origins are qualified by model and period.
 
 The NYC dataset was recovered exactly from recorded source fragments and matches its original Git blob hash `685b0e259013a2955742970a9fb628b738d8e59e`. The exact original 142,953-byte PDF was recovered from the base revision retained in the Library file; its Git blob hash is `8c2de8e85a9d5a0be084f2c4d4670d1feb401a28`. Both recovered files match the earlier build manifest. The PDF remains Draft 0.2 with its original map-verification caveat.
 
@@ -22,7 +22,7 @@ At the launch audit, six Shopify products were drafts and one duplicate was arch
 
 Preserve the corrected addresses and stated access requirements below; do not turn published hours or historical evidence into claims of verified visits.
 
-An independent visitor guide to Shanghai’s shoe shops, specialist makers and footwear history. Includes 26 retail/service destinations (24 mapped; two awaiting verified coordinates), three primary circuits and four factory/workshop records. No factory tours are offered or bookable.
+An independent visitor guide to Shanghai’s shoe shops, specialist makers and footwear history. Includes 26 retail/service destinations (all mapped at their stated shop, address or venue precision), four primary circuits and four factory/workshop records. No factory tours are offered or bookable.
 
 ## Use and publish
 
@@ -30,7 +30,7 @@ Open `index.html` directly for the complete offline guide. For the complete edit
 
 ## Edit and rebuild
 
-Requires Node.js. Run `npm run build` and `npm test`. Editable UI files are in `src/`. `src/location-audit.json` holds dated address overrides, source coordinates, coordinate systems and pin-precision notes. `src/editorial-descriptions.json` holds the replacement visitor descriptions. `src/routes.json` holds the Central Shanghai, Bund and Westward circuits, with NOOS One ITC as an alternative to the Kerry Centre branch. `src/prepare-data.cjs` applies them to the original guide and produces `src/data.json`, shared by markers, cards, routes, taxi cards and exports. `address-index.csv` is the reviewed address index for this edition.
+Requires Node.js. Run `npm run build` and `npm test`. Editable UI files are in `src/`. `src/location-audit.json` holds dated address overrides, source coordinates, coordinate systems and pin-precision notes. `src/editorial-descriptions.json` holds the replacement visitor descriptions. `src/routes.json` holds the Central Shanghai, Bund, Westward and Sport & sneaker culture circuits, with NOOS One ITC as an alternative to the Kerry Centre branch. `src/prepare-data.cjs` applies them to the original guide and produces `src/data.json`, shared by markers, cards, routes, taxi cards and exports. `address-index.csv` is the reviewed address index for this edition.
 
 `src/startup.js` keeps the loading message visible until fonts, panels and the initial map are ready, with a reload link on failure. The embedded map uses two-dimensional positioning to avoid WebKit paint glitches. Route cards retain their DOM and scroll position; scrolling the list updates the active map route, and “Show on map” opens it on mobile.
 
@@ -60,6 +60,6 @@ Guide text and design prepared for Study in Shell. No repository-wide open-sourc
 
 ## 13 October 2026 content review
 
-Added FLY Streetwear and the reported NikeLab Yanqing Road pop-up as stops 25 and 26. The atlas now lists 26 destinations: 24 mapped and two without verified coordinates. Both new entries are available through search, category filters, saved circuits and address cards. They are not added to mapped recommended routes until their positions are verified. Hours, appointment conditions and customization services are explicitly unconfirmed. NikeLab retains a temporary-location warning and the reported 7–8 October X158 closure / pop-up transition. FLY’s 2023 founder address is distinguished from its indexed No. 704 listing.
+Added FLY Streetwear and the reported NikeLab Yanqing Road pop-up as stops 25 and 26. The atlas now lists 26 mapped destinations. FLY uses an address anchor at 704 Changle Road; NikeLab uses the Yanqingfang venue anchor at its reported 122 Yanqing Road pop-up location. Neither pin certifies an entrance or current operation. Both new entries are available through search, category filters, saved circuits and address cards. The Sport & sneaker culture circuit includes both as confirm-first stops. Hours, appointment conditions and customization services are explicitly unconfirmed. NikeLab retains a temporary-location warning and the reported 7–8 October X158 closure / pop-up transition. FLY’s 2023 founder address is distinguished from its indexed No. 704 listing.
 
 Purple Label copy at both Ralph Lauren branches now attributes the predominantly Italian-made recent-shoe observation to the anonymous collector, explains variation by model and period, and includes official Italy-made Luther and England-made Clayton examples as unavailable examples, not local stock. No LABELHOOD entry was added.

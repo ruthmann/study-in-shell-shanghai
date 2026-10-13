@@ -749,15 +749,17 @@
       "id": "fly",
       "checked": "2026-10-13",
       "position": {
-        "datum": "unresolved"
+        "datum": "GCJ02",
+        "lat": 31.21787,
+        "lon": 121.452763
       },
-      "precision": "unresolved",
-      "pinLabel": "Not plotted · map location awaiting confirmation",
-      "notes": "The founder gave 704–706 Changle Road in March 2023; the indexed shop profile still lists No. 704. Current operation has not been directly confirmed. No verified coordinate with a known datum was obtained, so this stop is listed without a map pin.",
+      "precision": "address",
+      "pinLabel": "Address pin · 704 Changle Road",
+      "notes": "Google Maps China street-place listing for flystreetwear at 长乐路704号, using its place coordinates (not the viewport center), converted from GCJ-02 to WGS84. The founder independently gave 704–706 Changle Road in 2023. This is an address anchor, not a surveyed entrance or confirmation of current operating hours.",
       "overrides": {
         "street": "704 Changle Road, Shanghai · founder also listed No. 706 in 2023",
         "zh": "上海市长乐路704号（2023年创始人访谈亦列706号；到访前请确认）",
-        "warning": "Confirm the operating address and hours before visiting. Customization services and any appointment requirements are unconfirmed.",
+        "warning": "Confirm the current shop entrance, opening hours, appointment conditions and any customization service before travelling. The founder listed both 704 and 706 Changle Road in 2023; the pin anchors the mapped No. 704 listing.",
         "hours": "Current hours and appointment conditions unconfirmed; ask ahead"
       },
       "sources": [
@@ -772,6 +774,10 @@
         {
           "label": "FLY Streetwear · shop profile; indexed address is 704 Changle Road",
           "url": "https://www.facebook.com/FlyStreetwear/"
+        },
+        {
+          "label": "Google Maps · flystreetwear, 长乐路704号; address pin",
+          "url": "https://www.google.com/maps/place/flystreetwear/data=!4m7!3m6!1s0x35b2700767ff4e45:0x182f98893b905443!8m2!3d31.21787!4d121.452763!16s%2Fg%2F1ttdk_62"
         }
       ]
     },
@@ -779,11 +785,13 @@
       "id": "nikelab",
       "checked": "2026-10-13",
       "position": {
-        "datum": "unresolved"
+        "datum": "GCJ02",
+        "lat": 31.214933,
+        "lon": 121.450455
       },
-      "precision": "unresolved",
-      "pinLabel": "Not plotted · map location awaiting confirmation",
-      "notes": "The Yanqingfang address is reported by Jing Daily on 6 October 2026, not verified through a current Nike store listing. No verified coordinate with a known datum was obtained for the pop-up; no map pin is shown. The former X158 location is not used.",
+      "precision": "venue",
+      "pinLabel": "Venue pin · Yanqingfang, 122 Yanqing Road",
+      "notes": "SmartShanghai lists Yanqing Lane / 延庆坊 at 122 Yanqing Road and supplies this coordinate through its Gaode Maps link. Converted from GCJ-02 to WGS84. The pin marks the venue reported for NikeLab, not a verified NikeLab unit or entrance. Current pop-up operation, end date, hours and customization remain unconfirmed; the former X158 location is not used.",
       "overrides": {
         "street": "Reported pop-up: Yanqingfang, 122 Yanqing Road, Shanghai",
         "zh": "上海市徐汇区延庆路122号 延庆坊（NikeLab临时店，出发前请确认）",
@@ -794,6 +802,14 @@
         {
           "label": "Jing Daily · reported X158 closure and Yanqing Road pop-up, 6 October 2026",
           "url": "https://jingdaily.com/intels/2026-10/06/nikelab-to-close-shanghai-s-x158-store-after-12-years-shifts-to-pop-up"
+        },
+        {
+          "label": "SmartShanghai · Yanqing Lane / 延庆坊, 122 Yanqing Road; venue map",
+          "url": "https://www.smartshanghai.com/venue/34416/yanqing_lane"
+        },
+        {
+          "label": "Gaode Maps · Yanqing Lane venue coordinate",
+          "url": "https://ditu.amap.com/regeo?lng=121.450455&lat=31.214933&name=Yanqing%20Lane&src=uriapi&innersrc=uriapi"
         }
       ]
     }
