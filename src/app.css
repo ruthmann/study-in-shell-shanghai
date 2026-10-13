@@ -31,3 +31,6 @@
 @media(max-width:360px){.tab>[data-icon]{display:none}}
 
 .pin.selected{outline:3px solid var(--ink);outline-offset:4px;box-shadow:0 0 0 4px var(--paper),0 3px 9px #302d2966;transform:scale(1.2)}.selected-pin-label{background:var(--ink);border:0;color:var(--paper);font-weight:600;box-shadow:0 2px 8px #302d2933}.selected-pin-label:before{border-top-color:var(--ink)}
+
+/* Direct destination links stay visible, separate from research sources. */
+.profile-links{display:flex;flex-wrap:wrap;gap:8px 16px;margin:0 0 18px;font-size:12px;line-height:1.6}.profile-links a{color:var(--red);text-underline-offset:4px;overflow-wrap:anywhere;padding:5px 0}.profile-links a:focus-visible{outline:2px solid var(--red);outline-offset:3px}

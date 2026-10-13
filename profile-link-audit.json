@@ -1,0 +1,813 @@
+{
+  "checked": "2026-10-13",
+  "method": "Official store and brand websites, their published social links, and identified business profiles. Instagram links identify accounts; they do not verify branch operations or services. Unresolved accounts omitted.",
+  "newyork": {
+    "1": {
+      "name": "Leffot",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://leffot.com/brands",
+          "source": "https://leffot.com/brands"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/leffot/",
+          "source": "https://leffot.com/brands"
+        }
+      ]
+    },
+    "2": {
+      "name": "Atelier New York",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://ateliernewyork.com/pages/brands",
+          "source": "https://ateliernewyork.com/pages/brands"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ateliernewyork/",
+          "source": "https://ateliernewyork.com/"
+        }
+      ]
+    },
+    "3": {
+      "name": "The Armoury - Tribeca",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.thearmoury.com/contact",
+          "source": "https://www.thearmoury.com/contact"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/thearmourynyc/",
+          "source": "https://www.thearmoury.com/contact"
+        }
+      ]
+    },
+    "4": {
+      "name": "180 The Store",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://180thestore.com/contact/",
+          "source": "https://180thestore.com/contact/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/180thestore/",
+          "source": "https://180thestore.com/contact/"
+        }
+      ]
+    },
+    "5": {
+      "name": "Todd Snyder - The Liquor Store",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.toddsnyder.com/pages/store-details/liquor-store",
+          "source": "https://www.toddsnyder.com/pages/store-details/liquor-store"
+        }
+      ]
+    },
+    "6": {
+      "name": "RRL - West Broadway",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.ralphlauren.com/stores-search/New%20York",
+          "source": "https://www.ralphlauren.com/stores-search/New%20York"
+        }
+      ]
+    },
+    "7": {
+      "name": "Crockett & Jones - SoHo",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://us.crockettandjones.com/pages/our-stores",
+          "source": "https://us.crockettandjones.com/pages/our-stores"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/crockettandjones_official/",
+          "source": "https://us.crockettandjones.com/pages/our-stores"
+        }
+      ]
+    },
+    "8": {
+      "name": "Meermin - SoHo",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://meermin.com/pages/visit-us",
+          "source": "https://meermin.com/pages/visit-us"
+        }
+      ]
+    },
+    "9": {
+      "name": "IF SoHo",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://ifsohonewyork.com/pages/contact",
+          "source": "https://ifsohonewyork.com/pages/contact"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ifsohonewyork/",
+          "source": "https://ifsohonewyork.com/pages/contact"
+        }
+      ]
+    },
+    "10": {
+      "name": "Blue in Green",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.blueingreensoho.com/collections/footwear",
+          "source": "https://www.blueingreensoho.com/collections/footwear"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/blueingreensoho/",
+          "source": "https://www.blueingreensoho.com/collections/footwear"
+        }
+      ]
+    },
+    "11": {
+      "name": "Blundstone - SoHo",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.blundstone.com/pages/blundstone-soho-store",
+          "source": "https://www.blundstone.com/pages/blundstone-soho-store"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/BlundstoneUSA/",
+          "source": "https://www.blundstone.com/pages/blundstone-soho-store"
+        }
+      ]
+    },
+    "12": {
+      "name": "Drake's - Canal Street",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://us.drakes.com/pages/our-stores",
+          "source": "https://us.drakes.com/pages/our-stores"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/drakesdiary/",
+          "source": "https://us.drakes.com/pages/our-stores"
+        }
+      ]
+    },
+    "13": {
+      "name": "Viberg - New York flagship",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.vibergnyc.com/pages/find-us",
+          "source": "https://www.vibergnyc.com/pages/find-us"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/vibergnyc/",
+          "source": "https://www.vibergnyc.com/pages/find-us"
+        }
+      ]
+    },
+    "14": {
+      "name": "Standard & Strange",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://standardandstrange.com/pages/visit-us",
+          "source": "https://standardandstrange.com/pages/visit-us"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/standardandstrange/",
+          "source": "https://standardandstrange.com/pages/visit-us"
+        }
+      ]
+    },
+    "15": {
+      "name": "Slowear - Lafayette",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.slowear.com/pages/slowear-store-nyc-lafayette",
+          "source": "https://www.slowear.com/pages/slowear-store-nyc-lafayette"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/slowearofficial/",
+          "source": "https://www.slowear.com/pages/slowear-store-nyc-lafayette"
+        }
+      ]
+    },
+    "16": {
+      "name": "C'H'C'M'",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://chcmshop.com/pages/about-catalogue",
+          "source": "https://chcmshop.com/pages/about-catalogue"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chcm_shop/",
+          "source": "https://chcmshop.com/pages/about-catalogue"
+        }
+      ]
+    },
+    "17": {
+      "name": "Self Edge - New York",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.selfedge.com/index.php?route=information%2Flocations",
+          "source": "https://www.selfedge.com/index.php?route=information%2Flocations"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/selfedge/",
+          "source": "https://www.selfedge.com/index.php?route=information%2Flocations"
+        }
+      ]
+    },
+    "18": {
+      "name": "Todd Snyder - NoMad",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.toddsnyder.com/pages/store-details/no-mad",
+          "source": "https://www.toddsnyder.com/pages/store-details/no-mad"
+        }
+      ]
+    },
+    "19": {
+      "name": "Thursday Boot Company - Flatiron",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://thursdayboots.com/pages/flatiron-new-york",
+          "source": "https://thursdayboots.com/pages/flatiron-new-york"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/thursdayboots/",
+          "source": "https://thursdayboots.com/pages/flatiron-new-york"
+        }
+      ]
+    },
+    "20": {
+      "name": "Dover Street Market New York",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://newyork.doverstreetmarket.com/pages/locations",
+          "source": "https://newyork.doverstreetmarket.com/pages/locations"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/doverstreetmarketnewyork/",
+          "source": "https://newyork.doverstreetmarket.com/pages/locations"
+        }
+      ]
+    },
+    "21": {
+      "name": "Moulded Shoe",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.mouldedshoeny.com/appointments",
+          "source": "https://www.mouldedshoeny.com/appointments"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/mouldedshoe/",
+          "source": "https://www.mouldedshoeny.com/privacy"
+        }
+      ]
+    },
+    "22": {
+      "name": "Alden Madison",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://aldenmadison.shop/",
+          "source": "https://aldenmadison.shop/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/aldenmadison/",
+          "source": "https://aldenmadison.shop/"
+        }
+      ]
+    },
+    "23": {
+      "name": "Carmina - East 45th Street",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.carminashoemaker.com/en/carmina-new-york-45e45st",
+          "source": "https://www.carminashoemaker.com/en/carmina-new-york-45e45st"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/carminashoemaker/",
+          "source": "https://www.carminashoemaker.com/en/carmina-new-york-45e45st"
+        }
+      ]
+    },
+    "24": {
+      "name": "Crockett & Jones - Midtown",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://us.crockettandjones.com/pages/our-stores",
+          "source": "https://us.crockettandjones.com/pages/our-stores"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/crockettandjones_official/",
+          "source": "https://us.crockettandjones.com/blogs/the-article/crockett-jones-new-york-relocates"
+        }
+      ]
+    },
+    "25": {
+      "name": "John Lobb",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.johnlobb.com/en_us/storelocator",
+          "source": "https://www.johnlobb.com/en_us/storelocator"
+        }
+      ]
+    },
+    "26": {
+      "name": "Bergdorf Goodman - Men's Store",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://stores.bergdorfgoodman.com/stores/goodmans-mens-store",
+          "source": "https://stores.bergdorfgoodman.com/stores/goodmans-mens-store"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/bergdorfs/",
+          "source": "https://stores.bergdorfgoodman.com/stores/goodmans-mens-store"
+        }
+      ]
+    },
+    "27": {
+      "name": "The Armoury - Upper East Side",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.thearmoury.com/contact",
+          "source": "https://www.thearmoury.com/contact"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/thearmourynyc/",
+          "source": "https://www.thearmoury.com/contact"
+        }
+      ]
+    },
+    "28": {
+      "name": "The Row",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.therow.com/it-it/pages/new-york-store",
+          "source": "https://www.therow.com/it-it/pages/new-york-store"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/therow/",
+          "source": "https://www.therow.com/it-it/pages/new-york-store"
+        }
+      ]
+    },
+    "29": {
+      "name": "Sid & Ann Mashburn",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://shopmashburn.com/blogs/sid-mashburn-locations/new-york-ny",
+          "source": "https://shopmashburn.com/blogs/sid-mashburn-locations/new-york-ny"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/sidmashburn/",
+          "source": "https://shopmashburn.com/blogs/sid-mashburn-locations/new-york-ny"
+        }
+      ]
+    },
+    "30": {
+      "name": "Ralph Lauren - Men's Flagship",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.ralphlauren.com/stores-867-madison",
+          "source": "https://www.ralphlauren.com/stores-867-madison"
+        }
+      ]
+    },
+    "31": {
+      "name": "Allen Edmonds - Brookfield Place",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.allenedmonds.com/stores/ny/new-york/10281/brookfield-place-39090",
+          "source": "https://www.allenedmonds.com/stores/ny/new-york/10281/brookfield-place-39090"
+        }
+      ]
+    },
+    "32": {
+      "name": "Brooklyn Shoe Space",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://brooklynshoespace.com/contact",
+          "source": "https://brooklynshoespace.com/contact"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/brooklynshoespace/",
+          "source": "https://brooklynshoespace.com/contact"
+        }
+      ]
+    },
+    "33": {
+      "name": "Francis Waplinger",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.franciswaplinger.com/contact1",
+          "source": "https://www.franciswaplinger.com/contact1"
+        }
+      ]
+    },
+    "34": {
+      "name": "STIEFELwerk",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.stiefelwerk.nyc/",
+          "source": "https://www.stiefelwerk.nyc/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/stiefelwerk.nyc/",
+          "source": "https://www.stiefelwerk.nyc/"
+        }
+      ]
+    },
+    "35": {
+      "name": "Hotoveli",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.hotoveli.com/",
+          "source": "https://www.hotoveli.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hotoveli/",
+          "source": "https://www.hotoveli.com/"
+        }
+      ]
+    },
+    "36": {
+      "name": "Blundstone - Williamsburg",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.blundstone.com/pages/blundstone-nyc-store",
+          "source": "https://www.blundstone.com/pages/blundstone-nyc-store"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/BlundstoneUSA/",
+          "source": "https://www.blundstone.com/pages/blundstone-nyc-store"
+        }
+      ]
+    },
+    "37": {
+      "name": "Hatchet Outdoor Supply Co.",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://hatchetsupply.com/pages/about",
+          "source": "https://hatchetsupply.com/pages/about"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/hatchetsupply/",
+          "source": "https://hatchetsupply.com/pages/about"
+        }
+      ]
+    },
+    "38": {
+      "name": "Leather Spa - West 55th",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://leatherspa.com/locations/",
+          "source": "https://leatherspa.com/locations/"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/leatherspa/",
+          "source": "https://leatherspa.com/locations/"
+        }
+      ]
+    },
+    "39": {
+      "name": "B. Nelson Shoe Repair",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://bnelsonshoes.com/",
+          "source": "https://bnelsonshoes.com/"
+        }
+      ]
+    },
+    "40": {
+      "name": "Nepenthes New York",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://nepenthesny.com/about/",
+          "source": "https://nepenthesny.com/about/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nepenthes_newyork/",
+          "source": "https://nepenthesny.com/about/"
+        }
+      ]
+    },
+    "41": {
+      "name": "Thursday Boot Company - SoHo",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://thursdayboots.com/pages/soho-new-york",
+          "source": "https://thursdayboots.com/pages/soho-new-york"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/thursdayboots/",
+          "source": "https://thursdayboots.com/pages/soho-new-york"
+        }
+      ]
+    }
+  },
+  "shanghai": {
+    "cw": {
+      "name": "Classic Works",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.classicworks.cc/en/categories/shanghai-inventory",
+          "source": "https://www.classicworks.cc/en/categories/shanghai-inventory"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/classic_works/",
+          "source": "https://www.classicworks.cc/en/categories/shanghai-inventory"
+        }
+      ]
+    },
+    "rb": {
+      "name": "Radiance Blue",
+      "links": [],
+      "note": "No sufficiently verified direct website or Instagram profile found in this check; no lookalike account substituted."
+    },
+    "jl": {
+      "name": "John Lobb — Plaza 66",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.johnlobb.com/en_us/storelocator",
+          "source": "https://www.johnlobb.com/en_us/storelocator"
+        }
+      ]
+    },
+    "rl": {
+      "name": "Ralph Lauren — Jing'an Kerry Centre",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.ralphlauren.com.au/locations/CN/Shanghai/07112",
+          "source": "https://www.ralphlauren.com.au/locations/CN/Shanghai/07112"
+        }
+      ]
+    },
+    "rl2": {
+      "name": "Ralph Lauren — Peninsula Arcade",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.ralphlauren.com.sg/locations/CN/Shanghai/07679",
+          "source": "https://www.ralphlauren.com.sg/locations/CN/Shanghai/07679"
+        }
+      ]
+    },
+    "rr": {
+      "name": "The Real Real Co., Ltd",
+      "links": [],
+      "note": "No sufficiently verified direct website or Instagram profile found in this check; no lookalike account substituted."
+    },
+    "bj": {
+      "name": "BaronJ",
+      "links": [],
+      "note": "No sufficiently verified direct website or Instagram profile found in this check; no lookalike account substituted."
+    },
+    "fy": {
+      "name": "Culture Matters — Wulumuqi Middle Road",
+      "links": [],
+      "note": "No sufficiently verified direct website or Instagram profile found in this check; no lookalike account substituted."
+    },
+    "ic": {
+      "name": "Industrial Co.",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.industrial-co.com/",
+          "source": "https://www.industrial-co.com/"
+        }
+      ]
+    },
+    "pn": {
+      "name": "Pane — Yongyuan flagship",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://paneshoes.com/pages/pane-plaza-shanghai-yongyuan-rd",
+          "source": "https://paneshoes.com/pages/pane-plaza-shanghai-yongyuan-rd"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/pane_official/",
+          "source": "https://paneshoes.com/pages/pane-plaza-shanghai-yongyuan-rd"
+        }
+      ]
+    },
+    "ro": {
+      "name": "Roiluxe",
+      "links": [],
+      "note": "No sufficiently verified direct website or Instagram profile found in this check; no lookalike account substituted."
+    },
+    "lm": {
+      "name": "The Anthology / Tassels Shanghai",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://theanthology.net/contact",
+          "source": "https://theanthology.net/contact"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/theanthology/",
+          "source": "https://theanthology.net/contact"
+        }
+      ]
+    },
+    "rv": {
+      "name": "Rivets",
+      "links": [],
+      "note": "No sufficiently verified direct website or Instagram profile found in this check; no lookalike account substituted."
+    },
+    "md": {
+      "name": "MEDALLION 美勋",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.medallionshoes.com/about-store/",
+          "source": "https://www.medallionshoes.com/about-store/"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/medallion_shoes/",
+          "source": "https://www.medallionshoes.com/about-store/"
+        }
+      ]
+    },
+    "gm": {
+      "name": "GentleMaker Shoecare · Songs of Love and Hate",
+      "links": [],
+      "note": "No sufficiently verified direct website or Instagram profile found in this check; no lookalike account substituted."
+    },
+    "no": {
+      "name": "NOOS — Jing'an Kerry Centre",
+      "links": [],
+      "note": "No sufficiently verified direct website or Instagram profile found in this check; no lookalike account substituted."
+    },
+    "no2": {
+      "name": "NOOS — One ITC",
+      "links": [],
+      "note": "No sufficiently verified direct website or Instagram profile found in this check; no lookalike account substituted."
+    },
+    "fs": {
+      "name": "Frank's Store",
+      "links": [],
+      "note": "No sufficiently verified direct website or Instagram profile found in this check; no lookalike account substituted."
+    },
+    "eth": {
+      "name": "eth0s",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/eth0s_shanghai/",
+          "source": "https://cn.linkedin.com/company/eth0s"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/eth0s.shanghai/",
+          "source": "https://cn.linkedin.com/company/eth0s"
+        }
+      ]
+    },
+    "doet": {
+      "name": "DOE — Tongren Road",
+      "links": [
+        {
+          "label": "Website · currently password-protected",
+          "url": "https://www.doeshanghai.com/",
+          "source": "https://www.facebook.com/pages/Doe/2070185976545971"
+        }
+      ]
+    },
+    "doeh": {
+      "name": "DOE — Hubin Road / Xintiandi",
+      "links": [
+        {
+          "label": "Website · currently password-protected",
+          "url": "https://www.doeshanghai.com/",
+          "source": "https://www.facebook.com/pages/Doe/2070185976545971"
+        }
+      ]
+    },
+    "cmxt": {
+      "name": "Culture Matters — Xintiandi Style",
+      "links": [],
+      "note": "No sufficiently verified direct website or Instagram profile found in this check; no lookalike account substituted."
+    },
+    "juice": {
+      "name": "JUICE — Julu Road",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://juicestore.com/pages/locations",
+          "source": "https://juicestore.com/pages/locations"
+        },
+        {
+          "label": "Facebook · brand",
+          "url": "https://www.facebook.com/juicestore/",
+          "source": "https://www.facebook.com/juicestore/"
+        }
+      ]
+    },
+    "autumn": {
+      "name": "Autumn Sonata",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://autumnsonatash.tumblr.com/brandlist",
+          "source": "https://autumnsonatash.tumblr.com/brandlist"
+        }
+      ]
+    },
+    "fly": {
+      "name": "FLY Streetwear",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/FlyStreetwear/",
+          "source": "https://www.facebook.com/FlyStreetwear/"
+        }
+      ]
+    },
+    "nikelab": {
+      "name": "NikeLab — Yanqing Road pop-up",
+      "links": [
+        {
+          "label": "Website · NikeLab",
+          "url": "https://www.nike.com/w/nikelab-9kb2r",
+          "source": "https://www.nike.com/nikelab"
+        }
+      ]
+    }
+  }
+}

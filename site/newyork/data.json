@@ -19,6 +19,16 @@
       "point": [
         40.733792,
         -74.000202
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://leffot.com/brands"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/leffot/"
+        }
       ]
     },
     {
@@ -40,6 +50,16 @@
       "point": [
         40.732577,
         -73.997565
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://ateliernewyork.com/pages/brands"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ateliernewyork/"
+        }
       ]
     },
     {
@@ -62,6 +82,16 @@
       "point": [
         40.71685,
         -74.009562
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.thearmoury.com/contact"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/thearmourynyc/"
+        }
       ]
     },
     {
@@ -83,6 +113,16 @@
       "point": [
         40.717065,
         -74.010038
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://180thestore.com/contact/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/180thestore/"
+        }
       ]
     },
     {
@@ -103,6 +143,12 @@
       "point": [
         40.719495,
         -74.005868
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.toddsnyder.com/pages/store-details/liquor-store"
+        }
       ]
     },
     {
@@ -123,6 +169,12 @@
       "point": [
         40.723567,
         -74.002179
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.ralphlauren.com/stores-search/New%20York"
+        }
       ]
     },
     {
@@ -144,6 +196,16 @@
       "point": [
         40.724252,
         -74.001727
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://us.crockettandjones.com/pages/our-stores"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/crockettandjones_official/"
+        }
       ]
     },
     {
@@ -164,6 +226,12 @@
       "point": [
         40.724379,
         -73.999469
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://meermin.com/pages/visit-us"
+        }
       ]
     },
     {
@@ -185,6 +253,16 @@
       "point": [
         40.721714,
         -74.001889
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://ifsohonewyork.com/pages/contact"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ifsohonewyork/"
+        }
       ]
     },
     {
@@ -206,6 +284,16 @@
       "point": [
         40.720649,
         -74.002752
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.blueingreensoho.com/collections/footwear"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/blueingreensoho/"
+        }
       ]
     },
     {
@@ -226,6 +314,16 @@
       "point": [
         40.721508,
         -73.998641
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.blundstone.com/pages/blundstone-soho-store"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/BlundstoneUSA/"
+        }
       ]
     },
     {
@@ -249,6 +347,16 @@
       "point": [
         40.72046,
         -74.00288
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://us.drakes.com/pages/our-stores"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/drakesdiary/"
+        }
       ]
     },
     {
@@ -269,6 +377,16 @@
       "point": [
         40.723812,
         -73.994314
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.vibergnyc.com/pages/find-us"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/vibergnyc/"
+        }
       ]
     },
     {
@@ -290,6 +408,16 @@
       "point": [
         40.722724,
         -73.995706
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://standardandstrange.com/pages/visit-us"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/standardandstrange/"
+        }
       ]
     },
     {
@@ -311,6 +439,16 @@
       "point": [
         40.725845,
         -73.994973
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.slowear.com/pages/slowear-store-nyc-lafayette"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/slowearofficial/"
+        }
       ]
     },
     {
@@ -332,6 +470,16 @@
       "point": [
         40.727109,
         -73.994495
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://chcmshop.com/pages/about-catalogue"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chcm_shop/"
+        }
       ]
     },
     {
@@ -353,6 +501,16 @@
       "point": [
         40.720955,
         -73.989052
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.selfedge.com/index.php?route=information%2Flocations"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/selfedge/"
+        }
       ]
     },
     {
@@ -373,6 +531,12 @@
       "point": [
         40.743288,
         -73.986627
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.toddsnyder.com/pages/store-details/no-mad"
+        }
       ]
     },
     {
@@ -393,6 +557,16 @@
       "point": [
         40.741052,
         -73.99292
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://thursdayboots.com/pages/flatiron-new-york"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/thursdayboots/"
+        }
       ]
     },
     {
@@ -414,6 +588,16 @@
       "point": [
         40.744114,
         -73.981718
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://newyork.doverstreetmarket.com/pages/locations"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/doverstreetmarketnewyork/"
+        }
       ]
     },
     {
@@ -436,6 +620,16 @@
       "point": [
         40.75091,
         -73.981694
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.mouldedshoeny.com/appointments"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/mouldedshoe/"
+        }
       ]
     },
     {
@@ -456,6 +650,16 @@
       "point": [
         40.753971,
         -73.978967
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://aldenmadison.shop/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/aldenmadison/"
+        }
       ]
     },
     {
@@ -476,6 +680,16 @@
       "point": [
         40.754851,
         -73.97718
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.carminashoemaker.com/en/carmina-new-york-45e45st"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/carminashoemaker/"
+        }
       ]
     },
     {
@@ -497,6 +711,16 @@
       "point": [
         40.761574,
         -73.974044
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://us.crockettandjones.com/pages/our-stores"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/crockettandjones_official/"
+        }
       ]
     },
     {
@@ -518,6 +742,12 @@
       "point": [
         40.76591,
         -73.970034
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.johnlobb.com/en_us/storelocator"
+        }
       ]
     },
     {
@@ -538,6 +768,16 @@
       "point": [
         40.763255,
         -73.97317
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://stores.bergdorfgoodman.com/stores/goodmans-mens-store"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/bergdorfs/"
+        }
       ]
     },
     {
@@ -559,6 +799,16 @@
       "point": [
         40.770163,
         -73.967111
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.thearmoury.com/contact"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/thearmourynyc/"
+        }
       ]
     },
     {
@@ -580,6 +830,16 @@
       "point": [
         40.771435,
         -73.966109
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.therow.com/it-it/pages/new-york-store"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/therow/"
+        }
       ]
     },
     {
@@ -601,6 +861,16 @@
       "point": [
         40.773045,
         -73.96492
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://shopmashburn.com/blogs/sid-mashburn-locations/new-york-ny"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/sidmashburn/"
+        }
       ]
     },
     {
@@ -622,6 +892,12 @@
       "point": [
         40.771465,
         -73.965417
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.ralphlauren.com/stores-867-madison"
+        }
       ]
     },
     {
@@ -643,6 +919,12 @@
       "point": [
         40.71249,
         -74.0154
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.allenedmonds.com/stores/ny/new-york/10281/brookfield-place-39090"
+        }
       ]
     },
     {
@@ -664,6 +946,16 @@
       "point": [
         40.718709,
         -73.948167
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://brooklynshoespace.com/contact"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/brooklynshoespace/"
+        }
       ]
     },
     {
@@ -685,6 +977,12 @@
       "point": [
         40.657125,
         -74.006418
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.franciswaplinger.com/contact1"
+        }
       ]
     },
     {
@@ -702,7 +1000,17 @@
       ],
       "checked": "2026-10-12",
       "zone": "brooklyn",
-      "point": null
+      "point": null,
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.stiefelwerk.nyc/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/stiefelwerk.nyc/"
+        }
+      ]
     },
     {
       "id": 35,
@@ -724,6 +1032,16 @@
       "point": [
         40.717213,
         -73.962258
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.hotoveli.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hotoveli/"
+        }
       ]
     },
     {
@@ -744,6 +1062,16 @@
       "point": [
         40.720011,
         -73.960926
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.blundstone.com/pages/blundstone-nyc-store"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/BlundstoneUSA/"
+        }
       ]
     },
     {
@@ -765,6 +1093,16 @@
       "point": [
         40.691371,
         -73.997559
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://hatchetsupply.com/pages/about"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/hatchetsupply/"
+        }
       ]
     },
     {
@@ -786,6 +1124,16 @@
       "point": [
         40.762764,
         -73.976913
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://leatherspa.com/locations/"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/leatherspa/"
+        }
       ]
     },
     {
@@ -807,6 +1155,12 @@
       "point": [
         40.760132,
         -73.970064
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://bnelsonshoes.com/"
+        }
       ]
     },
     {
@@ -829,6 +1183,16 @@
       "point": [
         40.755261,
         -73.992215
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://nepenthesny.com/about/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nepenthes_newyork/"
+        }
       ]
     },
     {
@@ -849,6 +1213,16 @@
       "point": [
         40.721781,
         -73.998433
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://thursdayboots.com/pages/soho-new-york"
+        },
+        {
+          "label": "Instagram · brand",
+          "url": "https://www.instagram.com/thursdayboots/"
+        }
       ]
     }
   ],

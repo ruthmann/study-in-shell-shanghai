@@ -107,5 +107,7 @@ shops.find(s=>s.id==='eth').selection=[
  ['Further footwear','visvim — large selection; DEVOA; PHILEO; Thom Browne.'],
  ['Collaborations','GUIDI × MASTERMIND WORLD GR20V_SK; New Balance 2010 by LM.RT for eth0s, U20102Z1. The latter debuted in mainland China through eth0s on 26 September 2026.']
 ];
+const profileLinks=JSON.parse(fs.readFileSync('src/profile-links.json','utf8'));
+for(const s of shops)s.profileLinks=profileLinks[s.id]||[];
 fs.writeFileSync('src/data.json',JSON.stringify({shops,factories,routes}));
 console.log('Prepared',shops.length,'shops,',factories.length,'factory records;',factories.filter(f=>f.lat).length,'factory anchors');

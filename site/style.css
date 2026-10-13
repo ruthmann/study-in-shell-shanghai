@@ -3,3 +3,6 @@
 
 /* Approved cinnabar seal shared with Archive Drops. */
 .wordmark{display:flex;align-items:center;gap:14px}.wordmark .seal{width:64px;height:64px;object-fit:contain;border-radius:50%;flex:none}.wordmark .brand-name{font-size:17px;letter-spacing:1.1px}.wordmark .brand-name span{font-size:9px;letter-spacing:1.8px}@media(max-width:600px){.wordmark .seal{width:48px;height:48px}.wordmark{gap:9px}.wordmark .brand-name{font-size:14px}header nav{gap:14px}}
+
+/* Full atlas names wrap cleanly on smaller screens. */
+header nav{flex-wrap:wrap;align-items:center}header nav a{white-space:nowrap}@media(min-width:901px) and (max-width:1250px){header{flex-wrap:wrap}header nav{order:3;width:100%;justify-content:space-between}}
