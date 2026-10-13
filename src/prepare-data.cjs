@@ -1,6 +1,7 @@
 const fs=require('fs');
 const shops=JSON.parse(fs.readFileSync('src/shops-original.json','utf8')).filter(s=>s.id!=='tk');
 const meta={
+mandom:["Mandom Bugs", "Xuhui · Jiashan Road", "Yuketen & heritage footwear", "A key Jiashan Road stop for Yuketen and heritage footwear. Yuketen lists Mandom Bugs among its China stockists; ask which shoes and sizes are available before visiting. The showroom sits inside High Street Loft, a short continuation south from eth0s. Allow time to compare fit and construction in person.", "Retail hours unconfirmed; arrange access ahead"],
 fly:["FLY Streetwear", "Jing’an · Changle Road", "Shanghai skate culture & customization inquiries", "A Shanghai skate shop with roots in 1999 and a history of Nike SB collaborations. The Gardenia Dunk connects sneaker design with the city’s street culture. For a customization visit, ask what shoe personalization, if any, is currently offered; a design collaboration does not establish an in-store service.", "Current hours and appointment conditions unconfirmed; ask ahead"],
 nikelab:["NikeLab · temporary pop-up", "Xuhui · Yanqing Road", "Limited releases & customization inquiries", "A temporary sneaker stop to inquire about NikeLab releases and customization. Jing Daily reported that X158 at 158 Xinle Road would close on 7 October 2026, with a pop-up at Yanqingfang, 122 Yanqing Road, from 8 October. Customization services at this location have not been confirmed.", "Pop-up hours and appointment conditions unknown; confirm directly"],
 autumn:['Autumn Sonata','Xuhui · Taiyuan Road','Artisanal shoes & independent design','An independent select shop with artisanal footwear on Taiyuan Road.','Confirm hours before visiting'],
@@ -108,6 +109,7 @@ shops.find(s=>s.id==='eth').selection=[
  ['Collaborations','GUIDI × MASTERMIND WORLD GR20V_SK; New Balance 2010 by LM.RT for eth0s, U20102Z1. The latter debuted in mainland China through eth0s on 26 September 2026.']
 ];
 const profileLinks=JSON.parse(fs.readFileSync('src/profile-links.json','utf8'));
-for(const s of shops)s.profileLinks=profileLinks[s.id]||[];
+const profileAccounts=JSON.parse(fs.readFileSync('src/profile-accounts.json','utf8'));
+for(const s of shops){s.profileLinks=profileLinks[s.id]||[];s.profileAccounts=profileAccounts[s.id]||[];}
 fs.writeFileSync('src/data.json',JSON.stringify({shops,factories,routes}));
 console.log('Prepared',shops.length,'shops,',factories.length,'factory records;',factories.filter(f=>f.lat).length,'factory anchors');

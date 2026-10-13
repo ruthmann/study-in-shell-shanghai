@@ -5,7 +5,7 @@
     "name": "Central Shanghai",
     "area": "Jing’an → Julu & Changle → Wulumuqi → Taiyuan → Jiashan",
     "time": "A full-day circuit · choose shorter sections",
-    "description": "The master central circuit: classic shoemaking, specialist boots, sneakers and the avant-garde. Begin at Classic Works, work through Plaza 66 and Kerry Centre, then visit JUICE and Industrial Co. on Julu Road and continue through Changle to the Wulumuqi corridor. Visit Autumn Sonata on Taiyuan Road after La Maison, then finish at eth0s on Jiashan Road. One DOE and one NOOS anchor the route.",
+    "description": "The master central circuit: classic shoemaking, specialist boots, sneakers and the avant-garde. Begin at Classic Works, work through Plaza 66 and Kerry Centre, then visit JUICE and Industrial Co. on Julu Road and continue through Changle to the Wulumuqi corridor. Visit Autumn Sonata on Taiyuan Road after La Maison, then visit eth0s and finish at Mandom Bugs on Jiashan Road. One DOE and one NOOS anchor the route.",
     "ids": [
       "cw",
       "jl",
@@ -20,14 +20,15 @@
       "fy",
       "lm",
       "autumn",
-      "eth"
+      "eth",
+      "mandom"
     ],
     "optional": [
       "no2"
     ],
     "optionalTitle": "Alternative NOOS: 17 · One ITC",
     "optionalNote": "Visit NOOS at One ITC instead of stop 16 at Kerry Centre if Xujiahui suits your plans. Work it into the southern part of your day. Save route includes the Kerry Centre branch; save stop 17 separately and remove stop 16 from My circuit if you choose this alternative.",
-    "note": "Choose the Jing’an, Julu–Changle or southern section for a shorter outing, leaving time for fitting and conversation. John Lobb is on B1 of Plaza 66; Ralph Lauren is in Kerry Centre’s North Building and NOOS in its South Building. Arrange BaronJ’s weekend or appointment access and Roiluxe’s Room 520 access ahead. The Anthology / Tassels at La Maison lists Tuesday–Sunday, 12:30–20:30 hours. Reconfirm hours before setting out."
+    "note": "Choose the Jing’an, Julu–Changle or southern section for a shorter outing, leaving time for fitting and conversation. John Lobb is on B1 of Plaza 66; Ralph Lauren is in Kerry Centre’s North Building and NOOS in its South Building. Arrange BaronJ’s weekend or appointment access and Roiluxe’s Room 520 access ahead. The Anthology / Tassels at La Maison lists Tuesday–Sunday, 12:30–20:30 hours. Reconfirm hours before setting out. Arrange access to Mandom Bugs at High Street Loft before visiting."
   },
   {
     "id": "bund",

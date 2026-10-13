@@ -14,7 +14,7 @@ assert(shops.find(s=>s.id==='rl').zh.includes('北区'));
 assert(shops.find(s=>s.id==='no').zh.includes('南区'));
 assert.equal(shops.find(s=>s.id==='rr').warning,null);
 assert(!shops.some(s=>s.id==='tk'));
-assert.equal(shops.length,26);
+assert.equal(shops.length,27);
 assert(shops.find(s=>s.id==='cmxt').zh.includes('马当路245号 新天地时尚B1层'));
 assert(shops.find(s=>s.id==='juice').zh.includes('巨鹿路832号'));
 assert(!shops.some(s=>/innersect/i.test(s.name)));
@@ -24,7 +24,7 @@ assert.equal(shops.find(s=>s.id==='juice').number,23);
 assert(shops.find(s=>s.id==='jl').zh.includes('B1'));
 assert(shops.find(s=>s.id==='rb').zh.includes('3层'));
 assert(shops.find(s=>s.id==='eth').selection.length===4);
-console.log('PASS: 26 stops with sourced coordinates; independent datum controls; matching taxi/model addresses; Kerry wings; Culture Matters and Rivets branches; route integrity; retained selection evidence.');
+console.log('PASS: 27 stops with sourced coordinates; independent datum controls; matching taxi/model addresses; Kerry wings; Culture Matters and Rivets branches; route integrity; retained selection evidence.');
 // Published copy must not expose private research handoffs or editorial instructions.
 const published=JSON.stringify(require('../src/data.json'));
 assert(!/handoff|screenshot-backed|user-confirmed|inherited|supplied in|editorial (?:notes|example|corrections)|confirmed by the editor|candidate for a future|not attached to this edit/i.test(published));
@@ -37,3 +37,6 @@ console.log('PASS: public copy excludes internal handoffs, obsolete warnings and
 assert(dist(shops.find(s=>s.id==='fly'),toWgs({datum:'GCJ02',lat:31.21787,lon:121.452763}))<1);
 const nike=shops.find(s=>s.id==='nikelab');assert.equal(nike.pinPrecision,'venue');assert(nike.zh.includes('延庆路122号'));assert(nike.warning.includes('Temporary location'));
 assert.deepEqual(routes.find(r=>r.id==='sport').ids,['doet','pn','juice','fly','nikelab','fy','eth']);
+
+const mandom=shops.find(s=>s.id==='mandom');
+assert.equal(mandom.number,27);assert(mandom.zh.includes('嘉善路508号'));assert(mandom.tags.includes('Yuketen'));assert(routes.find(r=>r.id==='central').ids.includes('mandom'));assert(dist(mandom,toWgs({datum:'BD09MC',x:13521694.74,y:3637794.30}))<1);assert.equal(mandom.profileAccounts[0].handle,'LongTimeNoSeeWei');

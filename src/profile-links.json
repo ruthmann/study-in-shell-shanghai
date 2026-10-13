@@ -33,6 +33,10 @@
     {
       "label": "Instagram · brand",
       "url": "https://www.instagram.com/theanthology/"
+    },
+    {
+      "label": "TASSELS · WeChat contact instructions",
+      "url": "https://www.tassels.com.hk/faqs.php"
     }
   ],
   "md": [
@@ -111,6 +115,12 @@
     {
       "label": "Website · currently password-protected",
       "url": "https://www.doeshanghai.com/"
+    }
+  ],
+  "mandom": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/mandombugs/"
     }
   ]
 }

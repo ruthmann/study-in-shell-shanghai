@@ -34,3 +34,5 @@
 
 /* Direct destination links stay visible, separate from research sources. */
 .profile-links{display:flex;flex-wrap:wrap;gap:8px 16px;margin:0 0 18px;font-size:12px;line-height:1.6}.profile-links a{color:var(--red);text-underline-offset:4px;overflow-wrap:anywhere;padding:5px 0}.profile-links a:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+
+.profile-account{margin:0 0 18px;padding:12px 14px;background:var(--paper,#f6f3ed);font-size:12px;line-height:1.6;overflow-wrap:anywhere}.profile-account p{margin:4px 0 0}

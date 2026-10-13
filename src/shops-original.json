@@ -627,5 +627,33 @@
         "url": "https://jingdaily.com/intels/2026-10/06/nikelab-to-close-shanghai-s-x158-store-after-12-years-shifts-to-pop-up"
       }
     ]
+  },
+  {
+    "id": "mandom",
+    "name": "Mandom Bugs",
+    "zh": "上海市徐汇区嘉善路508号 尚街LOFT 1号楼216–217室",
+    "cat": "heritage",
+    "lat": null,
+    "lon": null,
+    "addr": "Rooms 216–217, Building 1, High Street Loft, 508 Jiashan Road, Xuhui",
+    "note": "A key Jiashan Road stop for Yuketen and heritage footwear. Yuketen lists Mandom Bugs among its China stockists; ask which shoes and sizes are available before visiting. The showroom sits inside High Street Loft, a short continuation south from eth0s. Allow time to compare fit and construction in person.",
+    "tags": [
+      "Yuketen",
+      "Heritage footwear"
+    ],
+    "sources": [
+      {
+        "label": "Yuketen · official stockist and Instagram listing",
+        "url": "https://www.yuketen.com/stockists"
+      },
+      {
+        "label": "Scarti-Lab · Mandom Bugs address, Rooms 216–217",
+        "url": "https://www.scarti-lab.com/en/stores"
+      },
+      {
+        "label": "Inis Meáin · Shanghai showroom contact and appointment listing",
+        "url": "https://inismeain.ie/pages/press-centre"
+      }
+    ]
   }
 ]

@@ -812,6 +812,42 @@
           "url": "https://ditu.amap.com/regeo?lng=121.450455&lat=31.214933&name=Yanqing%20Lane&src=uriapi&innersrc=uriapi"
         }
       ]
+    },
+    {
+      "id": "mandom",
+      "checked": "2026-10-13",
+      "position": {
+        "datum": "BD09MC",
+        "x": 13521694.74,
+        "y": 3637794.3
+      },
+      "precision": "building",
+      "pinLabel": "Building 1 pin · confirm Room 216–217 access",
+      "notes": "Baidu maps High Street Loft Building 1 at 508 Jiashan Road. Converted BD09MC to WGS84; building anchor, not surveyed shop entrance. Scarti-Lab lists Rooms 216–217; Inis Meáin lists Room 216. An older Moovit listing names Room 404; confirm current unit with the shop.",
+      "overrides": {
+        "street": "Rooms 216–217, Building 1, High Street Loft, 508 Jiashan Road, Xuhui",
+        "zh": "上海市徐汇区嘉善路508号 尚街LOFT 1号楼216–217室",
+        "phone": "+86 183 0180 0441",
+        "warning": "Arrange access ahead. Inis Meáin lists showroom visits by appointment; retail hours and general appointment conditions are unconfirmed."
+      },
+      "sources": [
+        {
+          "label": "Yuketen · official stockist and Instagram listing",
+          "url": "https://www.yuketen.com/stockists"
+        },
+        {
+          "label": "Scarti-Lab · Mandom Bugs address, Rooms 216–217",
+          "url": "https://www.scarti-lab.com/en/stores"
+        },
+        {
+          "label": "Inis Meáin · Shanghai showroom contact and appointment listing",
+          "url": "https://inismeain.ie/pages/press-centre"
+        },
+        {
+          "label": "Baidu Maps · High Street Loft, Building 1",
+          "url": "https://map.baidu.com/mobile/webapp/place/detail/uid=abd660a89f7e8748a8f0cd9c"
+        }
+      ]
     }
   ],
   "targetedReview": {

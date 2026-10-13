@@ -809,5 +809,20 @@
         }
       ]
     }
+  },
+  "chinaPlatforms": {
+    "checked": "2026-10-13",
+    "mandom": {
+      "instagram": "https://www.instagram.com/mandombugs/",
+      "source": "https://www.yuketen.com/stockists",
+      "taobaoHandle": "LongTimeNoSeeWei",
+      "handleEvidence": "Collector identified this as the shop’s Taobao store; direct URL unresolved."
+    },
+    "lm": {
+      "wechat": "TASSELS-China",
+      "scope": "Mainland China customer support, not branch-specific",
+      "source": "https://www.tassels.com.hk/faqs.php"
+    },
+    "remaining": "No additional direct WeChat, Taobao or Xiaohongshu store URLs verified. Taobao browser search blocked by site-safety policy; Xiaohongshu search required login. No guessed URLs published."
   }
 }
