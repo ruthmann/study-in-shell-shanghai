@@ -12,7 +12,12 @@
   let saved = [], storageOK = true;
   try {const v = JSON.parse(localStorage.getItem(key) || '[]'); if (Array.isArray(v)) saved = [...new Set(v.filter(id => byId.has(id)))];} catch {storageOK = false;}
   const state = {view:'shops', selected:null, route:null};
-  let map, pins, routeLine, mapStops = stops;
+  let map, pins, routeLine, mapStops = stops, fitOnResize = true;
+  function fitStops() {
+    const points = mapStops.filter(s => s.point).map(s => s.point);
+    if (points.length) map.fitBounds(points, {padding:[32,32], maxZoom:16, animate:false});
+    fitOnResize = true;
+  }
   function filtered() {
     if (state.view === 'saved') return saved.map(id => byId.get(id));
     const q = $('search').value.toLowerCase().trim();
@@ -70,17 +75,20 @@
     const c=document.getElementById('stop-'+id);
     if(c){results.scrollTop=Math.max(0,c.offsetTop-results.offsetTop);if(focus)c.querySelector('summary').focus({preventScroll:true});}
     const s=byId.get(id);
-    if(map&&s.point)map.setView(s.point,16,{animate:false});
+    if(map&&s.point){fitOnResize=false;map.setView(s.point,16,{animate:false});}
   }
   function routeMarkup(r) {return r.ids.filter(id => byId.get(id).point).map(id => byId.get(id).point);}
   function updateMap(fit) {
     if (!map) return;
     if (routeLine) {map.removeLayer(routeLine);routeLine=null;}
     const r=state.view==='routes'&&routes.find(r=>r.id===state.route);
-    if(r&&r.id!==4)routeLine=L.polyline(routeMarkup(r),{color:'#743c40',weight:2,opacity:.55,dashArray:'5 8',interactive:false}).addTo(map);
+    if(r&&r.id!==4)routeLine=L.layerGroup([
+      L.polyline(routeMarkup(r),{color:'#f7f3eb',weight:7,opacity:1,dashArray:'7 6',interactive:false}),
+      L.polyline(routeMarkup(r),{color:'#743c40',weight:4,opacity:1,dashArray:'7 6',interactive:false})
+    ]).addTo(map);
     drawPins();
     const p=mapStops.filter(s=>s.point).map(s=>s.point);
-    if(fit&&p.length)map.fitBounds(p,{padding:[32,32],maxZoom:16,animate:false});
+    if(fit)fitStops();
     if(!p.length)$('map-status').textContent='No public address pins for this selection. Use the destination’s source link to arrange access.';
     else $('map-status').textContent='Address-level pins, not verified entrances. Open a destination for its floor, access details and directions.';
   }
@@ -98,7 +106,7 @@
       const label=cluster?`${group.length} destinations; zoom to explore`:`${s.id}. ${s.name}`;
       const icon=L.divIcon({className:'number-pin'+(!cluster&&s.id===state.selected?' active':''),iconSize:[29,29],iconAnchor:[14,14],html:`<span style="--pin-color:${cluster?'#302d29':colors[s.category]}">${cluster?'+'+group.length:String(s.id).padStart(2,'0')}</span>`});
       const marker=L.marker(point,{icon,title:label,alt:label,keyboard:true}).addTo(pins);
-      if(cluster)marker.on('click',()=>map.fitBounds(group.map(s=>s.point),{padding:[45,45],maxZoom:16,animate:false}));
+      if(cluster)marker.on('click',()=>{fitOnResize=false;map.fitBounds(group.map(s=>s.point),{padding:[45,45],maxZoom:16,animate:false});});
       else {
         marker.bindPopup(`<strong>${esc(s.name)}</strong><p>${esc(s.address)}</p><p>${esc(s.area)}</p><button type="button" data-open="${s.id}">Read destination →</button>`);
         marker.on('popupopen',e=>{const b=e.popup.getElement().querySelector('[data-open]');if(b)b.onclick=()=>selectStop(s.id);});
@@ -118,7 +126,7 @@
     }
     if(b.dataset.open)selectStop(Number(b.dataset.open));
     if(b.dataset.route){state.route=Number(b.dataset.route);render();}
-    if(b.dataset.map){const s=byId.get(Number(b.dataset.map));if(map&&s.point){map.setView(s.point,17,{animate:false});if(window.innerWidth<721)$('map').scrollIntoView({block:'center'});}}
+    if(b.dataset.map){const s=byId.get(Number(b.dataset.map));if(map&&s.point){fitOnResize=false;map.setView(s.point,17,{animate:false});if(window.innerWidth<721)$('map').scrollIntoView({block:'center'});}}
   });
   results.addEventListener('toggle',e=>{
     if(!e.target.matches('.stop')||!e.target.open)return;
@@ -136,13 +144,27 @@
   try {
     if(typeof L==='undefined')throw new Error('Map library unavailable');
     $('map').innerHTML='';
-    map=L.map('map',{scrollWheelZoom:false,preferCanvas:true}).setView([40.721,-73.978],12);
+    map=L.map('map',{scrollWheelZoom:false,preferCanvas:true,zoomSnap:.25})
+      .fitBounds(stops.filter(s=>s.point).map(s=>s.point),{padding:[32,32],maxZoom:16,animate:false});
     pins=L.layerGroup().addTo(map);
     let loaded=false;
     const tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · Addresses: <a href="https://geosearch.planninglabs.nyc/">NYC Planning</a>'}).addTo(map);
     tiles.on('tileload',()=>{loaded=true;});
     tiles.on('tileerror',()=>{if(!loaded)$('map-status').textContent='Street tiles are unavailable. Address pins and the directory still work; use each destination’s Directions link.';});
-    map.on('zoomend',drawPins);updateMap(true);
+    map.on('zoomend',drawPins);
+    map.on('dragstart zoomstart',()=>{fitOnResize=false;});
+    updateMap(true);
+    let resizeFrame;
+    const resizeMap=()=>{
+      cancelAnimationFrame(resizeFrame);
+      resizeFrame=requestAnimationFrame(()=>{
+        const refit=fitOnResize;
+        map.invalidateSize({pan:true,animate:false});
+        if(refit)fitStops();
+      });
+    };
+    if(typeof ResizeObserver!=='undefined')new ResizeObserver(resizeMap).observe($('map'));
+    else window.addEventListener('resize',resizeMap);
   } catch {
     $('map-status').textContent='The map could not load. All addresses, source links and directions remain available in the directory.';
     $('fit-map').disabled=true;
