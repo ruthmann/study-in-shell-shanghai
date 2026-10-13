@@ -13,6 +13,7 @@ let html=fs.readFileSync(path.join(dir,'template.html'),'utf8');
 const replacements={__CARDS__:cards,__DATA__:JSON.stringify(data).replace(/</g,'\\u003c'),__WATCHLIST__:watch,__MAPPED_COUNT__:data.stops.filter(s=>s.point).length,__CATEGORY_OPTIONS__:[...new Set(data.stops.map(s=>s.category))].map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('')};
 for(const [k,v] of Object.entries(replacements))html=html.replaceAll(k,()=>v);
 fs.mkdirSync(out,{recursive:true});fs.writeFileSync(path.join(out,'index.html'),html);
-for(const f of ['atlas.js','atlas.css','atlas.pdf'])fs.copyFileSync(path.join(dir,f),path.join(out,f));
+fs.writeFileSync(path.join(out,'atlas.js'),fs.readFileSync(path.resolve(dir,'../../src/geolocation.js'),'utf8')+'\n'+fs.readFileSync(path.join(dir,'atlas.js'),'utf8'));
+for(const f of ['atlas.css','atlas.pdf'])fs.copyFileSync(path.join(dir,f),path.join(out,f));
 fs.cpSync(path.resolve(dir,'../../vendor/leaflet'),path.join(out,'leaflet'),{recursive:true});
 console.log(`Built /newyork/: ${data.stops.length} entries, ${data.stops.filter(s=>s.point).length} address pins, ${data.routes.length} circuits`);

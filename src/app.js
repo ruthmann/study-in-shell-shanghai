@@ -157,3 +157,5 @@ startAtlas().catch(error=>{console.error('Atlas startup failed',error);window.at
 // A stable data model separates retail stops, historical places and future visitor access.
 // No fabricated shop stock, appointment bookings, tour inventory or live-open status.
 window.SIS={map,get state(){return {...state}},get saved(){return [...saved]},shops,factories,routes,mapItems,select,setView};
+
+AtlasLocation.attach({map,L,button:$('my-location'),back:$('back-to-circuit'),status:$('location-status'),bounds:BASEMAP.bounds,city:'Shanghai',beforeCenter:()=>{state.list=false;updateMobile();map.invalidateSize({pan:false});},fitCircuit:()=>fitMap()});

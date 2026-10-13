@@ -185,6 +185,7 @@
     map=L.map('map',{scrollWheelZoom:false,preferCanvas:true,zoomSnap:.25})
       .fitBounds(stops.filter(s=>s.point).map(s=>s.point),{padding:[32,32],maxZoom:16,animate:false});
     pins=L.layerGroup().addTo(map);
+    AtlasLocation.attach({map,L,button:$('my-location'),back:$('back-to-circuit'),status:$('location-status'),bounds:[[40.45,-74.3],[40.95,-73.65]],city:'New York',beforeCenter:()=>{fitOnResize=false;},fitCircuit:()=>updateMap(true)});
     let loaded=false;
     const tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · Addresses: <a href="https://geosearch.planninglabs.nyc/">NYC Planning</a>'}).addTo(map);
     tiles.on('tileload',()=>{loaded=true;});
@@ -206,5 +207,6 @@
   } catch {
     $('map-status').textContent='The map could not load. All addresses, source links and directions remain available in the directory.';
     $('fit-map').disabled=true;
+    $('my-location').disabled=true;
   }
 })();
