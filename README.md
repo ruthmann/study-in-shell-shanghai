@@ -8,7 +8,7 @@ Forty NYC pins use matched NYC Planning GeoSearch Property Address Directory rec
 
 The Shanghai eth0s description and selection now explicitly highlight its large visvim selection. Shanghai now contains 26 destinations, including FLY Streetwear and the reported NikeLab temporary pop-up; both now have qualified address/venue pins. Existing shop coordinates are preserved. Purple Label shoe origins are qualified by model and period.
 
-The NYC dataset was recovered exactly from recorded source fragments and matches its original Git blob hash `685b0e259013a2955742970a9fb628b738d8e59e`. The exact original 142,953-byte PDF was recovered from the base revision retained in the Library file; its Git blob hash is `8c2de8e85a9d5a0be084f2c4d4670d1feb401a28`. Both recovered files match the earlier build manifest. The PDF remains Draft 0.2 with its original map-verification caveat.
+The NYC dataset was recovered exactly from recorded source fragments and matches its original Git blob hash `685b0e259013a2955742970a9fb628b738d8e59e`. The exact original 142,953-byte PDF was recovered from the base revision retained in the Library file; its Git blob hash is `8c2de8e85a9d5a0be084f2c4d4670d1feb401a28`. Both recovered files match the earlier build manifest. The original remains recoverable in Git; the published PDF is now Draft 0.3, revised 13 October with the current address and editorial corrections.
 
 ## Study in Shell website — 9 October 2026
 
@@ -63,3 +63,7 @@ Guide text and design prepared for Study in Shell. No repository-wide open-sourc
 Added FLY Streetwear and the reported NikeLab Yanqing Road pop-up as stops 25 and 26. The atlas now lists 26 mapped destinations. FLY uses an address anchor at 704 Changle Road; NikeLab uses the Yanqingfang venue anchor at its reported 122 Yanqing Road pop-up location. Neither pin certifies an entrance or current operation. Both new entries are available through search, category filters, saved circuits and address cards. The Sport & sneaker culture circuit includes both as confirm-first stops. Hours, appointment conditions and customization services are explicitly unconfirmed. NikeLab retains a temporary-location warning and the reported 7–8 October X158 closure / pop-up transition. FLY’s 2023 founder address is distinguished from its indexed No. 704 listing.
 
 Purple Label copy at both Ralph Lauren branches now attributes the predominantly Italian-made recent-shoe observation to the anonymous collector, explains variation by model and period, and includes official Italy-made Luther and England-made Clayton examples as unavailable examples, not local stock. No LABELHOOD entry was added.
+
+## NYC revision, 13 October 2026
+
+Removed the three excluded watchlist names and incidental mentions. They were never numbered destinations, so the atlas remains 41 destinations, 40 address pins and four circuits. Carmina uses its official 45 E 45th St, New York, NY 10017 address, phone and Monday-Saturday hours; the official page does not publish Sunday hours. NYC Planning reconfirmed the unchanged address point. Jim’s remains an additional care lead at 60 East 59th Street, outside the numbered routes and pins. Draft 0.3 PDF reflects the same corrections. Reproduce it with `python site/newyork/revise-pdf.py` (PyMuPDF required; the original PDF is read from its preserved Git commit).

@@ -403,7 +403,7 @@
       "category": "Local Color",
       "role": "Context",
       "focus": "Designer discovery; experimental footwear and merchandising",
-      "note": "A current destination for the discovery role once associated with Barneys. The multi-level, changing presentation is useful editorially; check the floor guide and current collections for relevant footwear.",
+      "note": "A destination for designer discovery. The multi-level, changing presentation is useful editorially; check the floor guide and current collections for relevant footwear.",
       "visit": "Official location page lists regular hours; contact page retains an August seasonal-reset notice. Reconfirm.",
       "sources": [
         "https://newyork.doverstreetmarket.com/pages/locations",
@@ -462,16 +462,16 @@
       "id": 23,
       "name": "Carmina - East 45th Street",
       "area": "Midtown East",
-      "address": "45 East 45th Street",
+      "address": "45 E 45th St, New York, NY 10017",
       "category": "Benchmade & Buyer's",
       "role": "Anchor",
       "focus": "Mallorcan shoes; more than 20 last types advertised",
-      "note": "The currently corroborated Carmina fitting destination. It adds a different shape vocabulary to Alden and C&J. The older 509 Madison store is held outside the core circuit until its status is clarified.",
-      "visit": "Mon-Fri 10-6:30; Sat 10-6. Sunday not listed on this store page.",
+      "note": "The Carmina fitting destination near Grand Central. Compare its Mallorcan lasts with Alden and C&J nearby; confirm model and size availability before a dedicated visit.",
+      "visit": "Mon-Fri 10:00-18:30; Sat 10:00-18:00. Sunday hours not published on the official store page; confirm directly. Phone: +1 212-687-0222.",
       "sources": [
         "https://www.carminashoemaker.com/en/carmina-new-york-45e45st"
       ],
-      "checked": "2026-10-12",
+      "checked": "2026-10-13",
       "zone": "midtown",
       "point": [
         40.754851,
@@ -528,7 +528,7 @@
       "category": "Local Color",
       "role": "Context",
       "focus": "Multi-brand luxury menswear and footwear",
-      "note": "The department-store counterpoint to specialist shops, and a sensible current alternative to the old Barneys visit. The men's building is across Fifth Avenue from the main store; do not use 754 Fifth for this entry.",
+      "note": "The department-store counterpoint to specialist shops. The men's building is across Fifth Avenue from the main store; do not use 754 Fifth for this entry.",
       "visit": "Official men's-store listing; check current footwear brands and hours.",
       "sources": [
         "https://stores.bergdorfgoodman.com/stores/goodmans-mens-store"
@@ -964,28 +964,8 @@
   ],
   "watchlist": [
     {
-      "title": "Barneys New York / historical + revival watch",
-      "note": "The former NYC flagship is not included as an active destination. April 2026 reporting described a possible Madison Avenue revival; this research did not establish a reopening. Keep the old Barneys story in the historical layer. Bergdorf men's and DSM are editorial alternatives, not replacements under the Barneys name.",
-      "url": "https://www.wsj.com/business/retail/the-90s-really-are-back-barneys-is-getting-a-reboot-bb0c4a48"
-    },
-    {
-      "title": "J. FitzPatrick / inactive retail notice",
-      "note": "The official site states that it is no longer operating as an active retail site. Exclude the old 101 Thompson Street listing from a live visiting route unless a new operating location is independently confirmed.",
-      "url": "https://www.jfitzpatrickfootwear.com/pages/j-fitzpatrick-the-end-of-an-era"
-    },
-    {
-      "title": "FEIT / current physical access unresolved",
-      "note": "An important construction lead, but the current store page did not yield a confirmed NYC address. Historic Prince Street and Greenwich Avenue coverage should not be converted into active pins.",
-      "url": "https://www.feitdirect.com/pages/stores"
-    },
-    {
-      "title": "Carmina / 509 Madison requires confirmation",
-      "note": "Older brand posts and guides mention 509 Madison. The current corroborated core entry is 45 East 45th Street. Do not add a second pin merely from an old listing.",
-      "url": "https://www.carminashoemaker.com/en/carmina-new-york-45e45st"
-    },
-    {
-      "title": "Jim's Shoe Repair / street number discrepancy",
-      "note": "The official site says 60 East 59th Street; multiple directories say 50. Hold the precise pin until direct confirmation, rather than choosing the more familiar number.",
+      "title": "Jim's Shoe Repair / 60 East 59th Street",
+      "note": "60 East 59th Street, New York. Retained as a care-and-repair lead outside the numbered circuits; confirm hours and the proposed work before visiting.",
       "url": "https://jimsshoerepair.com/"
     }
   ]

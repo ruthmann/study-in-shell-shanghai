@@ -136,7 +136,7 @@
   },true);
   $('fit-map').onclick=()=>updateMap(true);
   $('download').onclick=()=>{
-    const text=['STUDY IN SHELL / MY NEW YORK CIRCUIT','Research checked 12 October 2026; reconfirm access and hours.','',...saved.map(id=>{const s=byId.get(id);return `${String(id).padStart(2,'0')} / ${s.name}\n${s.address}, ${s.area}\n${s.visit}\n${s.sources[0]}\n`;})].join('\n');
+    const text=['STUDY IN SHELL / MY NEW YORK CIRCUIT','Research 12 October; revised 13 October 2026; reconfirm access and hours.','',...saved.map(id=>{const s=byId.get(id);return `${String(id).padStart(2,'0')} / ${s.name}\n${s.address}, ${s.area}\n${s.visit}\n${s.sources[0]}\n`;})].join('\n');
     const u=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=u;a.download='study-in-shell-my-new-york-circuit.txt';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);
   };
   $('print').onclick=()=>{const details=[...results.querySelectorAll('details')];const open=details.map(d=>d.open);details.forEach(d=>d.open=true);window.addEventListener('afterprint',()=>details.forEach((d,i)=>d.open=open[i]),{once:true});window.print();};
