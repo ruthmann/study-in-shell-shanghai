@@ -577,5 +577,55 @@
       "Paul Harnden Shoemakers"
     ],
     "sources": []
+  },
+  {
+    "id": "fly",
+    "name": "FLY Streetwear",
+    "zh": "上海市长乐路704号（2023年创始人访谈亦列706号；到访前请确认）",
+    "cat": "local",
+    "lat": null,
+    "lon": null,
+    "addr": "704 Changle Road, Shanghai · founder also listed No. 706 in 2023",
+    "note": "A Shanghai skate shop with roots in 1999 and a history of Nike SB collaborations. The Gardenia Dunk connects sneaker design with the city’s street culture. For a customization visit, ask what shoe personalization, if any, is currently offered; a design collaboration does not establish an in-store service.",
+    "tags": [
+      "Skateboarding",
+      "Nike SB collaborations",
+      "Customization enquiries"
+    ],
+    "sources": [
+      {
+        "label": "Nike SB · FLY’s Shanghai skate history and 2023 collaboration",
+        "url": "https://www.nikesb.com/the-vault/striped-box-era/fly-streetwear"
+      },
+      {
+        "label": "Weartested · founder interview, 25 March 2023; 704–706 Changle Road",
+        "url": "https://www.weartested.com/behind-the-design-nike-sb-dunk-gardenia-the-fragrance-of-shanghai/"
+      },
+      {
+        "label": "FLY Streetwear · shop profile; indexed address is 704 Changle Road",
+        "url": "https://www.facebook.com/FlyStreetwear/"
+      }
+    ]
+  },
+  {
+    "id": "nikelab",
+    "name": "NikeLab — Yanqing Road pop-up",
+    "zh": "上海市徐汇区延庆路122号 延庆坊（NikeLab临时店，出发前请确认）",
+    "cat": "local",
+    "lat": null,
+    "lon": null,
+    "addr": "Reported pop-up: Yanqingfang, 122 Yanqing Road, Shanghai",
+    "note": "A temporary sneaker stop to enquire about NikeLab releases and customization. Jing Daily reported that X158 at 158 Xinle Road would close on 7 October 2026, with a pop-up at Yanqingfang, 122 Yanqing Road, from 8 October. Customization services at this location have not been confirmed.",
+    "tags": [
+      "NikeLab",
+      "Temporary pop-up",
+      "Customization enquiries"
+    ],
+    "sources": [
+      {
+        "label": "Jing Daily · reported X158 closure and Yanqing Road pop-up, 6 October 2026",
+        "url": "https://jingdaily.com/intels/2026-10/06/nikelab-to-close-shanghai-s-x158-store-after-12-years-shifts-to-pop-up"
+      }
+    ]
   }
 ]

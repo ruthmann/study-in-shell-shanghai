@@ -1,6 +1,8 @@
 const fs=require('fs');
 const shops=JSON.parse(fs.readFileSync('src/shops-original.json','utf8')).filter(s=>s.id!=='tk');
 const meta={
+fly:["FLY Streetwear", "Jing’an · Changle Road", "Shanghai skate culture & customization enquiries", "A Shanghai skate shop with roots in 1999 and a history of Nike SB collaborations. The Gardenia Dunk connects sneaker design with the city’s street culture. For a customization visit, ask what shoe personalization, if any, is currently offered; a design collaboration does not establish an in-store service.", "Current hours and appointment conditions unconfirmed; ask ahead"],
+nikelab:["NikeLab · temporary pop-up", "Xuhui · Yanqing Road", "Limited releases & customization enquiries", "A temporary sneaker stop to enquire about NikeLab releases and customization. Jing Daily reported that X158 at 158 Xinle Road would close on 7 October 2026, with a pop-up at Yanqingfang, 122 Yanqing Road, from 8 October. Customization services at this location have not been confirmed.", "Pop-up hours and appointment conditions unknown; confirm directly"],
 autumn:['Autumn Sonata','Xuhui · Taiyuan Road','Artisanal shoes & independent design','An independent select shop with artisanal footwear on Taiyuan Road.','Confirm hours before visiting'],
 cw:['Classic Works','Jing’an','Welted boots & independent makers','Heavyweight boots, Japanese craft and independent shoemakers. A strong first stop for collectors who want to handle the leather and compare construction.','Confirm hours before visiting'],
 rb:['Radiance Blue','Jing’an','Alden, loafers & contemporary labels','A select-shop stop inside Taikoo Hui, mixing American classics with contemporary and outdoor footwear. Confirm the current unit with the mall directory.','Mall listed 10:00–22:00; shop hours unconfirmed'],
@@ -45,21 +47,21 @@ const rlFootwearSources=[
 ];
 for(const s of shops.filter(s=>['rl','rl2'].includes(s.id))){
  const kerry=s.id==='rl';
- s.strap=kerry?'RRL boots & Italian-made Purple Label shoes':'Italian-made Purple Label footwear';
+ s.strap=kerry?'RRL boots & Purple Label shoes':'Purple Label shoes · origin varies';
  s.description=kerry
-  ?'Ralph Lauren deserves a place on a footwear circuit for its relationships with specialist international shoemakers. RRL brings the workwear and boot side, including English- and American-made examples; Purple Label offers Italian-made footwear. At Kerry Centre, ask to see the available boots and dress shoes, compare their construction and fit, then continue to NOOS in the South Building.'
-  :'A Bund-side stop to enquire about Purple Label’s Italian-made footwear. The interest is in the shoes themselves: leather, finishing, shape and fit within Ralph Lauren’s tailored wardrobe. Ask which models and sizes this boutique carries before making a dedicated trip; its selection should not be assumed to match Kerry Centre.';
+  ?'Ralph Lauren deserves a place on a footwear circuit for its relationships with specialist international shoemakers. RRL brings the workwear and boot side, including English- and American-made examples; Purple Label shoe origins vary by model and period. At Kerry Centre, ask to see the available boots and dress shoes, compare their construction and fit, then continue to NOOS in the South Building.'
+  :'A Bund-side stop to enquire about Purple Label shoes, whose origins vary by model and period. The interest is in the shoes themselves: leather, finishing, shape and fit within Ralph Lauren’s tailored wardrobe. Ask which models and sizes this boutique carries before making a dedicated trip; its selection should not be assumed to match Kerry Centre.';
  s.note=s.description;
  s.selection=kerry?[
   ['RRL / Double RL boots','The line has offered boots from specialist international makers, including production in England and the United States. Livingstone boots attributed to Crockett & Jones are an editorial example; that model-to-maker attribution has not been independently verified. Makers can vary by model and period.'],
-  ['Purple Label','Look for Italian-made shoes, including loafers and dress styles. The Luther tassel loafer is a documented example. Country of manufacture does not by itself identify the workshop.'],
+  ['Purple Label',"The collector reports that most recent Purple Label shoes he has seen are Italian-made; this is a personal observation, not a verified share of production. Shoe origin varies by model and period. Official examples include the Italy-made Luther tassel suede loafer and England-made Clayton wingtip oxford. Both product pages mark these examples unavailable; neither establishes current Shanghai stock. Check the origin label on the specific pair."],
   ['Ask in store','Which RRL and Purple Label footwear is available at this branch? Ask about the maker where disclosed, country of manufacture, construction, sizing and repair options for the specific pair. These historical examples are not a current-stock list.']
  ]:[
-  ['Purple Label','Italian-made footwear is the reason to investigate this stop. The Luther tassel loafer is a documented collection example, not confirmed Peninsula inventory.'],
+  ['Purple Label',"The collector reports that most recent Purple Label shoes he has seen are Italian-made; this is a personal observation, not a verified share of production. Shoe origin varies by model and period. Official examples include the Italy-made Luther tassel suede loafer and England-made Clayton wingtip oxford. Both product pages mark these examples unavailable; neither establishes current Shanghai stock. Check the origin label on the specific pair."],
   ['Branch selection','Confirm the footwear range and sizes directly. RRL’s English- and American-made boot history is covered at the Kerry Centre stop; RRL availability at Peninsula is not established.']
  ];
  s.evidence+=' Footwear context reviewed 9 October 2026. Official product pages and the Winter 2020 catalogue establish examples of manufacturing origins, not Shanghai stock. The Livingstone / Crockett & Jones attribution was supplied in editorial notes and remains independently unverified; no specific American factory is asserted.';
- s.sources.push(...(kerry?rlFootwearSources:[rlFootwearSources[2]]));
+ s.sources.push(...(kerry?rlFootwearSources:[rlFootwearSources[2]]),{label:'Ralph Lauren · Purple Label Clayton oxford, made in England; unavailable example',url:'https://www.ralphlauren.com/men-footwear-shoes/clayton-wingtip-oxford/467125.html'});
 }
 // Editor-supplied corrections and replacement copy, 9 October 2026.
 const editorialDescriptions=JSON.parse(fs.readFileSync('src/editorial-descriptions.json','utf8'));
@@ -96,13 +98,13 @@ shops.find(s=>s.id==='gm').warning=null;
 shops.find(s=>s.id==='gm').area='Putuo · Changfeng';
 shops.find(s=>s.id==='rl').selection=[
  ['RRL / Double RL boots','RRL has offered boots from specialist international makers, with production in England and the United States. Livingstone boots are attributed to Crockett & Jones; the maker attribution remains unverified. Makers can vary by model and period.'],
- ['Purple Label','Italian-made footwear includes loafers and dress styles, with the Luther tassel loafer one example. Explore the leather, shape and finishing alongside Ralph Lauren’s tailored clothing.']
+ ['Purple Label',"The collector reports that most recent Purple Label shoes he has seen are Italian-made; this is a personal observation, not a verified share of production. Shoe origin varies by model and period. Official examples include the Italy-made Luther tassel suede loafer and England-made Clayton wingtip oxford. Both product pages mark these examples unavailable; neither establishes current Shanghai stock. Check the origin label on the specific pair."]
 ];
-shops.find(s=>s.id==='rl2').selection=[['Purple Label','Italian-made loafers and dress shoes connect the footwear collection with Ralph Lauren’s tailored wardrobe. The Luther tassel loafer is one example from the collection.']];
+shops.find(s=>s.id==='rl2').selection=[['Purple Label',"The collector reports that most recent Purple Label shoes he has seen are Italian-made; this is a personal observation, not a verified share of production. Shoe origin varies by model and period. Official examples include the Italy-made Luther tassel suede loafer and England-made Clayton wingtip oxford. Both product pages mark these examples unavailable; neither establishes current Shanghai stock. Check the origin label on the specific pair."]];
 shops.find(s=>s.id==='eth').selection=[
  ['Core makers','GUIDI; m.a+ / Maurizio Amadei; A1923.'],
  ['Limited editions','Geoffrey B. Small shoes.'],
- ['Further footwear','visvim; DEVOA; PHILEO; Thom Browne.'],
+ ['Further footwear','visvim — large selection; DEVOA; PHILEO; Thom Browne.'],
  ['Collaborations','GUIDI × MASTERMIND WORLD GR20V_SK; New Balance 2010 by LM.RT for eth0s, U20102Z1. The latter debuted in mainland China through eth0s on 26 September 2026.']
 ];
 fs.writeFileSync('src/data.json',JSON.stringify({shops,factories,routes}));

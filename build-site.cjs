@@ -6,12 +6,14 @@ execFileSync(process.execPath, ['src/prepare-data.cjs'], {stdio:'inherit'});
 execFileSync(process.execPath, ['build.cjs'], {stdio:'inherit'});
 fs.mkdirSync('dist/shanghai', {recursive:true});
 for (const name of ['index.html','style.css']) fs.copyFileSync(path.join('site',name),path.join('dist',name));
+fs.writeFileSync('dist/index.html',fs.readFileSync('site/index.html','utf8').replaceAll('__SHOP_COUNT__',String(JSON.parse(fs.readFileSync('src/data.json','utf8')).shops.length)));
 fs.copyFileSync('src/fonts-embedded.css','dist/fonts.css');
 const atlas = fs.readFileSync('index.html','utf8').replace('href="#" class="brand"','href="/" class="brand"');
 fs.writeFileSync('dist/shanghai/index.html',atlas);
+execFileSync(process.execPath, ['site/newyork/build.cjs'], {stdio:'inherit'});
 fs.cpSync('licenses','dist/licenses',{recursive:true});
 fs.writeFileSync('dist/404.html','<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Page not found — Study in Shell</title><link rel="stylesheet" href="/style.css"><main style="padding:10%"><h1>Page not found.</h1><p><a href="/">Return to Study in Shell</a> or <a href="/shanghai/">explore the Shanghai Shoe Atlas</a>.</p></main></html>');
-console.log('Built Study in Shell homepage and /shanghai/ Atlas in dist/');
+console.log('Built Study in Shell homepage, /shanghai/ and /newyork/ in dist/');
 
 // Publish only generated public files through GitHub Pages /docs.
 fs.copyFileSync("CNAME", "dist/CNAME");

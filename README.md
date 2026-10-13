@@ -1,5 +1,15 @@
 # Shanghai Shoe Circuit — Study in Shell
 
+## New York web atlas — 12 October 2026
+
+The draft NYC atlas is prepared for `/newyork/`, with 41 destinations, four circuits, a searchable directory, browser-local saved stops and the downloadable research PDF. Its source is in `site/newyork/`; `npm run build:site` builds both city guides and the homepage into `docs/`.
+
+Forty NYC pins use matched NYC Planning GeoSearch Property Address Directory records. `site/newyork/location-audit.json` retains the query, matched address, borough, WGS84 coordinate and source. These are address/building anchors, not surveyed entrances. STIEFELwerk has no public street pin. Brooklyn clusters are not connected by a misleading continuous route line. Leaflet is bundled; OpenStreetMap street tiles require a connection. The directory and source links are pre-rendered and usable without JavaScript.
+
+The Shanghai eth0s description and selection now explicitly highlight its large visvim selection. Shanghai now contains 26 destinations, including FLY Streetwear and the reported NikeLab temporary pop-up; both remain unpinned pending reliable coordinates. Existing shop coordinates are preserved. Purple Label shoe origins are qualified by model and period.
+
+The NYC dataset was recovered exactly from recorded source fragments and matches its original Git blob hash `685b0e259013a2955742970a9fb628b738d8e59e`. The exact original 142,953-byte PDF was recovered from the base revision retained in the Library file; its Git blob hash is `8c2de8e85a9d5a0be084f2c4d4670d1feb401a28`. Both recovered files match the earlier build manifest. The PDF remains Draft 0.2 with its original map-verification caveat.
+
 ## Study in Shell website — 9 October 2026
 
 `npm run build:site` builds the editorial homepage from `site/` and the complete guide at `/shanghai/` into `dist/`, then copies the public output to `docs/`. GitHub Pages publishes **main → /docs**. After edits, run `npm run build:site` and `npm test`, and commit the generated `docs/` files with the source. `CNAME` and `docs/CNAME` preserve `studyinshell.com`.
@@ -12,7 +22,7 @@ At the launch audit, six Shopify products were drafts and one duplicate was arch
 
 Preserve the corrected addresses and stated access requirements below; do not turn published hours or historical evidence into claims of verified visits.
 
-An independent visitor guide to Shanghai’s shoe shops, specialist makers and footwear history. Includes 24 retail/service destinations, three primary circuits and four factory/workshop records. No factory tours are offered or bookable.
+An independent visitor guide to Shanghai’s shoe shops, specialist makers and footwear history. Includes 26 retail/service destinations (24 mapped; two awaiting verified coordinates), three primary circuits and four factory/workshop records. No factory tours are offered or bookable.
 
 ## Use and publish
 
@@ -47,3 +57,9 @@ Added Autumn Sonata as stop **24**, at **74 Taiyuan Road**, between La Maison an
 Map data © OpenStreetMap contributors, ODbL: https://www.openstreetmap.org/copyright . Embedded vector base derived from OpenFreeMap / OpenMapTiles, snapshot 27 September 2026. It is a modern map, not a reconstruction of historic streets. Map interaction: Leaflet 1.9.4 (BSD-2-Clause; licence included). Fonts: DM Sans, Libre Caslon Display and Noto Sans SC, under the SIL Open Font License; notices included. Conversion polynomial reference: https://github.com/46319943/BD09Convertor (MIT). Source links and evidence distinctions are embedded in each destination card and the location audit.
 
 Guide text and design prepared for Study in Shell. No repository-wide open-source licence is assigned to the original editorial material. Third-party components retain their respective licences. No analytics, accounts or server-side storage; circuit saves remain in the browser’s local storage.
+
+## 13 October 2026 content review
+
+Added FLY Streetwear and the reported NikeLab Yanqing Road pop-up as stops 25 and 26. The atlas now lists 26 destinations: 24 mapped and two without verified coordinates. Both new entries are available through search, category filters, saved circuits and address cards. They are not added to mapped recommended routes until their positions are verified. Hours, appointment conditions and customization services are explicitly unconfirmed. NikeLab retains a temporary-location warning and the reported 7–8 October X158 closure / pop-up transition. FLY’s 2023 founder address is distinguished from its indexed No. 704 listing.
+
+Purple Label copy at both Ralph Lauren branches now attributes the predominantly Italian-made recent-shoe observation to the anonymous collector, explains variation by model and period, and includes official Italy-made Luther and England-made Clayton examples as unavailable examples, not local stock. No LABELHOOD entry was added.

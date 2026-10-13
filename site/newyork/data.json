@@ -1,0 +1,992 @@
+{
+  "stops": [
+    {
+      "id": 1,
+      "name": "Leffot",
+      "area": "West Village",
+      "address": "10 Christopher Street",
+      "category": "Benchmade & Buyer's",
+      "role": "Anchor",
+      "focus": "Alden; Edward Green; Rancourt; specialist and pre-owned shoes",
+      "note": "The collector's anchor: compare lasts, retailer makeups and used pairs. Its published offering also includes Corthay, Gaziano & Girling and Hiro Yanagimachi. Treat trunk-show access separately from shelf stock.",
+      "visit": "Walk-in shop; consult the events calendar for visiting makers.",
+      "sources": [
+        "https://leffot.com/brands",
+        "https://leffot.com/about"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.733792,
+        -74.000202
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Atelier New York",
+      "area": "Greenwich Village",
+      "address": "20 West 8th Street - branch to reconfirm",
+      "category": "Local Color",
+      "role": "Discovery",
+      "focus": "Guidi; avant-garde designer footwear",
+      "note": "A strong counterpart to eth0s for dark leather and sculptural footwear. Guidi lists this address; Atelier has also operated at 29 West 8th. Confirm the relevant branch and model before making a dedicated trip.",
+      "visit": "Maker-listed address; branch allocation needs confirmation.",
+      "sources": [
+        "https://guidi.it/pages/boutiques",
+        "https://ateliernewyork.com/pages/brands"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.732577,
+        -73.997565
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Armoury - Tribeca",
+      "area": "Tribeca",
+      "address": "168 Duane Street",
+      "category": "Benchmade & Buyer's",
+      "role": "Anchor",
+      "focus": "The Armoury shoe line; Yohei Fukuda; artisan fitting and trunk shows",
+      "note": "The downtown tailoring-and-shoemaking anchor. The house footwear line is distinct from Yohei Fukuda's own ready-to-wear; ask which is available to try. A trunk-show calendar adds another layer.",
+      "visit": "Mon-Sat 11-7; Sun 12-6. Confirm maker and size by branch.",
+      "sources": [
+        "https://www.thearmoury.com/contact",
+        "https://www.thearmoury.com/collections/the-armoury-shoe-collection",
+        "https://yoheifukuda.jp/"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.71685,
+        -74.009562
+      ]
+    },
+    {
+      "id": 4,
+      "name": "180 The Store",
+      "area": "Tribeca",
+      "address": "180 Duane Street",
+      "category": "Local Color",
+      "role": "Discovery",
+      "focus": "Guidi stockist; clothing, objects and material-led curation",
+      "note": "A useful discovery almost beside The Armoury. Guidi's stockist directory names it; the shop's broader emphasis on crafted objects makes it an editorial stop as well as a potential footwear visit.",
+      "visit": "Tue-Sat 11-6; Sun 12-5; closed Monday. Ask about footwear on hand.",
+      "sources": [
+        "https://180thestore.com/contact/",
+        "https://guidi.it/pages/boutiques"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.717065,
+        -74.010038
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Todd Snyder - The Liquor Store",
+      "area": "Tribeca",
+      "address": "235 West Broadway",
+      "category": "Heritage & Workwear",
+      "role": "Context",
+      "focus": "American menswear; footwear within a complete wardrobe",
+      "note": "The most distinctive Todd Snyder setting for this circuit. Use it to study how heritage shoes sit with contemporary clothing; collaborations and third-party footwear vary by season and branch.",
+      "visit": "Mon-Sat 11-6; Sun 12-5.",
+      "sources": [
+        "https://www.toddsnyder.com/pages/store-details/liquor-store"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.719495,
+        -74.005868
+      ]
+    },
+    {
+      "id": 6,
+      "name": "RRL - West Broadway",
+      "area": "SoHo",
+      "address": "381 West Broadway",
+      "category": "Heritage & Workwear",
+      "role": "Anchor",
+      "focus": "Double RL; heritage boots and Americana",
+      "note": "Keep this separate from the Madison mansion. Visit for the workwear setting and seasonal boots, with attention to leather, silhouette and finishing. Verify each shoe's maker and construction from its own label.",
+      "visit": "Official Ralph Lauren listing; check branch hours and boot stock.",
+      "sources": [
+        "https://www.ralphlauren.com/stores-search/New%20York"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.723567,
+        -74.002179
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Crockett & Jones - SoHo",
+      "area": "SoHo",
+      "address": "156 Spring Street",
+      "category": "Benchmade & Buyer's",
+      "role": "Anchor",
+      "focus": "English shoes and boots; last fitting",
+      "note": "The downtown C&J branch provides an easy comparison with Meermin and the nearby select shops. For this collection, prioritise grain boots, suede derbys and penny loafers rather than duplicating familiar formal shoes.",
+      "visit": "Official store listing; check opening hours before visiting.",
+      "sources": [
+        "https://us.crockettandjones.com/pages/our-stores",
+        "https://us.crockettandjones.com/pages/soho-new-york"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.724252,
+        -74.001727
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Meermin - SoHo",
+      "area": "SoHo",
+      "address": "123 Mercer Street",
+      "category": "Benchmade & Buyer's",
+      "role": "Practical",
+      "focus": "Direct-to-consumer welted footwear; fit and value comparison",
+      "note": "A useful lower-price reference beside the luxury specialists. Visit to compare last shape, leather and sole execution in person. This is the current official location, replacing addresses in older guides.",
+      "visit": "Mon-Sat 11-7:30; Sun 12-6:30.",
+      "sources": [
+        "https://meermin.com/pages/visit-us"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.724379,
+        -73.999469
+      ]
+    },
+    {
+      "id": 9,
+      "name": "IF SoHo",
+      "area": "SoHo",
+      "address": "94 Grand Street",
+      "category": "Local Color",
+      "role": "Discovery",
+      "focus": "Guidi; Yohji Yamamoto; artisanal and avant-garde clothing",
+      "note": "A particularly good fit for the current interest in reverse leather and unusual shoe shapes. The live catalogue includes several Guidi horse-leather derbys and zip boots. Online stock does not establish store availability.",
+      "visit": "Mon-Sat 11-7; Sun 12-6:30.",
+      "sources": [
+        "https://ifsohonewyork.com/pages/contact",
+        "https://ifsohonewyork.com/collections/men"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.721714,
+        -74.001889
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Blue in Green",
+      "area": "SoHo",
+      "address": "8 Greene Street",
+      "category": "Heritage & Workwear",
+      "role": "Discovery",
+      "focus": "Japanese denim; Chamula moccasins; design and outdoor footwear",
+      "note": "A bridge from denim to moccasin and outdoor construction. Current online footwear includes Chamula, ROA and collaborations; do not rely on old guides for a permanent heritage-boot assortment.",
+      "visit": "Mon-Sat 12-8; Sun 12-7. Confirm the SoHo assortment.",
+      "sources": [
+        "https://www.blueingreensoho.com/collections/footwear",
+        "https://www.blueingreensoho.com/"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.720649,
+        -74.002752
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Blundstone - SoHo",
+      "area": "SoHo",
+      "address": "426 Broome Street",
+      "category": "Heritage & Workwear",
+      "role": "Practical",
+      "focus": "Blundstone mono-brand fit comparison",
+      "note": "Useful for comparing everyday Chelsea boots across sizes and ranges. This is an everyday-utility reference within the atlas, with a different construction and repair proposition from welted boot specialists.",
+      "visit": "Brand lists 11-7 and notes winter operation; reconfirm seasonal availability.",
+      "sources": [
+        "https://www.blundstone.com/pages/blundstone-soho-store"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.721508,
+        -73.998641
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Drake's - Canal Street",
+      "area": "SoHo / Canal",
+      "address": "327 Canal Street",
+      "category": "Benchmade & Buyer's",
+      "role": "Anchor",
+      "focus": "Alden makeups; Paraboot; Yuketen; house footwear",
+      "note": "One of the best bridges between shell, moccasins and a wearable wardrobe. The published footwear range spans Alden, Paraboot and Yuketen; use it to compare footwear traditions together.",
+      "visit": "Official store listing; request specific models and sizes before visiting.",
+      "sources": [
+        "https://us.drakes.com/pages/our-stores",
+        "https://us.drakes.com/collections/alden",
+        "https://us.drakes.com/collections/footwear",
+        "https://www.yuketen.com/stockists"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.72046,
+        -74.00288
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Viberg - New York flagship",
+      "area": "Nolita",
+      "address": "262 Mott Street",
+      "category": "Heritage & Workwear",
+      "role": "Anchor",
+      "focus": "Viberg boots, shoes, loafers and multiple lasts",
+      "note": "The direct brand fitting stop, especially valuable before adding another Service Boot. Compare shape across lasts rather than inferring fit from the existing 2030 pairs. This is the current flagship, not the old Elizabeth Street residency.",
+      "visit": "Mon-Sat 11-7; Sun 12-6.",
+      "sources": [
+        "https://www.vibergnyc.com/pages/find-us"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.723812,
+        -73.994314
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Standard & Strange",
+      "area": "Nolita",
+      "address": "238 Mulberry Street",
+      "category": "Heritage & Workwear",
+      "role": "Discovery",
+      "focus": "Clinch; John Lofgren; Rolling Dub Trio; specialist boots",
+      "note": "An essential discovery for Japanese bootmaking. Its published boot catalogue also includes Attractions, Arch Support Project and other makers. The NYC store needs to confirm which online models are physically there.",
+      "visit": "Official visit page lists daily 12-6; request NYC stock and fitting.",
+      "sources": [
+        "https://standardandstrange.com/pages/visit-us",
+        "https://standardandstrange.com/collections/boots"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.722724,
+        -73.995706
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Slowear - Lafayette",
+      "area": "NoHo",
+      "address": "330 Lafayette Street",
+      "category": "Local Color",
+      "role": "Context",
+      "focus": "Italian menswear; footwear as wardrobe context",
+      "note": "Include for the material and styling conversation around shoes: trousers, knitwear and relaxed tailoring. Treat footwear as a branch-specific question, rather than promising a specialist shoe selection. Older Prince Street listings persist online.",
+      "visit": "Current official location; check store hours and shoe assortment.",
+      "sources": [
+        "https://www.slowear.com/pages/slowear-store-nyc-lafayette",
+        "https://noho.nyc/welcome-to-noho-slowear/"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.725845,
+        -73.994973
+      ]
+    },
+    {
+      "id": 16,
+      "name": "C'H'C'M'",
+      "area": "NoHo",
+      "address": "2 Bond Street",
+      "category": "Local Color",
+      "role": "Discovery",
+      "focus": "Hender Scheme; Ludwig Reiter; Phileo; independent design",
+      "note": "An unusually strong addition for the Study in Shell lens: a quieter select shop with a broad craft register. Its current brand list connects European shoemaking with Japanese leather work and contemporary design.",
+      "visit": "Mon-Fri 11-7; Sat-Sun 12-7. Confirm footwear available in store.",
+      "sources": [
+        "https://chcmshop.com/pages/about-catalogue",
+        "https://chcmshop.com/"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.727109,
+        -73.994495
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Self Edge - New York",
+      "area": "Lower East Side",
+      "address": "157 Orchard Street",
+      "category": "Heritage & Workwear",
+      "role": "Discovery",
+      "focus": "Japanese denim; The Flat Head boots",
+      "note": "The denim-and-boot conversation belongs here. The published Flat Head range includes engineer and pull-on boots. Ask for NYC sizes before traveling; a multi-city online catalogue is not a branch stock list.",
+      "visit": "Daily 12-7.",
+      "sources": [
+        "https://www.selfedge.com/index.php?route=information%2Flocations",
+        "https://www.selfedge.com/the-flat-head/footwear"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.720955,
+        -73.989052
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Todd Snyder - NoMad",
+      "area": "NoMad",
+      "address": "25 East 26th Street",
+      "category": "Heritage & Workwear",
+      "role": "Context",
+      "focus": "Flagship menswear; footwear and wardrobe combinations",
+      "note": "The main Todd Snyder stop for a broader wardrobe visit. Keep this and The Liquor Store as separate entries: one is the large flagship near Madison Square Park; the other offers a more intimate historic setting.",
+      "visit": "Mon-Sat 10-7; Sun 11-6.",
+      "sources": [
+        "https://www.toddsnyder.com/pages/store-details/no-mad"
+      ],
+      "checked": "2026-10-12",
+      "zone": "midtown",
+      "point": [
+        40.743288,
+        -73.986627
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Thursday Boot Company - Flatiron",
+      "area": "Flatiron",
+      "address": "48 West 21st Street, 2nd floor",
+      "category": "Heritage & Workwear",
+      "role": "Practical",
+      "focus": "Thursday boots, shoes and fitting",
+      "note": "The direct comparison point for accessible everyday boots. The second-floor address matters for directions. Assess the exact model's upper leather, sole and shape rather than comparing only the marketing category.",
+      "visit": "Mon-Sat 11-7; Sun 12-7.",
+      "sources": [
+        "https://thursdayboots.com/pages/flatiron-new-york"
+      ],
+      "checked": "2026-10-12",
+      "zone": "midtown",
+      "point": [
+        40.741052,
+        -73.99292
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Dover Street Market New York",
+      "area": "Rose Hill",
+      "address": "160 Lexington Avenue",
+      "category": "Local Color",
+      "role": "Context",
+      "focus": "Designer discovery; experimental footwear and merchandising",
+      "note": "A current destination for the discovery role once associated with Barneys. The multi-level, changing presentation is useful editorially; check the floor guide and current collections for relevant footwear.",
+      "visit": "Official location page lists regular hours; contact page retains an August seasonal-reset notice. Reconfirm.",
+      "sources": [
+        "https://newyork.doverstreetmarket.com/pages/locations",
+        "https://newyork.doverstreetmarket.com/pages/contact"
+      ],
+      "checked": "2026-10-12",
+      "zone": "midtown",
+      "point": [
+        40.744114,
+        -73.981718
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Moulded Shoe",
+      "area": "Midtown South",
+      "address": "10 East 39th Street",
+      "category": "Benchmade & Buyer's",
+      "role": "Anchor",
+      "focus": "Alden Modified last; fit-led specialist shop",
+      "note": "The most important NYC stop for testing a genuinely different Alden fit. Its site lists Modified alongside other lasts and describes a personal fitting service. A deliberate fitting visit adds more than browsing another standard Alden rack.",
+      "visit": "Book a fitting; contact page lists weekday phone service 10-6.",
+      "sources": [
+        "https://www.mouldedshoeny.com/privacy",
+        "https://www.mouldedshoeny.com/appointments",
+        "https://www.mouldedshoeny.com/about-us"
+      ],
+      "checked": "2026-10-12",
+      "zone": "midtown",
+      "point": [
+        40.75091,
+        -73.981694
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Alden Madison",
+      "area": "Midtown East",
+      "address": "340 Madison Avenue, at 44th Street",
+      "category": "Benchmade & Buyer's",
+      "role": "Anchor",
+      "focus": "Alden; shell cordovan; retailer makeups and last comparison",
+      "note": "The classic Alden stop near Grand Central. Pair it with Moulded Shoe to compare a broad standard-last offering with a fit-led specialist. Record the model code, last and retailer provenance for any interesting makeup.",
+      "visit": "Mon-Fri 10-6; Sat 10-5; Sun 11-4:30.",
+      "sources": [
+        "https://aldenmadison.shop/"
+      ],
+      "checked": "2026-10-12",
+      "zone": "midtown",
+      "point": [
+        40.753971,
+        -73.978967
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Carmina - East 45th Street",
+      "area": "Midtown East",
+      "address": "45 East 45th Street",
+      "category": "Benchmade & Buyer's",
+      "role": "Anchor",
+      "focus": "Mallorcan shoes; more than 20 last types advertised",
+      "note": "The currently corroborated Carmina fitting destination. It adds a different shape vocabulary to Alden and C&J. The older 509 Madison store is held outside the core circuit until its status is clarified.",
+      "visit": "Mon-Fri 10-6:30; Sat 10-6. Sunday not listed on this store page.",
+      "sources": [
+        "https://www.carminashoemaker.com/en/carmina-new-york-45e45st"
+      ],
+      "checked": "2026-10-12",
+      "zone": "midtown",
+      "point": [
+        40.754851,
+        -73.97718
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Crockett & Jones - Midtown",
+      "area": "Midtown East",
+      "address": "11 East 55th Street",
+      "category": "Benchmade & Buyer's",
+      "role": "Anchor",
+      "focus": "English shoes and boots; specialist fitting",
+      "note": "The relocated Midtown store is a critical address correction. Compare boots, suede and grain leathers, and ask which lasts differ usefully from the existing Helston2. Its SoHo branch remains a separate route option.",
+      "visit": "Official relocation announcement and current store list; check hours.",
+      "sources": [
+        "https://us.crockettandjones.com/blogs/the-article/crockett-jones-new-york-relocates",
+        "https://us.crockettandjones.com/pages/our-stores"
+      ],
+      "checked": "2026-10-12",
+      "zone": "midtown",
+      "point": [
+        40.761574,
+        -73.974044
+      ]
+    },
+    {
+      "id": 25,
+      "name": "John Lobb",
+      "area": "Upper East Side / south",
+      "address": "700 Madison Avenue",
+      "category": "Benchmade & Buyer's",
+      "role": "Anchor",
+      "focus": "John Lobb boutique; refined shoes and loafers",
+      "note": "A natural extension of the existing Lobb interest. Visit for last shape, leather and finishing. This boutique belongs to the John Lobb international brand; do not confuse it with the independent London bespoke house.",
+      "visit": "Madison Avenue BID confirms address; check boutique hours and stock.",
+      "sources": [
+        "https://madisonavenuebid.org/directory/john-lobb/",
+        "https://www.johnlobb.com/en_us/storelocator"
+      ],
+      "checked": "2026-10-12",
+      "zone": "uptown",
+      "point": [
+        40.76591,
+        -73.970034
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Bergdorf Goodman - Men's Store",
+      "area": "Midtown / Fifth Avenue",
+      "address": "745 Fifth Avenue",
+      "category": "Local Color",
+      "role": "Context",
+      "focus": "Multi-brand luxury menswear and footwear",
+      "note": "The department-store counterpoint to specialist shops, and a sensible current alternative to the old Barneys visit. The men's building is across Fifth Avenue from the main store; do not use 754 Fifth for this entry.",
+      "visit": "Official men's-store listing; check current footwear brands and hours.",
+      "sources": [
+        "https://stores.bergdorfgoodman.com/stores/goodmans-mens-store"
+      ],
+      "checked": "2026-10-12",
+      "zone": "midtown",
+      "point": [
+        40.763255,
+        -73.97317
+      ]
+    },
+    {
+      "id": 27,
+      "name": "The Armoury - Upper East Side",
+      "area": "Upper East Side",
+      "address": "13 East 69th Street",
+      "category": "Benchmade & Buyer's",
+      "role": "Anchor",
+      "focus": "Artisan footwear; house shoes; tailoring and trunk shows",
+      "note": "Keep both Armoury locations. This branch makes a compact uptown circuit with The Row and Mashburn. Ask the team which footwear makers and sizes are here before assuming the two stores have identical assortments.",
+      "visit": "Mon-Sat 10-6; Sun 12-6.",
+      "sources": [
+        "https://www.thearmoury.com/contact",
+        "https://www.thearmoury.com/trunk-shows"
+      ],
+      "checked": "2026-10-12",
+      "zone": "uptown",
+      "point": [
+        40.770163,
+        -73.967111
+      ]
+    },
+    {
+      "id": 28,
+      "name": "The Row",
+      "area": "Upper East Side",
+      "address": "17 East 71st Street",
+      "category": "Local Color",
+      "role": "Context",
+      "focus": "Luxury footwear; quiet shapes and material presentation",
+      "note": "A design stop rather than a traditional welted-shoe specialist. Useful for observing how leather, volume and finish carry an understated collection. Confirm men's footwear stock rather than assuming the full online range is shown.",
+      "visit": "Madison Avenue BID lists Mon-Sat 11-6; check Sunday directly.",
+      "sources": [
+        "https://www.therow.com/it-it/pages/new-york-store",
+        "https://madisonavenuebid.org/directory/the-row/"
+      ],
+      "checked": "2026-10-12",
+      "zone": "uptown",
+      "point": [
+        40.771435,
+        -73.966109
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Sid & Ann Mashburn",
+      "area": "Upper East Side",
+      "address": "926 Madison Avenue",
+      "category": "Benchmade & Buyer's",
+      "role": "Context",
+      "focus": "Sid Mashburn menswear; shoes as part of a complete wardrobe",
+      "note": "The requested Mashburn stop is Sid & Ann Mashburn. Its fully stocked Madison shop makes a useful comparison with The Armoury and Drake's. Ask about current footwear makes and construction; do not infer suppliers from appearance.",
+      "visit": "Official address and branch page; check normal opening hours.",
+      "sources": [
+        "https://shopmashburn.com/blogs/sid-mashburn-locations/new-york-ny",
+        "https://shopmashburn.com/pages/store-locations"
+      ],
+      "checked": "2026-10-12",
+      "zone": "uptown",
+      "point": [
+        40.773045,
+        -73.96492
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Ralph Lauren - Men's Flagship",
+      "area": "Upper East Side",
+      "address": "867 Madison Avenue",
+      "category": "Benchmade & Buyer's",
+      "role": "Context",
+      "focus": "Purple Label; RRL; Polo; luxury men's footwear",
+      "note": "The mansion provides the Purple Label comparison requested, alongside RRL and Polo. Treat labels as separate product lines; record each shoe's actual manufacturing and material information rather than attributing one supplier to all RL shoes.",
+      "visit": "Official flagship listing; request men's shoe availability.",
+      "sources": [
+        "https://www.ralphlauren.com/stores-867-madison",
+        "https://www.ralphlauren.com/locations/US/New%2520York/820"
+      ],
+      "checked": "2026-10-12",
+      "zone": "uptown",
+      "point": [
+        40.771465,
+        -73.965417
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Allen Edmonds - Brookfield Place",
+      "area": "Battery Park City",
+      "address": "225 Liberty Street, Suite 227A",
+      "category": "Benchmade & Buyer's",
+      "role": "Practical",
+      "focus": "Allen Edmonds fitting; recrafting drop-off",
+      "note": "A sourced AE entry with an official branch page. Useful for fit and the recraft proposition. Rockefeller Center is another documented option for a Midtown day; verify its exact entrance through the center's directory.",
+      "visit": "Mon-Fri 10-7; Sat 10-6; Sun 12-5.",
+      "sources": [
+        "https://www.allenedmonds.com/stores/ny/new-york/10281/brookfield-place-39090",
+        "https://www.rockefellercenter.com/shops/allen-edmonds"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.71249,
+        -74.0154
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Brooklyn Shoe Space",
+      "area": "East Williamsburg",
+      "address": "87 Richardson Street, 3rd floor, Unit 300G",
+      "category": "Local Color",
+      "role": "Discovery",
+      "focus": "Shoemaking classes; coworking workshop; construction learning",
+      "note": "A particularly relevant addition for the growing moccasin-construction project. This is a classroom and shared workshop rather than an ordinary shoe shop. Arrange a class or visit; public browsing should not be assumed.",
+      "visit": "Contact ahead. The current official contact page supplies this address.",
+      "sources": [
+        "https://brooklynshoespace.com/contact",
+        "https://brooklynshoespace.com/about"
+      ],
+      "checked": "2026-10-12",
+      "zone": "brooklyn",
+      "point": [
+        40.718709,
+        -73.948167
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Francis Waplinger",
+      "area": "Sunset Park / Industry City",
+      "address": "51 35th Street, Makers Guild, 2nd floor",
+      "category": "Local Color",
+      "role": "Discovery",
+      "focus": "Brooklyn bespoke shoemaking; Italian craft tradition",
+      "note": "The strongest concrete handmade outpost in this draft. A working shoemaker offers a richer construction conversation than a showroom alone. His site also offers appointments through Robinson Brooklyn in Williamsburg.",
+      "visit": "Workshop lists Thu-Sun 11-6. Arrange a consultation for bespoke work.",
+      "sources": [
+        "https://www.franciswaplinger.com/contact1",
+        "https://www.franciswaplinger.com/"
+      ],
+      "checked": "2026-10-12",
+      "zone": "brooklyn",
+      "point": [
+        40.657125,
+        -74.006418
+      ]
+    },
+    {
+      "id": 34,
+      "name": "STIEFELwerk",
+      "area": "Clinton Hill",
+      "address": "Clinton Hill, Brooklyn - exact address by appointment",
+      "category": "Local Color",
+      "role": "Discovery",
+      "focus": "Anne Marika Verploegh Chasse; custom shoes and boots",
+      "note": "An independent maker, artist and educator working with hand sewing, distinctive lines and expressive leather surfaces. This is an especially strong Study candidate for making, material and inquiry.",
+      "visit": "Appointment only. No public doorway pin; obtain directions from the maker.",
+      "sources": [
+        "https://www.stiefelwerk.nyc/"
+      ],
+      "checked": "2026-10-12",
+      "zone": "brooklyn",
+      "point": null
+    },
+    {
+      "id": 35,
+      "name": "Hotoveli",
+      "area": "Williamsburg",
+      "address": "101 North 3rd Street, Unit 120",
+      "category": "Local Color",
+      "role": "Discovery",
+      "focus": "Guidi; Layer-0; m.a+; artisanal designer footwear",
+      "note": "The Brooklyn counterpart to IF and Atelier. Guidi's own directory confirms the location, and Hotoveli's catalogue lists the broader artisan register. Arrange access and ask for specific shoes in advance.",
+      "visit": "Listed as by appointment in local directories; confirm directly.",
+      "sources": [
+        "https://guidi.it/pages/boutiques",
+        "https://www.hotoveli.com/",
+        "https://www.loc8nearme.com/new-york/new-york/hotoveli/5033339/"
+      ],
+      "checked": "2026-10-12",
+      "zone": "brooklyn",
+      "point": [
+        40.717213,
+        -73.962258
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Blundstone - Williamsburg",
+      "area": "Williamsburg",
+      "address": "69 North 7th Street",
+      "category": "Heritage & Workwear",
+      "role": "Practical",
+      "focus": "Blundstone fitting; everyday Chelsea boots",
+      "note": "A convenient practical stop within the Williamsburg cluster. Keep it separate from the SoHo branch so visitors can use whichever suits their circuit.",
+      "visit": "Brand lists 11-7 and notes winter operation; reconfirm seasonal availability.",
+      "sources": [
+        "https://www.blundstone.com/pages/blundstone-nyc-store"
+      ],
+      "checked": "2026-10-12",
+      "zone": "brooklyn",
+      "point": [
+        40.720011,
+        -73.960926
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Hatchet Outdoor Supply Co.",
+      "area": "Brooklyn Heights / Cobble Hill",
+      "address": "77 Atlantic Avenue",
+      "category": "Heritage & Workwear",
+      "role": "Discovery",
+      "focus": "Outdoor footwear; visvim stockist; design and utility",
+      "note": "A bridge between performance and collector footwear. The current shop story stresses outdoor utility, while visvim's official stockist list names this address. Confirm visvim shoes specifically; do not inherit old Alden or Red Wing lists.",
+      "visit": "Walk-in retail candidate; confirm hours and footwear before a dedicated visit.",
+      "sources": [
+        "https://hatchetsupply.com/pages/about",
+        "https://www.visvim.tv/jp/stockist_visvim/usa/"
+      ],
+      "checked": "2026-10-12",
+      "zone": "brooklyn",
+      "point": [
+        40.691371,
+        -73.997559
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Leather Spa - West 55th",
+      "area": "Midtown",
+      "address": "55 West 55th Street",
+      "category": "Care & Recraft",
+      "role": "Practical",
+      "focus": "Shoe and leather repair; care consultation",
+      "note": "The accessible care stop near the Midtown shoe circuit. Bring a pair or detailed photos when discussing sole protection or repairs. Scope, materials and turnaround need a project-specific quote.",
+      "visit": "Mon-Fri 8-7; Sat 10-6; closed Sunday.",
+      "sources": [
+        "https://leatherspa.com/locations/",
+        "https://leatherspa.com/"
+      ],
+      "checked": "2026-10-12",
+      "zone": "midtown",
+      "point": [
+        40.762764,
+        -73.976913
+      ]
+    },
+    {
+      "id": 39,
+      "name": "B. Nelson Shoe Repair",
+      "area": "Midtown East",
+      "address": "668 Lexington Avenue, between 55th and 56th",
+      "category": "Care & Recraft",
+      "role": "Discovery",
+      "focus": "High-grade shoe repair; sole and heel work",
+      "note": "A repair specialist that completes the atlas's care register. The official site explicitly announces this new address, correcting older listings. Ask about the proposed sole material and preservation of the existing welt.",
+      "visit": "Official address; reconfirm current counter hours.",
+      "sources": [
+        "https://bnelsonshoes.com/",
+        "https://bnelsonshoes.com/contact/"
+      ],
+      "checked": "2026-10-12",
+      "zone": "midtown",
+      "point": [
+        40.760132,
+        -73.970064
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Nepenthes New York",
+      "area": "Garment District",
+      "address": "307 West 38th Street",
+      "category": "Heritage & Workwear",
+      "role": "Discovery",
+      "focus": "Engineered Garments; Needles; Japanese reinterpretation of Americana",
+      "note": "A worthwhile addition between Downtown and Midtown. Use it for the relationship between Japanese menswear and American utility; footwear collaborations change, so check the current range rather than expecting a fixed shoe wall.",
+      "visit": "NY site lists daily 12-7; Japanese directory lists an earlier Sunday close. Reconfirm.",
+      "sources": [
+        "https://nepenthesny.com/about/",
+        "https://nepenthesamerica.com/pages/store-info",
+        "https://nepenthes.co.jp/stores/"
+      ],
+      "checked": "2026-10-12",
+      "zone": "midtown",
+      "point": [
+        40.755261,
+        -73.992215
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Thursday Boot Company - SoHo",
+      "area": "SoHo",
+      "address": "45 Crosby Street",
+      "category": "Heritage & Workwear",
+      "role": "Practical",
+      "focus": "Thursday boots and shoes; in-store fitting",
+      "note": "A downtown fitting stop to combine with the nearby shoe specialists and select shops. This branch complements the Flatiron location; confirm model and size availability before a dedicated visit.",
+      "visit": "Mon-Sat 11-7; Sun 12-7. Phone: (917) 451-3336.",
+      "sources": [
+        "https://thursdayboots.com/pages/soho-new-york"
+      ],
+      "checked": "2026-10-12",
+      "zone": "downtown",
+      "point": [
+        40.721781,
+        -73.998433
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": 1,
+      "area": "Downtown",
+      "title": "Collectors & independent shops",
+      "note": "Begin with a specialist, then follow the neighbourhood. Plan two half-days if trying on shoes at every anchor.",
+      "ids": [
+        1,
+        3,
+        12,
+        7,
+        13,
+        14
+      ],
+      "all": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        31,
+        41
+      ],
+      "extensions": "Tribeca: 180 The Store and Todd Snyder Liquor Store. SoHo: RRL, Meermin, IF, Blue in Green, Blundstone and Thursday at 45 Crosby. Nolita / NoHo: Slowear and C’H’C’M’. Leffot and Atelier form a western cluster; Self Edge an eastern extension."
+    },
+    {
+      "id": 2,
+      "area": "Flatiron & Midtown",
+      "title": "Fit, scale & comparison",
+      "note": "Compare lasts and leathers across American and English shoemaking. Use transit between the Flatiron and Midtown clusters.",
+      "ids": [
+        19,
+        18,
+        21,
+        22,
+        23,
+        24
+      ],
+      "all": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26,
+        38,
+        39,
+        40
+      ],
+      "extensions": "Extend the day with Dover Street Market or Nepenthes for clothing context, Leather Spa and B. Nelson for repair, and Bergdorf Goodman men’s for luxury comparison."
+    },
+    {
+      "id": 3,
+      "area": "Upper East Side",
+      "title": "Craft in a wardrobe",
+      "note": "Townhouse shops, tailoring and the relationship between a shoe and the clothes above it. Choose three stops for longer fittings and conversations.",
+      "ids": [
+        25,
+        30,
+        27,
+        28,
+        29
+      ],
+      "all": [
+        25,
+        27,
+        28,
+        29,
+        30
+      ],
+      "extensions": "Both Armoury locations have their own entry. Compare branch stock and trunk-show schedules before deciding whether to visit both."
+    },
+    {
+      "id": 4,
+      "area": "Brooklyn",
+      "title": "Makers, learning & utility",
+      "note": "Build the day around a maker’s appointment. Williamsburg, Atlantic Avenue and Industry City are separate clusters linked by transit.",
+      "ids": [
+        35,
+        36,
+        32,
+        37,
+        33,
+        34
+      ],
+      "all": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "extensions": "Williamsburg: Hotoveli, Blundstone and Brooklyn Shoe Space. Atlantic Avenue: Hatchet. Sunset Park: Francis Waplinger at Industry City. Clinton Hill: STIEFELwerk by arrangement, with no public street pin."
+    }
+  ],
+  "watchlist": [
+    {
+      "title": "Barneys New York / historical + revival watch",
+      "note": "The former NYC flagship is not included as an active destination. April 2026 reporting described a possible Madison Avenue revival; this research did not establish a reopening. Keep the old Barneys story in the historical layer. Bergdorf men's and DSM are editorial alternatives, not replacements under the Barneys name.",
+      "url": "https://www.wsj.com/business/retail/the-90s-really-are-back-barneys-is-getting-a-reboot-bb0c4a48"
+    },
+    {
+      "title": "J. FitzPatrick / inactive retail notice",
+      "note": "The official site states that it is no longer operating as an active retail site. Exclude the old 101 Thompson Street listing from a live visiting route unless a new operating location is independently confirmed.",
+      "url": "https://www.jfitzpatrickfootwear.com/pages/j-fitzpatrick-the-end-of-an-era"
+    },
+    {
+      "title": "FEIT / current physical access unresolved",
+      "note": "An important construction lead, but the current store page did not yield a confirmed NYC address. Historic Prince Street and Greenwich Avenue coverage should not be converted into active pins.",
+      "url": "https://www.feitdirect.com/pages/stores"
+    },
+    {
+      "title": "Carmina / 509 Madison requires confirmation",
+      "note": "Older brand posts and guides mention 509 Madison. The current corroborated core entry is 45 East 45th Street. Do not add a second pin merely from an old listing.",
+      "url": "https://www.carminashoemaker.com/en/carmina-new-york-45e45st"
+    },
+    {
+      "title": "Jim's Shoe Repair / street number discrepancy",
+      "note": "The official site says 60 East 59th Street; multiple directories say 50. Hold the precise pin until direct confirmation, rather than choosing the more familiar number.",
+      "url": "https://jimsshoerepair.com/"
+    }
+  ]
+}

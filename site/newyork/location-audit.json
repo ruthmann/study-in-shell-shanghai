@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "query": "10 Christopher Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=10+Christopher+Street+Manhattan",
+    "matched_address": "10 CHRISTOPHER STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -74.000202,
+      40.733792
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "58059",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 2,
+    "query": "20 West 8th Street - branch to reconfirm Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=20+West+8th+Street+-+branch+to+reconfirm+Manhattan",
+    "matched_address": "20 WEST 8 STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.997565,
+      40.732577
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "52409",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 3,
+    "query": "168 Duane Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=168+Duane+Street+Manhattan",
+    "matched_address": "168 DUANE STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -74.009562,
+      40.71685
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "9990",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 4,
+    "query": "180 Duane Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=180+Duane+Street+Manhattan",
+    "matched_address": "180 DUANE STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -74.010038,
+      40.717065
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "9981",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 5,
+    "query": "235 West Broadway Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=235+West+Broadway+Manhattan",
+    "matched_address": "235 WEST B'WAY",
+    "borough": "Manhattan",
+    "coordinates": [
+      -74.005868,
+      40.719495
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "15459",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 6,
+    "query": "381 West Broadway Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=381+West+Broadway+Manhattan",
+    "matched_address": "381 WEST B'WAY",
+    "borough": "Manhattan",
+    "coordinates": [
+      -74.002179,
+      40.723567
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "45640",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 7,
+    "query": "156 Spring Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=156+Spring+Street+Manhattan",
+    "matched_address": "156 SPRING STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -74.001727,
+      40.724252
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "45680",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 8,
+    "query": "123 Mercer Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=123+Mercer+Street+Manhattan",
+    "matched_address": "123 MERCER STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.999469,
+      40.724379
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "46525",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 9,
+    "query": "94 Grand Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=94+Grand+Street+Manhattan",
+    "matched_address": "94 GRAND STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -74.001889,
+      40.721714
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "44380",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 10,
+    "query": "8 Greene Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=8+Greene+Street+Manhattan",
+    "matched_address": "8 GREENE STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -74.002752,
+      40.720649
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "18922",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 11,
+    "query": "426 Broome Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=426+Broome+Street+Manhattan",
+    "matched_address": "426 BROOME STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.998641,
+      40.721508
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "45249",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 12,
+    "query": "327 Canal Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=327+Canal+Street+Manhattan",
+    "matched_address": "327 CANAL STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -74.00288,
+      40.72046
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "18885",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 13,
+    "query": "262 Mott Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=262+Mott+Street+Manhattan",
+    "matched_address": "262 MOTT STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.994314,
+      40.723812
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "47492",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 14,
+    "query": "238 Mulberry Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=238+Mulberry+Street+Manhattan",
+    "matched_address": "238 MULBERRY STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.995706,
+      40.722724
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "46217",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 15,
+    "query": "330 Lafayette Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=330+Lafayette+Street+Manhattan",
+    "matched_address": "330 LAFAYETTE STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.994973,
+      40.725845
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "48827",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 16,
+    "query": "2 Bond Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=2+Bond+Street+Manhattan",
+    "matched_address": "2 BOND STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.994495,
+      40.727109
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "50035",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 17,
+    "query": "157 Orchard Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=157+Orchard+Street+Manhattan",
+    "matched_address": "157 ORCHARD STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.989052,
+      40.720955
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "36438",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 18,
+    "query": "25 East 26th Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=25+East+26th+Street+Manhattan",
+    "matched_address": "25 EAST 26 STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.986627,
+      40.743288
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "91445",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 19,
+    "query": "48 West 21st Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=48+West+21st+Street+Manhattan",
+    "matched_address": "48 WEST 21 STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.99292,
+      40.741052
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "86692",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 20,
+    "query": "160 Lexington Avenue Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=160+Lexington+Avenue+Manhattan",
+    "matched_address": "160 LEXINGTON AVENUE",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.981718,
+      40.744114
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "96864",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 21,
+    "query": "10 East 39th Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=10+East+39th+Street+Manhattan",
+    "matched_address": "10 EAST 39 STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.981694,
+      40.75091
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "92840",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 22,
+    "query": "340 Madison Avenue Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=340+Madison+Avenue+Manhattan",
+    "matched_address": "340 MADISON AVENUE",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.978967,
+      40.753971
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "166196",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 23,
+    "query": "45 East 45th Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=45+East+45th+Street+Manhattan",
+    "matched_address": "45 EAST 45 STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.97718,
+      40.754851
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "166695",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 24,
+    "query": "11 East 55th Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=11+East+55th+Street+Manhattan",
+    "matched_address": "11 EAST 55 STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.974044,
+      40.761574
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "168527",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 25,
+    "query": "700 Madison Avenue Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=700+Madison+Avenue+Manhattan",
+    "matched_address": "700 MADISON AVENUE",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.970034,
+      40.76591
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "182473",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 26,
+    "query": "745 5th Avenue Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=745+5th+Avenue+Manhattan",
+    "matched_address": "745 5 AVENUE",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.97317,
+      40.763255
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "169102",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 27,
+    "query": "13 East 69th Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=13+East+69th+Street+Manhattan",
+    "matched_address": "13 EAST 69 STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.967111,
+      40.770163
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "183288",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 28,
+    "query": "17 East 71st Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=17+East+71st+Street+Manhattan",
+    "matched_address": "17 EAST 71 STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.966109,
+      40.771435
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "183462",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 29,
+    "query": "926 Madison Avenue Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=926+Madison+Avenue+Manhattan",
+    "matched_address": "926 MADISON AVENUE",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.96492,
+      40.773045
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "183778",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 30,
+    "query": "867 Madison Avenue Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=867+Madison+Avenue+Manhattan",
+    "matched_address": "867 MADISON AVENUE",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.965417,
+      40.771465
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "183509",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 31,
+    "query": "225 Liberty Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=225+Liberty+Street+Manhattan",
+    "matched_address": "225 LIBERTY STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -74.0154,
+      40.71249
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "1427",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 32,
+    "query": "87 Richardson Street Brooklyn",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=87+Richardson+Street+Brooklyn",
+    "matched_address": "87 RICHARDSON STREET",
+    "borough": "Brooklyn",
+    "coordinates": [
+      -73.948167,
+      40.718709
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "1047870",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 33,
+    "query": "51 35th Street Brooklyn",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=51+35th+Street+Brooklyn",
+    "matched_address": "51 35 STREET",
+    "borough": "Brooklyn",
+    "coordinates": [
+      -74.006418,
+      40.657125
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "757839",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 35,
+    "query": "101 North 3rd Street Brooklyn",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=101+North+3rd+Street+Brooklyn",
+    "matched_address": "101 NORTH 3 STREET",
+    "borough": "Brooklyn",
+    "coordinates": [
+      -73.962258,
+      40.717213
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "1022456",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 36,
+    "query": "69 North 7th Street Brooklyn",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=69+North+7th+Street+Brooklyn",
+    "matched_address": "69 NORTH 7 STREET",
+    "borough": "Brooklyn",
+    "coordinates": [
+      -73.960926,
+      40.720011
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "1019222",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 37,
+    "query": "77 Atlantic Avenue Brooklyn",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=77+Atlantic+Avenue+Brooklyn",
+    "matched_address": "77 ATLANTIC AVENUE",
+    "borough": "Brooklyn",
+    "coordinates": [
+      -73.997559,
+      40.691371
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "727721",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 38,
+    "query": "55 West 55th Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=55+West+55th+Street+Manhattan",
+    "matched_address": "55 WEST 55 STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.976913,
+      40.762764
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "164249",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 39,
+    "query": "668 Lexington Avenue Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=668+Lexington+Avenue+Manhattan",
+    "matched_address": "668 LEXINGTON AVENUE",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.970064,
+      40.760132
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "171668",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 40,
+    "query": "307 West 38th Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=307+West+38th+Street+Manhattan",
+    "matched_address": "307 WEST 38 STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.992215,
+      40.755261
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "76552",
+    "checked": "2026-10-12"
+  },
+  {
+    "id": 41,
+    "query": "45 Crosby Street Manhattan",
+    "source": "https://geosearch.planninglabs.nyc/v2/search?text=45+Crosby+Street+Manhattan",
+    "matched_address": "45 CROSBY STREET",
+    "borough": "Manhattan",
+    "coordinates": [
+      -73.998433,
+      40.721781
+    ],
+    "datum": "WGS84",
+    "precision": "Address / building anchor; entrance not surveyed",
+    "source_id": "45254",
+    "checked": "2026-10-12"
+  }
+]
