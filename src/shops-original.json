@@ -707,5 +707,51 @@
         "Official brand directories list Mandom Bugs for Anatomica, Big Yank, Wythe, Tenjin Works and Scarti-Lab. Inis Meáin also lists its Shanghai showroom here."
       ]
     ]
+  },
+  {
+    "id": "gl",
+    "name": "Galeries Lafayette — ESTATE & shoe salon",
+    "zh": "上海市浦东新区浦东南路899号 陆家嘴中心L+Mall 老佛爷百货2层",
+    "cat": "benchmade",
+    "lat": null,
+    "lon": null,
+    "addr": "2F, Galeries Lafayette, L+Mall, 899 Pudong South Road, Lujiazui, Pudong",
+    "note": "A useful Pudong destination for comparing British welted shoes and contemporary Italian footwear. The collector reports seeing Church’s, Cheaney, Loake, Barker and Officine Creative in the second-floor shoe selection at Galeries Lafayette, L+Mall. This is a first-hand observation, not an independently verified current inventory. A 2024 industry report documents an ESTATE footwear concession at Shanghai Galeries Lafayette. Compare lasts, leathers and construction in person; confirm the concession, models and sizes before a dedicated trip.",
+    "tags": [
+      "Cheaney",
+      "Loake",
+      "Barker",
+      "Officine Creative",
+      "Church’s"
+    ],
+    "evidence": "Collector-observed five brands and second-floor location. Public sources independently support store address, listed department-store hours, building position and historical ESTATE presence; current inventory not independently verified.",
+    "sources": [
+      {
+        "label": "Galeries Lafayette · Shanghai store",
+        "url": "https://www.galerieslafayette.com/m/magasin-shanghai/welcome"
+      },
+      {
+        "label": "Shanghai tourism · address, telephone and listed hours",
+        "url": "https://www.meet-in-shanghai.net/cn/shopping/galeries-lafayette-shanghai-flagship-store-982500/"
+      },
+      {
+        "label": "ESTATE · 2024 industry report on Shanghai concession",
+        "url": "https://www.10100.com/article/5761738"
+      },
+      {
+        "label": "OpenStreetMap · L+Mall building",
+        "url": "https://www.openstreetmap.org/way/899205736"
+      }
+    ],
+    "selection": [
+      [
+        "Collector-observed brands",
+        "Church’s; Cheaney; Loake; Barker; Officine Creative. Reported in the second-floor selection; current models and sizes are not independently verified."
+      ],
+      [
+        "ESTATE concession",
+        "A 2024 industry report lists Shanghai Galeries Lafayette among ESTATE’s locations and names Church’s, Loake and Barker in its portfolio. This establishes historical presence, not a current counter inventory."
+      ]
+    ]
   }
 ]

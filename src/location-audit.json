@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-10-07",
+  "reviewed": "2026-10-16",
   "renderDatum": "WGS84",
   "locations": [
     {
@@ -846,6 +846,44 @@
         {
           "label": "Baidu Maps · High Street Loft, Building 1",
           "url": "https://map.baidu.com/mobile/webapp/place/detail/uid=abd660a89f7e8748a8f0cd9c"
+        }
+      ]
+    },
+    {
+      "id": "gl",
+      "checked": "2026-10-16",
+      "position": {
+        "datum": "WGS84",
+        "lat": 31.23323,
+        "lon": 121.51118
+      },
+      "precision": "building",
+      "pinLabel": "L+Mall building pin · Galeries Lafayette 2F",
+      "notes": "WGS84 position checked inside OpenStreetMap L+Mall building way 899205736 bounds. Shanghai tourism lists 899 Pudong South Road. Building pin only, not an entrance or indoor counter.",
+      "overrides": {
+        "street": "2F, Galeries Lafayette, L+Mall, 899 Pudong South Road, Lujiazui, Pudong",
+        "zh": "上海市浦东新区浦东南路899号 陆家嘴中心L+Mall 老佛爷百货2层",
+        "area": "Pudong · Lujiazui",
+        "phone": "+86 21 3810 3388",
+        "hours": "Department store listed 10:00–22:00; confirm counter hours",
+        "warning": "Second-floor selection and five brands reported by the collector; confirm current counter, models and sizes."
+      },
+      "sources": [
+        {
+          "label": "Galeries Lafayette · Shanghai store",
+          "url": "https://www.galerieslafayette.com/m/magasin-shanghai/welcome"
+        },
+        {
+          "label": "Shanghai tourism · address, telephone and listed hours",
+          "url": "https://www.meet-in-shanghai.net/cn/shopping/galeries-lafayette-shanghai-flagship-store-982500/"
+        },
+        {
+          "label": "ESTATE · 2024 industry report on Shanghai concession",
+          "url": "https://www.10100.com/article/5761738"
+        },
+        {
+          "label": "OpenStreetMap · L+Mall building",
+          "url": "https://www.openstreetmap.org/way/899205736"
         }
       ]
     }

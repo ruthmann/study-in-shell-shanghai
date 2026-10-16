@@ -34,19 +34,20 @@
     "id": "bund",
     "n": "02",
     "name": "The Bund & across the river",
-    "area": "Xintiandi → The Bund → Hongkou → Shipyard 1862",
+    "area": "Xintiandi → The Bund → Hongkou → Shipyard 1862 → Lujiazui",
     "time": "Allow a generous afternoon · include transfers",
-    "description": "Begin with Culture Matters on B1 of Xintiandi Style, then continue to DOE on Hubin Road and Rivets at Dongtai Li. Head north to Ralph Lauren at the Peninsula Arcade, visit Frank’s Store in Hongkou, then cross the Huangpu to finish at MEDALLION, Shipyard 1862.",
+    "description": "Begin at Culture Matters, DOE and Rivets around Xintiandi. Follow the Bund to Ralph Lauren at the Peninsula Arcade, continue north to Frank’s Store in Hongkou, then cross the Huangpu to MEDALLION at Shipyard 1862. Finish with a second-floor multi-brand shoe comparison at Galeries Lafayette in L+Mall, Lujiazui.",
     "ids": [
       "cmxt",
       "doeh",
       "rv",
       "rl2",
       "fs",
-      "md"
+      "md",
+      "gl"
     ],
     "optional": [],
-    "note": "Choose this Culture Matters branch or stop 8 on the central circuit if one Feiyue visit is enough. DOE is at L1-W09, 168 Hubin Road; Rivets is at L256, 2F, Building D, 111 Ji’an Road. Allow travel time between neighborhoods and use a taxi or metro for the river crossing. Frank’s Store lists a daily 18:00 closing time; confirm this and MEDALLION’s visiting hours before setting out. The dashed line shows visit order, not a walking route across the river."
+    "note": "Choose this Culture Matters branch or stop 8 on the central circuit if one Feiyue visit is enough. DOE is at L1-W09, 168 Hubin Road; Rivets is at L256, 2F, Building D, 111 Ji’an Road. Allow travel time between neighborhoods and use a taxi or metro for the river crossing. Frank’s Store lists a daily 18:00 closing time; confirm this and MEDALLION’s visiting hours before setting out. The dashed line shows visit order, not a walking route across the river. Galeries Lafayette is on 2F of L+Mall, 899 Pudong South Road. The collector reports seeing Church’s, Cheaney, Loake, Barker and Officine Creative. Confirm current models and sizes before visiting."
   },
   {
     "id": "west",
