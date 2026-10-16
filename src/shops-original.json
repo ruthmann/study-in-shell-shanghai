@@ -754,5 +754,42 @@
         "A 2024 industry report lists Shanghai Galeries Lafayette among ESTATE’s locations and names Church’s, Loake and Barker in its portfolio. This establishes historical presence, not a current counter inventory."
       ]
     ]
+  },
+  {
+    "id": "lottusse",
+    "name": "Lottusse — Bicester Shanghai outlet",
+    "zh": "上海市浦东新区申迪东路88号 比斯特上海购物村泰琴街2108号",
+    "cat": "benchmade",
+    "lat": null,
+    "lon": null,
+    "addr": "2108 Taiqin Street, Bicester Shanghai, 88 Shendi East Road, Pudong",
+    "note": "A dedicated outlet shoe stop at Bicester Shanghai, near Shanghai Disney Resort. The official boutique profile highlights Lottusse’s men’s dress shoes, loafers and Goodyear line. Ask which constructions, models and sizes are available at this outlet before making the separate trip; the brand’s published range is not a live stock list.",
+    "tags": [
+      "Lottusse",
+      "Loafers",
+      "Goodyear line",
+      "Outlet"
+    ],
+    "evidence": "Official boutique page and its linked Amap marker checked 16 October 2026. Current stock and sizes not verified.",
+    "sources": [
+      {
+        "label": "Bicester Shanghai · official Lottusse boutique",
+        "url": "https://sh.thebicestercollection.cn/brands/lottusse-letushi"
+      },
+      {
+        "label": "Lottusse boutique · official Amap location",
+        "url": "https://uri.amap.com/marker?position=121.678178%2C31.139951"
+      },
+      {
+        "label": "Shanghai government · Bicester Shanghai address and travel",
+        "url": "https://english.shanghai.gov.cn/en-ShoppingCenters/20231207/ce0ae172266e4411a9b7ab6f52d69e45.html"
+      }
+    ],
+    "selection": [
+      [
+        "Footwear focus",
+        "The boutique’s official profile describes men’s dress shoes, loafers and a Goodyear line. Confirm availability and construction for the specific pair."
+      ]
+    ]
   }
 ]

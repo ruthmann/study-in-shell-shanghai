@@ -1,6 +1,7 @@
 const fs=require('fs');
 const shops=JSON.parse(fs.readFileSync('src/shops-original.json','utf8')).filter(s=>s.id!=='tk');
 const meta={
+lottusse:["Lottusse — Bicester Shanghai outlet", "Pudong · Bicester Shanghai", "Outlet · dress shoes & loafers", "A dedicated outlet shoe stop at Bicester Shanghai, near Shanghai Disney Resort. The official boutique profile highlights Lottusse’s men’s dress shoes, loafers and Goodyear line. Ask which constructions, models and sizes are available at this outlet before making the separate trip; the brand’s published range is not a live stock list.", "Confirm boutique hours directly"],
 gl:["Galeries Lafayette — ESTATE", "Pudong · Lujiazui", "English shoemaking & Italian leather shoes", "A useful Pudong destination for comparing British welted shoes and contemporary Italian footwear. The collector reports seeing Church’s, Cheaney, Loake, Barker, Sanders and Officine Creative in the second-floor shoe selection at Galeries Lafayette, L+Mall. This is a first-hand observation, not an independently verified current inventory. A 2024 industry report documents an ESTATE footwear concession at Shanghai Galeries Lafayette. Compare lasts, leathers and construction in person; confirm the concession, models and sizes before a dedicated trip.", "Department store listed 10:00–22:00; confirm counter hours"],
 mandom:["Mandom Bugs", "Xuhui · Jiashan Road", "Yuketen, loafers & independent menswear", "A key Jiashan Road destination for footwear within a wider selection of independent menswear. Look for Yuketen, Baudoin & Lange and Sanders, and ask about Green George’s Italian shoes and boots. The range brings together heritage footwear and more refined loafers, with clothing from makers such as Anatomica, Big Yank, Wythe, Tenjin Works and Scarti-Lab. Inside High Street Loft, a short continuation south from eth0s, this is a stop to allow time for trying different shapes, leathers and constructions.", "Retail hours unconfirmed; arrange access ahead"],
 fly:["FLY Streetwear", "Jing’an · Changle Road", "Shanghai skate culture & customization inquiries", "A Shanghai skate shop with roots in 1999 and a history of Nike SB collaborations. The Gardenia Dunk connects sneaker design with the city’s street culture. For a customization visit, ask what shoe personalization, if any, is currently offered; a design collaboration does not establish an in-store service.", "Current hours and appointment conditions unconfirmed; ask ahead"],
@@ -37,6 +38,8 @@ const locationAudit=JSON.parse(fs.readFileSync('src/location-audit.json','utf8')
 for(const s of shops){
  const a=locationAudit.locations.find(a=>a.id===s.id);if(!a)throw Error('Missing audit: '+s.id);
  Object.assign(s,a.overrides,toWgs(a.position),{pinPrecision:a.precision,pinLabel:a.pinLabel,locationChecked:a.checked,coordNote:a.notes,coordinateSource:a.position});
+ // A verified destination outside the embedded basemap can remain directory-only.
+ if(a.displayOnMap===false){s.lat=null;s.lon=null;}
  s.addr=s.street;s.note=s.description;
  s.sources=[...new Map([...(s.sources||[]),...a.sources].map(x=>[x.url,x])).values()];
  if(s.id==='fy')s.sources=s.sources.filter(x=>!x.url.includes('smartshanghai'));

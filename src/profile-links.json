@@ -128,5 +128,15 @@
       "label": "Website · Shanghai store",
       "url": "https://www.galerieslafayette.com/m/magasin-shanghai/welcome"
     }
+  ],
+  "lottusse": [
+    {
+      "label": "Website · outlet boutique",
+      "url": "https://sh.thebicestercollection.cn/brands/lottusse-letushi"
+    },
+    {
+      "label": "Official boutique directions · Amap",
+      "url": "https://uri.amap.com/marker?position=121.678178%2C31.139951"
+    }
   ]
 }

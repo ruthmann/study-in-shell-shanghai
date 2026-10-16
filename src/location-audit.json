@@ -886,6 +886,41 @@
           "url": "https://www.openstreetmap.org/way/899205736"
         }
       ]
+    },
+    {
+      "id": "lottusse",
+      "checked": "2026-10-16",
+      "position": {
+        "datum": "GCJ02",
+        "lat": 31.139951,
+        "lon": 121.678178
+      },
+      "displayOnMap": false,
+      "precision": "boutique-source",
+      "pinLabel": "Outside the central-city map · use the boutique directions",
+      "notes": "Official boutique page links to this Amap marker (GCJ02). It lies east of the embedded basemap extent; retained in the audit but intentionally not plotted.",
+      "overrides": {
+        "street": "2108 Taiqin Street, Bicester Shanghai, 88 Shendi East Road, Pudong",
+        "zh": "上海市浦东新区申迪东路88号 比斯特上海购物村泰琴街2108号",
+        "area": "Pudong · Bicester Shanghai",
+        "phone": "+86 21 6040 0755",
+        "hours": "Confirm boutique hours directly",
+        "warning": "Separate outlet trip near Disney Resort. Confirm shoe models and sizes before traveling."
+      },
+      "sources": [
+        {
+          "label": "Bicester Shanghai · official Lottusse boutique",
+          "url": "https://sh.thebicestercollection.cn/brands/lottusse-letushi"
+        },
+        {
+          "label": "Lottusse boutique · official Amap location",
+          "url": "https://uri.amap.com/marker?position=121.678178%2C31.139951"
+        },
+        {
+          "label": "Shanghai government · Bicester Shanghai address and travel",
+          "url": "https://english.shanghai.gov.cn/en-ShoppingCenters/20231207/ce0ae172266e4411a9b7ab6f52d69e45.html"
+        }
+      ]
     }
   ],
   "targetedReview": {
