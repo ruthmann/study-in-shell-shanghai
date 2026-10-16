@@ -22,7 +22,7 @@ assert.equal(shops.find(s=>s.id==='fy').number,8);
 assert.equal(shops.find(s=>s.id==='cmxt').number,22);
 assert.equal(shops.find(s=>s.id==='juice').number,23);
 assert(shops.find(s=>s.id==='jl').zh.includes('B1'));
-assert(shops.find(s=>s.id==='rb').zh.includes('3层'));
+const radiance=shops.find(s=>s.id==='rb');assert(radiance.zh.includes('2层L278'));assert(radiance.street.includes('Unit L278, 2F'));
 assert(shops.find(s=>s.id==='eth').selection.length===4);
 console.log('PASS: 28 stops with sourced coordinates; independent datum controls; matching taxi/model addresses; Kerry wings; Culture Matters and Rivets branches; route integrity; retained selection evidence.');
 // Published copy must not expose private research handoffs or editorial instructions.

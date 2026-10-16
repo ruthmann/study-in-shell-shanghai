@@ -34,20 +34,20 @@
     },
     {
       "id": "rb",
-      "checked": "2026-10-09",
+      "checked": "2026-10-16",
       "position": {
         "datum": "BD09MC",
         "x": 13522159.53,
         "y": 3640848.78
       },
       "precision": "building",
-      "pinLabel": "Mall pin · Level 3",
-      "notes": "Third-floor location confirmed by the editor on 9 October 2026. Existing map coordinate retained as the mall anchor; older unit listings are superseded.",
+      "pinLabel": "Mall pin · 2F, Unit L278",
+      "notes": "Unit L278 on the second floor confirmed by the collector on 16 October 2026, superseding the earlier third-floor note. Existing mall coordinates retained.",
       "overrides": {
-        "street": "Level 3, HKRI Taikoo Hui, 789 Nanjing West Road, Jing’an",
-        "zh": "上海市静安区南京西路789号 兴业太古汇3层",
+        "street": "Unit L278, 2F, HKRI Taikoo Hui, 789 Nanjing West Road, Jing’an",
+        "zh": "上海市静安区南京西路789号 兴业太古汇2层L278号铺",
         "warning": null,
-        "evidence": "Address correction confirmed by the editor, 9 October 2026. Earlier directory entries may show superseded information."
+        "evidence": "Collector correction, 16 October 2026: L278 on the second floor. Older unit and floor listings are superseded."
       },
       "sources": [
         {

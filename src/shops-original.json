@@ -23,11 +23,11 @@
   {
     "id": "rb",
     "name": "Radiance Blue",
-    "zh": "南京西路789号 兴业太古汇",
+    "zh": "上海市静安区南京西路789号 兴业太古汇2层L278号铺",
     "cat": "benchmade",
     "lat": 31.2288,
     "lon": 121.459,
-    "addr": "HKRI Taikoo Hui, 789 Nanjing West Rd, Jing'an · mall hours 10:00–22:00",
+    "addr": "Unit L278, 2F, HKRI Taikoo Hui, 789 Nanjing West Road, Jing’an",
     "note": "Select shop in Taikoo Hui, above Nanjing West Rd station (Lines 2/12/13) — a fashion-forward mix running from American classics and campus loafers to outdoor and contemporary Japanese-leaning labels.",
     "tags": [
       "Alden",
@@ -37,7 +37,7 @@
       "Scarpa",
       "Arch Support Project"
     ],
-    "evidence": "Mall/address corroborated; shop-unit conflict remains: Tricker’s lists B2-LG216, while Nigel Cabourn and Shinyakozuka list L278. Ask the shop/mall for the current unit. July brand list and mall hours retained, not a stock or shop-hours guarantee.",
+    "evidence": "Collector correction, 16 October 2026: Unit L278, second floor, HKRI Taikoo Hui. Older directory entries may differ. Brand list and mall hours are not a current-stock or shop-hours guarantee.",
     "coordNote": "Approximate position inherited from the July guide; use the street address for navigation.",
     "sources": [
       {
