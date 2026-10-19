@@ -6,3 +6,6 @@
 
 /* Full atlas names wrap cleanly on smaller screens. */
 header nav{flex-wrap:wrap;align-items:center}header nav a{white-space:nowrap}@media(min-width:901px) and (max-width:1250px){header{flex-wrap:wrap}header nav{order:3;width:100%;justify-content:space-between}}
+
+/* City guide navigation grows without overflowing narrow screens. */
+header nav{flex-wrap:wrap;justify-content:center;row-gap:10px}

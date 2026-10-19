@@ -67,3 +67,9 @@ Purple Label copy at both Ralph Lauren branches now attributes the predominantly
 ## NYC revision, 13 October 2026
 
 Removed the three excluded watchlist names and incidental mentions. They were never numbered destinations, so the atlas remains 41 destinations, 40 address pins and four circuits. Carmina uses its official 45 E 45th St, New York, NY 10017 address, phone and Monday-Saturday hours; the official page does not publish Sunday hours. NYC Planning reconfirmed the unchanged address point. Jim’s remains an additional care lead at 60 East 59th Street, outside the numbered routes and pins. Draft 0.3 PDF reflects the same corrections. Reproduce it with `python site/newyork/revise-pdf.py` (PyMuPDF required; the original PDF is read from its preserved Git commit).
+
+## Seattle atlas — 19 October 2026
+
+`site/seattle/` builds `/seattle/` with five destinations, three circuits, searchable pre-rendered profiles, separate browser-local saves and the shared tap-only location control. Official store pages are linked in each profile. US Census matched address-range coordinates are retained in `site/seattle/location-audit.json`; pins are approximate address anchors, not surveyed entrances. JK Boots Tukwila is explicitly call-first because its official opening notices conflict. Optional Danner Woodinville is deferred pending official location verification. Brand catalogs do not guarantee Seattle floor stock.
+
+Run `node tests/seattle.cjs` after `node build-site.cjs`, alongside the existing location and geolocation tests. Existing Shanghai and New York datasets are unchanged; cross-city navigation is additive.

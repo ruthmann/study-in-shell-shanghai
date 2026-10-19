@@ -1,0 +1,187 @@
+{
+  "stops": [
+    {
+      "id": 1,
+      "name": "Mario’s Seattle",
+      "address": "1513 Sixth Avenue, Seattle, WA 98101",
+      "area": "Downtown",
+      "zone": "downtown",
+      "category": "Benchmade & Buyer's",
+      "focus": "Luxury menswear · footwear within a complete wardrobe",
+      "note": "A downtown comparison stop for shoes in the context of tailoring and a complete wardrobe. The official store directory confirms the Seattle location. The wider retailer’s footwear offering does not establish which makers, models or sizes are on this floor; call for the shoes you want to try.",
+      "visit": "Officially listed Monday–Saturday 10:00–17:30; Sunday 12:00–17:00. Phone 206-223-1461. Reconfirm before visiting.",
+      "sources": [
+        "https://marios.mitchellstores.com/stores",
+        "https://marios.mitchellstores.com/",
+        "https://shop.mitchellstores.com/t/mens/shoes/dress"
+      ],
+      "role": "Anchor",
+      "checked": "19 October 2026",
+      "point": [
+        47.611263456327,
+        -122.334676976068
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://marios.mitchellstores.com/stores"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Blue Owl",
+      "address": "124 NW Canal Street, Suite 1, Seattle, WA 98107",
+      "area": "Fremont / Canal Street",
+      "zone": "north",
+      "category": "Heritage & Workwear",
+      "focus": "John Lofgren · Viberg · Guidi · Paraboot",
+      "note": "A strong footwear stop alongside Japanese denim and workwear. Blue Owl’s published range includes John Lofgren, Viberg, Guidi, Paraboot, Tricker’s and Red Wing Heritage. Its shop information says website products are available at the flagship; confirm the current size run and any pair you want held before traveling.",
+      "visit": "Officially listed daily 11:00–18:00. Confirm stock directly.",
+      "sources": [
+        "https://www.blueowl.us/pages/about-us",
+        "https://www.blueowl.us/"
+      ],
+      "role": "Anchor",
+      "checked": "19 October 2026",
+      "point": [
+        47.652160485892,
+        -122.358083958018
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://www.blueowl.us/pages/about-us"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brick + Mortar",
+      "address": "1210 Fourth Avenue, Seattle, WA 98101",
+      "area": "Downtown / Fairmont",
+      "zone": "downtown",
+      "category": "Benchmade & Buyer's",
+      "focus": "Alden · shell cordovan, lasts and retailer makeups",
+      "note": "A focused downtown shoe specialist at the base of the Fairmont Olympic Hotel. Its official range centers Alden, including shell cordovan and Indy boots, alongside Crown Northampton. Allow time to compare lasts and fitting; online listings do not guarantee a particular size on the shelf.",
+      "visit": "Officially listed Monday–Saturday 10:00–17:00; Sunday closed. Phone 206-588-2770.",
+      "sources": [
+        "https://brickmortarseattle.com/pages/store-info-hours",
+        "https://brickmortarseattle.com/"
+      ],
+      "role": "Anchor",
+      "checked": "19 October 2026",
+      "point": [
+        47.607654654304,
+        -122.334244862918
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://brickmortarseattle.com/pages/store-info-hours"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Atelier — Seattle",
+      "address": "1523 Tenth Avenue, Seattle, WA 98122",
+      "area": "Capitol Hill",
+      "zone": "capitol",
+      "category": "Local Color",
+      "focus": "Avant-garde footwear · boots, derbies & loafers",
+      "note": "A Capitol Hill stop for an alternative to classic menswear shoes. Atelier’s official directory confirms its Seattle store; the multi-location online catalog should be treated as a starting point for inquiries, not proof of Seattle floor stock. Ask the Seattle team which footwear can be tried in person.",
+      "visit": "Hours are not stated in the official location directory checked. Call 206-420-8369 to confirm hours and footwear availability.",
+      "sources": [
+        "https://ateliernewyork.com/pages/store-locations",
+        "https://ateliernewyork.com/",
+        "https://ateliernewyork.com/collections/mens/shoes"
+      ],
+      "role": "Discovery",
+      "checked": "19 October 2026",
+      "point": [
+        47.614374359689,
+        -122.319538542637
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://ateliernewyork.com/pages/store-locations"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "JK Boots — Tukwila",
+      "address": "17275 Southcenter Parkway, Suite 100, Tukwila, WA 98188",
+      "area": "Tukwila / Southcenter",
+      "zone": "regional",
+      "category": "Heritage & Workwear",
+      "focus": "Pacific Northwest boots · opening status to confirm",
+      "note": "A regional fitting lead for JK’s Pacific Northwest boots. Official pages conflict: the store directory says NOW OPEN, while the dedicated Seattle store page says NOT OPEN YET. Treat this as a call-first lead, not a confirmed open destination. The directory describes this location as sales only, with no repairs.",
+      "visit": "Call 206-350-5970 before traveling. The directory lists Tuesday–Saturday 10:00–18:00 Pacific, but the opening conflict remains unresolved.",
+      "sources": [
+        "https://jkboots.com/pages/seattle-store",
+        "https://jkboots.com/pages/jk-bootstore-locations"
+      ],
+      "role": "Confirm first",
+      "checked": "19 October 2026",
+      "point": [
+        47.448885340763,
+        -122.262563476351
+      ],
+      "profileLinks": [
+        {
+          "label": "Website",
+          "url": "https://jkboots.com/pages/seattle-store"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": 1,
+      "title": "Downtown: lasts & wardrobes",
+      "area": "Fourth Avenue → Sixth Avenue",
+      "ids": [
+        3,
+        1
+      ],
+      "all": [
+        3,
+        1
+      ],
+      "note": "Begin with Alden fitting at Brick + Mortar, then compare footwear within Mario’s broader menswear offering.",
+      "extensions": "A compact downtown pairing. Brick + Mortar is closed Sundays; confirm any specific shoe or size before setting out."
+    },
+    {
+      "id": 2,
+      "title": "Canal Street & Capitol Hill",
+      "area": "Fremont → Capitol Hill",
+      "ids": [
+        2,
+        4
+      ],
+      "all": [
+        2,
+        4
+      ],
+      "note": "Blue Owl for denim, boots and leather; Atelier for more experimental shapes and materials.",
+      "extensions": "These are separate neighborhoods. Allow a transit or driving leg between them; the visit sequence is not a walking route."
+    },
+    {
+      "id": 3,
+      "title": "A regional boot fitting",
+      "area": "Tukwila · call before traveling",
+      "ids": [
+        5
+      ],
+      "all": [
+        5
+      ],
+      "note": "Keep JK Boots as a separate Southcenter outing, only after the shop confirms it is open.",
+      "extensions": "Official opening notices conflict. Do not combine this with a timed city circuit until access is confirmed."
+    }
+  ],
+  "watchlist": []
+}

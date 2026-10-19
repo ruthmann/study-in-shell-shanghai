@@ -1,0 +1,157 @@
+[
+  {
+    "query": "1513 6th Ave, Seattle, WA",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1513+6th+Ave%2C+Seattle%2C+WA&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "239762482"
+        },
+        "coordinates": {
+          "x": -122.334676976068,
+          "y": 47.611263456327
+        },
+        "addressComponents": {
+          "zip": "98101",
+          "streetName": "6TH",
+          "preType": "",
+          "city": "SEATTLE",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "1501",
+          "state": "WA",
+          "suffixType": "AVE",
+          "toAddress": "1599",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "1513 6TH AVE, SEATTLE, WA, 98101"
+      }
+    ]
+  },
+  {
+    "query": "124 NW Canal St, Seattle, WA",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=124+NW+Canal+St%2C+Seattle%2C+WA&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "186581231"
+        },
+        "coordinates": {
+          "x": -122.358083958018,
+          "y": 47.652160485892
+        },
+        "addressComponents": {
+          "zip": "98107",
+          "streetName": "CANAL",
+          "preType": "",
+          "city": "SEATTLE",
+          "preDirection": "NW",
+          "suffixDirection": "",
+          "fromAddress": "100",
+          "state": "WA",
+          "suffixType": "ST",
+          "toAddress": "198",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "124 NW CANAL ST, SEATTLE, WA, 98107"
+      }
+    ]
+  },
+  {
+    "query": "1210 4th Ave, Seattle, WA",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1210+4th+Ave%2C+Seattle%2C+WA&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "R",
+          "tigerLineId": "186589538"
+        },
+        "coordinates": {
+          "x": -122.334244862918,
+          "y": 47.607654654304
+        },
+        "addressComponents": {
+          "zip": "98101",
+          "streetName": "4TH",
+          "preType": "",
+          "city": "SEATTLE",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "1200",
+          "state": "WA",
+          "suffixType": "AVE",
+          "toAddress": "1298",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "1210 4TH AVE, SEATTLE, WA, 98101"
+      }
+    ]
+  },
+  {
+    "query": "1523 10th Ave, Seattle, WA",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1523+10th+Ave%2C+Seattle%2C+WA&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "186589978"
+        },
+        "coordinates": {
+          "x": -122.319538542637,
+          "y": 47.614374359689
+        },
+        "addressComponents": {
+          "zip": "98122",
+          "streetName": "10TH",
+          "preType": "",
+          "city": "SEATTLE",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "1501",
+          "state": "WA",
+          "suffixType": "AVE",
+          "toAddress": "1599",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "1523 10TH AVE, SEATTLE, WA, 98122"
+      }
+    ]
+  },
+  {
+    "query": "17275 Southcenter Pkwy, Tukwila, WA",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=17275+Southcenter+Pkwy%2C+Tukwila%2C+WA&benchmark=Public_AR_Current&format=json",
+    "matches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "186631017"
+        },
+        "coordinates": {
+          "x": -122.262563476351,
+          "y": 47.448885340763
+        },
+        "addressComponents": {
+          "zip": "98188",
+          "streetName": "SOUTHCENTER",
+          "preType": "",
+          "city": "TUKWILA",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "17299",
+          "state": "WA",
+          "suffixType": "PKWY",
+          "toAddress": "16801",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "17275 SOUTHCENTER PKWY, TUKWILA, WA, 98188"
+      }
+    ]
+  }
+]
