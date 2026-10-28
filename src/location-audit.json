@@ -932,14 +932,14 @@
       },
       "displayOnMap": true,
       "precision": "shared-mall",
-      "pinLabel": "Shared Kerry Parkside mall location · not individual shop entrances",
+      "pinLabel": "Level 1 · shared Kerry Parkside mall location, not individual shop entrances",
       "notes": "WGS84 centroid of OpenStreetMap commercial footprint way 709897742 (浦东嘉里城), checked against the property owner’s mall address and embedded map. Both shops share this mall anchor; numbered symbols are separated visually, not assigned different geographic positions.",
       "overrides": {
-        "street": "Kerry Parkside, 1378 Huamu Road, Pudong",
-        "zh": "上海市浦东新区花木路1378号 浦东嘉里城",
+        "street": "Level 1, Kerry Parkside, 1378 Huamu Road, Pudong",
+        "zh": "上海市浦东新区花木路1378号 浦东嘉里城1层",
         "area": "Pudong · Huamu",
         "hours": "Store hours unconfirmed; check with the mall",
-        "warning": "Floor and unit unconfirmed. Ask the mall directory for Danner."
+        "warning": null
       },
       "sources": [
         {
@@ -958,7 +958,8 @@
           "label": "OpenStreetMap · Kerry Parkside complex footprint",
           "url": "https://www.openstreetmap.org/way/709897742"
         }
-      ]
+      ],
+      "floorEvidence": "Collector confirms both stores on Level 1, 28 October 2026."
     },
     {
       "id": "crispi",
@@ -970,14 +971,14 @@
       },
       "displayOnMap": true,
       "precision": "shared-mall",
-      "pinLabel": "Shared Kerry Parkside mall location · not individual shop entrances",
+      "pinLabel": "Level 1 · shared Kerry Parkside mall location, not individual shop entrances",
       "notes": "WGS84 centroid of OpenStreetMap commercial footprint way 709897742 (浦东嘉里城), checked against the property owner’s mall address and embedded map. Both shops share this mall anchor; numbered symbols are separated visually, not assigned different geographic positions.",
       "overrides": {
-        "street": "1F (reported October 2025), Kerry Parkside, 1378 Huamu Road, Pudong",
-        "zh": "上海市浦东新区花木路1378号 浦东嘉里城 1层（2025年10月报道；请确认现址）",
+        "street": "Level 1, Kerry Parkside, 1378 Huamu Road, Pudong",
+        "zh": "上海市浦东新区花木路1378号 浦东嘉里城1层",
         "area": "Pudong · Huamu",
         "hours": "Store hours unconfirmed; check with the mall",
-        "warning": "1F is from an October 2025 opening report; confirm the current unit with the mall."
+        "warning": null
       },
       "sources": [
         {
@@ -996,7 +997,8 @@
           "label": "OpenStreetMap · Kerry Parkside complex footprint",
           "url": "https://www.openstreetmap.org/way/709897742"
         }
-      ]
+      ],
+      "floorEvidence": "Collector confirms both stores on Level 1, 28 October 2026."
     }
   ],
   "targetedReview": {
