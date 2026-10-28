@@ -5,7 +5,7 @@ process.chdir(__dirname);
 execFileSync(process.execPath, ['src/prepare-data.cjs'], {stdio:'inherit'});
 execFileSync(process.execPath, ['build.cjs'], {stdio:'inherit'});
 fs.mkdirSync('dist/shanghai', {recursive:true});
-for (const name of ['index.html','style.css','archive-carousel.js']) fs.copyFileSync(path.join('site',name),path.join('dist',name));
+for (const name of ['index.html','style.css','archive-carousel.js','city-navigation.js']) fs.copyFileSync(path.join('site',name),path.join('dist',name));
 fs.writeFileSync('dist/index.html',fs.readFileSync('site/index.html','utf8').replaceAll('__SHOP_COUNT__',String(JSON.parse(fs.readFileSync('src/data.json','utf8')).shops.length)));
 fs.copyFileSync('src/fonts-embedded.css','dist/fonts.css');
 const atlas = fs.readFileSync('index.html','utf8').replace('href="#" class="brand"','href="/" class="brand"');
