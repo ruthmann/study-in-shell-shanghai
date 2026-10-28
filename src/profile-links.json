@@ -138,5 +138,25 @@
       "label": "Official boutique directions · Amap",
       "url": "https://uri.amap.com/marker?position=121.678178%2C31.139951"
     }
+  ],
+  "danner": [
+    {
+      "label": "Website · international brand",
+      "url": "https://www.danner.com/"
+    },
+    {
+      "label": "Mall · address and information",
+      "url": "https://www.kerryprops.com/en/property-details/79/kerry-parkside-pudong"
+    }
+  ],
+  "crispi": [
+    {
+      "label": "Website · international brand",
+      "url": "https://www.crispi.it/en"
+    },
+    {
+      "label": "Mall · address and information",
+      "url": "https://www.kerryprops.com/en/property-details/79/kerry-parkside-pudong"
+    }
   ]
 }

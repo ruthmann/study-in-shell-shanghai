@@ -921,6 +921,70 @@
           "url": "https://english.shanghai.gov.cn/en-ShoppingCenters/20231207/ce0ae172266e4411a9b7ab6f52d69e45.html"
         }
       ]
+    },
+    {
+      "id": "danner",
+      "checked": "2026-10-28",
+      "position": {
+        "datum": "unresolved"
+      },
+      "displayOnMap": false,
+      "precision": "mall-address",
+      "pinLabel": "Mall address verified · map pin awaiting confirmation",
+      "notes": "No independently verified coordinates retained for this branch. Use the mall address directions; do not infer a shop entrance or substitute Jing’an Kerry Centre.",
+      "overrides": {
+        "street": "Kerry Parkside, 1378 Huamu Road, Pudong",
+        "zh": "上海市浦东新区花木路1378号 浦东嘉里城",
+        "area": "Pudong · Huamu",
+        "hours": "Store hours unconfirmed; check with the mall",
+        "warning": "Floor and unit unconfirmed. Ask the mall directory for Danner."
+      },
+      "sources": [
+        {
+          "label": "Kerry Properties · Kerry Parkside address",
+          "url": "https://www.kerryprops.com/en/property-details/79/kerry-parkside-pudong"
+        },
+        {
+          "label": "Pudong government · outdoor tenants, September 2026",
+          "url": "https://www.pudong.gov.cn/006012/20260918/833193.html"
+        },
+        {
+          "label": "Official brand website · not branch inventory",
+          "url": "https://www.danner.com/"
+        }
+      ]
+    },
+    {
+      "id": "crispi",
+      "checked": "2026-10-28",
+      "position": {
+        "datum": "unresolved"
+      },
+      "displayOnMap": false,
+      "precision": "mall-address",
+      "pinLabel": "Mall address verified · map pin awaiting confirmation",
+      "notes": "No independently verified coordinates retained for this branch. Use the mall address directions; do not infer a shop entrance or substitute Jing’an Kerry Centre.",
+      "overrides": {
+        "street": "1F (reported October 2025), Kerry Parkside, 1378 Huamu Road, Pudong",
+        "zh": "上海市浦东新区花木路1378号 浦东嘉里城 1层（2025年10月报道；请确认现址）",
+        "area": "Pudong · Huamu",
+        "hours": "Store hours unconfirmed; check with the mall",
+        "warning": "1F is from an October 2025 opening report; confirm the current unit with the mall."
+      },
+      "sources": [
+        {
+          "label": "Kerry Properties · Kerry Parkside address",
+          "url": "https://www.kerryprops.com/en/property-details/79/kerry-parkside-pudong"
+        },
+        {
+          "label": "Guandian via Sina · CRISPI 1F opening, October 2025",
+          "url": "https://finance.sina.com.cn/stock/estate/integration/2025-10-23/doc-infuvraw9740259.shtml"
+        },
+        {
+          "label": "Official brand website · not branch inventory",
+          "url": "https://www.crispi.it/en"
+        }
+      ]
     }
   ],
   "targetedReview": {
