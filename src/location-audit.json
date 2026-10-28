@@ -926,12 +926,14 @@
       "id": "danner",
       "checked": "2026-10-28",
       "position": {
-        "datum": "unresolved"
+        "datum": "WGS84",
+        "lat": 31.2147139,
+        "lon": 121.5593442
       },
-      "displayOnMap": false,
-      "precision": "mall-address",
-      "pinLabel": "Mall address verified · map pin awaiting confirmation",
-      "notes": "No independently verified coordinates retained for this branch. Use the mall address directions; do not infer a shop entrance or substitute Jing’an Kerry Centre.",
+      "displayOnMap": true,
+      "precision": "shared-mall",
+      "pinLabel": "Shared Kerry Parkside mall location · not individual shop entrances",
+      "notes": "WGS84 centroid of OpenStreetMap commercial footprint way 709897742 (浦东嘉里城), checked against the property owner’s mall address and embedded map. Both shops share this mall anchor; numbered symbols are separated visually, not assigned different geographic positions.",
       "overrides": {
         "street": "Kerry Parkside, 1378 Huamu Road, Pudong",
         "zh": "上海市浦东新区花木路1378号 浦东嘉里城",
@@ -951,6 +953,10 @@
         {
           "label": "Official brand website · not branch inventory",
           "url": "https://www.danner.com/"
+        },
+        {
+          "label": "OpenStreetMap · Kerry Parkside complex footprint",
+          "url": "https://www.openstreetmap.org/way/709897742"
         }
       ]
     },
@@ -958,12 +964,14 @@
       "id": "crispi",
       "checked": "2026-10-28",
       "position": {
-        "datum": "unresolved"
+        "datum": "WGS84",
+        "lat": 31.2147139,
+        "lon": 121.5593442
       },
-      "displayOnMap": false,
-      "precision": "mall-address",
-      "pinLabel": "Mall address verified · map pin awaiting confirmation",
-      "notes": "No independently verified coordinates retained for this branch. Use the mall address directions; do not infer a shop entrance or substitute Jing’an Kerry Centre.",
+      "displayOnMap": true,
+      "precision": "shared-mall",
+      "pinLabel": "Shared Kerry Parkside mall location · not individual shop entrances",
+      "notes": "WGS84 centroid of OpenStreetMap commercial footprint way 709897742 (浦东嘉里城), checked against the property owner’s mall address and embedded map. Both shops share this mall anchor; numbered symbols are separated visually, not assigned different geographic positions.",
       "overrides": {
         "street": "1F (reported October 2025), Kerry Parkside, 1378 Huamu Road, Pudong",
         "zh": "上海市浦东新区花木路1378号 浦东嘉里城 1层（2025年10月报道；请确认现址）",
@@ -983,6 +991,10 @@
         {
           "label": "Official brand website · not branch inventory",
           "url": "https://www.crispi.it/en"
+        },
+        {
+          "label": "OpenStreetMap · Kerry Parkside complex footprint",
+          "url": "https://www.openstreetmap.org/way/709897742"
         }
       ]
     }
